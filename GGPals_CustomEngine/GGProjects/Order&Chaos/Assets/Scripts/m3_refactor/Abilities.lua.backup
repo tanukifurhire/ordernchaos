@@ -1,0 +1,1301 @@
+local numAbilities = 0
+local AbilitiesQueue = {}
+
+local function ResetAbilityQueue()
+    AbilitiesQueue = {}
+    numAbilities = 0
+end
+
+local function CountNumTiles(grid)
+    local numRed = 0
+    local numBlue = 0
+
+    for row = 0, CONSTANTS.GRID_ROWS - 1 do
+        for col = 0, CONSTANTS.GRID_COLS - 1 do
+            local index = row * CONSTANTS.GRID_COLS + col + 1
+
+            if grid.Tiles[index].occupied and grid.Tiles[index].color == CONSTANTS.TILE_RED then
+                numRed = numRed + 1
+            end
+
+            if grid.Tiles[index].occupied and grid.Tiles[index].color == CONSTANTS.TILE_BLUE then
+                numBlue = numBlue + 1
+            end
+        end
+    end
+
+    return numRed, numBlue
+end
+
+AbilityList = {
+    -- ORACLE_1
+    [1] = {
+        -- UNIT.ORACLE
+        unit = 2,
+        numBlue = 1,
+        numRed = 0,
+        targetGridX = 0,
+        targetGridY = 0,
+        unitDamage = 2,
+        tileDamage = 2,
+        Trigger = function(self, entity, ability)
+            Log.info("ORACLE_1 Trigger!")
+
+            local session = SessionManager_instance.sessionID
+
+            local grid = GridInstances[session].ChaosGrid
+
+            local tile1 = ability.targetGridY * CONSTANTS.GRID_COLS + ability.targetGridX + 1
+            local tile2 = (ability.targetGridX + 1 < CONSTANTS.GRID_COLS) 
+            and (ability.targetGridY * CONSTANTS.GRID_COLS + ability.targetGridX + 2)
+            or nil
+
+            local damageVal = 0
+
+            if grid.Tiles[tile1].occupied then
+                damageVal = damageVal + ability.unitDamage
+            else
+                grid.Tiles[tile1].health = math.max(0, math.min(5, grid.Tiles[tile1].health - ability.tileDamage))
+            end
+
+            if tile2 then
+                if grid.Tiles[tile2].occupied then
+                    damageVal = damageVal + ability.unitDamage
+                else
+                    grid.Tiles[tile2].health = math.max(0, math.min(5, grid.Tiles[tile2].health - ability.tileDamage))
+                end
+            end
+
+            Event.emitLocal("TakeDamage", {
+                player = CONSTANTS.CHAOS_PLAYER,
+                damage = damageVal
+            })
+
+            Event.emitLocal("TriggerOracle1", {})
+        end,
+        Selected = function(self, entity)
+            if self.orderAP < CONSTANTS.TEMP_ABILITY_COST then
+                Event.emitLocal("PlayUIAbilityInvalid", {})
+                self.selectedAbility = 0
+                Event.emitLocal("OutOfAPWarning", {})
+                Event.emitLocal("PlayUIAbilityInvalid", {})
+                return
+            end
+
+            Log.info("ORACLE_1 Selected!")
+
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].OrderGrid
+
+            local numRed, numBlue = CountNumTiles(grid)
+
+            local ability = AbilityList[1]
+
+            if (numRed >= ability.numRed) 
+            and (numBlue >= ability.numBlue) then
+                Event.emitLocal("PlayUIAbilityValid", {})
+                Event.emitLocal("FocusChaosGrid", {})
+                return true
+            end
+
+            return false
+        end,
+        Update = function(self, entity)
+            local session = SessionManager_instance.sessionID
+
+            local grid = GridInstances[session].ChaosGrid
+
+            if not grid then return end
+
+            local mouse = Input.getMousePosition()
+            local world = Grid.getMouseWorldPerspective(CONSTANTS.TILEMAP_PERSPECTIVE_FACTOR)
+            local tilePos = Grid.worldToGrid(grid.gridID, world.x, world.y)
+
+            local ability = AbilityList[1]
+
+            if not tilePos then return end
+
+            ability.targetGridX = tilePos.x
+            ability.targetGridY = tilePos.y
+
+            local tile1 = tilePos.y * CONSTANTS.GRID_COLS + tilePos.x + 1
+            local tile2 = (tilePos.x + 1 < CONSTANTS.GRID_COLS) 
+            and (tilePos.y * CONSTANTS.GRID_COLS + tilePos.x + 2)
+            or nil
+            
+            for row = 0, CONSTANTS.GRID_ROWS - 1 do
+                for col = 0, CONSTANTS.GRID_COLS - 1 do
+                    local index = row * CONSTANTS.GRID_COLS + col + 1
+
+                    Grid.setTileColorAdd(grid.gridID,
+                        row, col, 0, CONSTANTS.COLOR_NONE
+                    )
+
+                    if index == tile1 then
+                        Grid.setTileColorAdd(grid.gridID, 
+                            row, col, 0, CONSTANTS.COLOR_OFFENSIVE_ABILITY_HIGHLIGHT
+                        )
+                    end
+
+                    if tile2 and (index == tile2) then
+                        Grid.setTileColorAdd(grid.gridID, 
+                            row, col, 0, CONSTANTS.COLOR_OFFENSIVE_ABILITY_HIGHLIGHT
+                        )
+                    end
+                end
+            end            
+        end,
+        Queue = function(self, entity)
+            local ability = AbilityList[1]
+            AbilitiesQueue[numAbilities + 1] = {}
+
+            local queuedAbility = {
+                targetGridX = ability.targetGridX,
+                targetGridY = ability.targetGridY,
+                unitDamage = ability.unitDamage,
+                tileDamage = ability.tileDamage,
+                Trigger = ability.Trigger
+            }
+
+            AbilitiesQueue[numAbilities + 1] = queuedAbility
+            numAbilities = numAbilities + 1
+
+            self.orderAP = self.orderAP - CONSTANTS.TEMP_ABILITY_COST
+            Event.emitLocal("OnAPUpdate", {
+                value = self.orderAP
+            })
+            Log.info("Queued ORACLE_1")
+            self.selectedAbility = 0
+            Event.emitLocal("PlayUIAbilityValid", {})
+            Event.emitLocal("FocusOrderGrid", {})
+        end
+    },
+
+    -- ORACLE_2
+    [2] = {
+        -- UNIT.ORACLE
+        unit = 2,
+        numBlue = 1,
+        numRed = 0,
+        targetGridX = 0,
+        targetGridY = 0,
+        targetUnit = 0,
+        Trigger = function(self, entity, ability)
+            Log.info("ORACLE_2 Trigger!")
+            Event.emitLocal("TriggerOracle2", {})
+            self.selectedAbility = 0
+        end,
+        Selected = function(self, entity)
+            if self.orderAP < CONSTANTS.TEMP_ABILITY_COST then 
+                Event.emitLocal("PlayUIAbilityInvalid", {})
+                self.selectedAbility = 0
+                Event.emitLocal("OutOfAPWarning", {})
+                Event.emitLocal("PlayUIAbilityInvalid", {})
+                return
+            end
+            Log.info("ORACLE_2 Selected!")
+
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].OrderGrid
+
+            local numRed, numBlue = CountNumTiles(grid)
+
+            local ability = AbilityList[2]
+
+            if (numRed >= ability.numRed) 
+            and (numBlue >= ability.numBlue) then
+                self.orderAP = self.orderAP - CONSTANTS.TEMP_ABILITY_COST
+                Event.emitLocal("OnAPUpdate", {
+                    value = self.orderAP
+                })
+                Event.emitLocal("PlayUIAbilityValid", {})
+                ability.Trigger(self, entity, ability)
+                return false
+            end
+            return false
+        end,
+        Update = function(self, entity)
+            
+        end,
+        Queue = function(self, entity)
+            
+        end
+    },
+
+    -- DRAGOON_1
+    [3] = {
+        -- UNIT.DRAGOON
+        unit = 1,
+        numBlue = 0,
+        numRed = 2,
+        targetGridX = 0,
+        targetGridY = 0,
+        unitDamage = 2,
+        tileDamage = 2,
+        Trigger = function(self, entity, ability)
+            Log.info("DRAGOON_1 Trigger!")
+
+            local session = SessionManager_instance.sessionID
+
+            local grid = GridInstances[session].ChaosGrid
+
+            local tile1 = ability.targetGridY * CONSTANTS.GRID_COLS + ability.targetGridX + 1
+            local tile2 = (ability.targetGridY + 1 < CONSTANTS.GRID_ROWS) 
+            and ((ability.targetGridY + 1) * CONSTANTS.GRID_COLS + ability.targetGridX + 1)
+            or nil
+            local tile3 = (ability.targetGridY - 1 >= 0)
+            and ((ability.targetGridY - 1) * CONSTANTS.GRID_COLS + ability.targetGridX + 1)
+            or nil
+
+            local damageVal = 0
+
+            if grid.Tiles[tile1].occupied then
+                damageVal = damageVal + ability.unitDamage
+            else
+                grid.Tiles[tile1].health = math.max(0, math.min(5, grid.Tiles[tile1].health - ability.tileDamage))
+            end
+
+            if tile2 then
+                if grid.Tiles[tile2].occupied then
+                    damageVal = damageVal + ability.unitDamage
+                else
+                    grid.Tiles[tile2].health = math.max(0, math.min(5, grid.Tiles[tile2].health - ability.tileDamage))
+                end
+            end
+
+            if tile3 then
+                if grid.Tiles[tile3].occupied then
+                    damageVal = damageVal + ability.unitDamage
+                else
+                    grid.Tiles[tile3].health = math.max(0, math.min(5, grid.Tiles[tile3].health - ability.tileDamage))
+                end
+            end
+
+            Event.emitLocal("TakeDamage", {
+                player = CONSTANTS.CHAOS_PLAYER,
+                damage = damageVal
+            })
+
+            Event.emitLocal("TriggerDragoon1", {})
+        end,
+        Selected = function(self, entity)
+            if self.orderAP < CONSTANTS.TEMP_ABILITY_COST then 
+                Event.emitLocal("PlayUIAbilityInvalid", {})
+                self.selectedAbility = 0
+                Event.emitLocal("OutOfAPWarning", {})
+                Event.emitLocal("PlayUIAbilityInvalid", {})
+                return
+            end
+            Log.info("DRAGOON_1 Selected!")
+
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].OrderGrid
+
+            local numRed, numBlue = CountNumTiles(grid)
+
+            local ability = AbilityList[3]
+
+            if (numRed >= ability.numRed) 
+            and (numBlue >= ability.numBlue) then
+                Event.emitLocal("PlayUIAbilityValid", {})
+                Event.emitLocal("FocusChaosGrid", {})
+                Event.emitLocal("PlayUIAbilityValid", {})
+                return true
+            end
+
+            return false
+        end,
+        Update = function(self, entity)
+            local session = SessionManager_instance.sessionID
+
+            local grid = GridInstances[session].ChaosGrid
+
+            if not grid then return end
+
+            local mouse = Input.getMousePosition()
+            local world = Grid.getMouseWorldPerspective(CONSTANTS.TILEMAP_PERSPECTIVE_FACTOR)
+            local tilePos = Grid.worldToGrid(grid.gridID, world.x, world.y)
+
+            local ability = AbilityList[3]
+
+            if not tilePos then return end
+
+            ability.targetGridX = tilePos.x
+            ability.targetGridY = tilePos.y
+
+            local tile1 = tilePos.y * CONSTANTS.GRID_COLS + tilePos.x + 1
+            local tile2 = (tilePos.y + 1 < CONSTANTS.GRID_ROWS) 
+            and ((tilePos.y + 1) * CONSTANTS.GRID_COLS + tilePos.x + 1)
+            or nil
+            local tile3 = (tilePos.y - 1 >= 0)
+            and ((tilePos.y - 1) * CONSTANTS.GRID_COLS + tilePos.x + 1)
+            or nil
+            
+            for row = 0, CONSTANTS.GRID_ROWS - 1 do
+                for col = 0, CONSTANTS.GRID_COLS - 1 do
+                    local index = row * CONSTANTS.GRID_COLS + col + 1
+
+                    Grid.setTileColorAdd(grid.gridID,
+                        row, col, 0, CONSTANTS.COLOR_NONE
+                    )
+
+                    if index == tile1 then
+                        Grid.setTileColorAdd(grid.gridID, 
+                            row, col, 0, CONSTANTS.COLOR_OFFENSIVE_ABILITY_HIGHLIGHT
+                        )
+                    end
+
+                    if tile2 and (index == tile2) then
+                        Grid.setTileColorAdd(grid.gridID, 
+                            row, col, 0, CONSTANTS.COLOR_OFFENSIVE_ABILITY_HIGHLIGHT
+                        )
+                    end
+
+                    if tile3 and (index == tile3) then
+                        Grid.setTileColorAdd(grid.gridID,
+                            row, col, 0, CONSTANTS.COLOR_OFFENSIVE_ABILITY_HIGHLIGHT
+                        )
+                    end
+                end
+            end
+        end,
+        Queue = function(self, entity)
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].ChaosGrid
+            local world = Grid.getMouseWorldPerspective(CONSTANTS.TILEMAP_PERSPECTIVE_FACTOR)
+            local tilePos = Grid.worldToGrid(grid.gridID, world.x, world.y)
+
+            if not tilePos then
+                Log.error("DRAGOON_1 Queue: No valid tile position")
+                self.selectedAbility = 0
+                return
+            end
+
+            local ability = AbilityList[3]
+
+            numAbilities = numAbilities + 1
+            
+            local queuedAbility = {
+                targetGridX = tilePos.x,
+                targetGridY = tilePos.y,
+                unitDamage = AbilityList[3].unitDamage,
+                tileDamage = AbilityList[3].tileDamage,
+                Trigger = AbilityList[3].Trigger
+            }
+            
+            AbilitiesQueue[numAbilities] = queuedAbility
+            self.orderAP = self.orderAP - CONSTANTS.TEMP_ABILITY_COST
+            Event.emitLocal("OnAPUpdate", {
+                value = self.orderAP
+            })
+            self.selectedAbility = 0
+            Log.info("Queued DRAGOON_1")
+            Event.emitLocal("PlayUIAbilityValid", {})
+            Event.emitLocal("FocusOrderGrid", {})
+        end
+    },
+
+    -- DRAGOON_2
+    [4] = {
+        -- UNIT.DRAGOON
+        unit = 1,
+        numBlue = 1,
+        numRed = 1,
+        targetGridX = 0,
+        targetGridY = 0,
+        unitDamage = 2,
+        tileDamage = 2,
+        Trigger = function(self, entity, ability)
+            Log.info("DRAGOON_2 Trigger!")
+
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].ChaosGrid
+
+            -- X pattern: center + 4 diagonals
+            local tiles = {}
+            
+            -- Center tile
+            tiles[1] = ability.targetGridY * CONSTANTS.GRID_COLS + ability.targetGridX + 1
+            
+            -- Top-left diagonal
+            if ability.targetGridY - 1 >= 0 and ability.targetGridX - 1 >= 0 then
+                tiles[2] = (ability.targetGridY - 1) * CONSTANTS.GRID_COLS + (ability.targetGridX - 1) + 1
+            end
+            
+            -- Top-right diagonal
+            if ability.targetGridY - 1 >= 0 and ability.targetGridX + 1 < CONSTANTS.GRID_COLS then
+                tiles[3] = (ability.targetGridY - 1) * CONSTANTS.GRID_COLS + (ability.targetGridX + 1) + 1
+            end
+            
+            -- Bottom-left diagonal
+            if ability.targetGridY + 1 < CONSTANTS.GRID_ROWS and ability.targetGridX - 1 >= 0 then
+                tiles[4] = (ability.targetGridY + 1) * CONSTANTS.GRID_COLS + (ability.targetGridX - 1) + 1
+            end
+            
+            -- Bottom-right diagonal
+            if ability.targetGridY + 1 < CONSTANTS.GRID_ROWS and ability.targetGridX + 1 < CONSTANTS.GRID_COLS then
+                tiles[5] = (ability.targetGridY + 1) * CONSTANTS.GRID_COLS + (ability.targetGridX + 1) + 1
+            end
+
+            local damageVal = 0
+
+            for i = 1, 5 do
+                if tiles[i] then
+                    if grid.Tiles[tiles[i]].occupied then
+                        damageVal = damageVal + ability.unitDamage
+                    else
+                        grid.Tiles[tiles[i]].health = math.max(0, math.min(5, grid.Tiles[tiles[i]].health - ability.tileDamage))
+                    end
+                end
+            end
+
+            Event.emitLocal("TakeDamage", {
+                player = CONSTANTS.CHAOS_PLAYER,
+                damage = damageVal
+            })
+
+            Event.emitLocal("TriggerDragoon2", {})
+        end,
+        Selected = function(self, entity)
+            if self.orderAP < CONSTANTS.TEMP_ABILITY_COST then 
+                Event.emitLocal("PlayUIAbilityInvalid", {})
+                self.selectedAbility = 0
+                Event.emitLocal("OutOfAPWarning", {})
+                Event.emitLocal("PlayUIAbilityInvalid", {})
+                return
+            end
+            self.orderAP = self.orderAP - CONSTANTS.TEMP_ABILITY_COST
+            Log.info("DRAGOON_2 Selected!")
+
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].OrderGrid
+
+            local numRed, numBlue = CountNumTiles(grid)
+            local ability = AbilityList[4]
+
+            if (numRed >= ability.numRed) and (numBlue >= ability.numBlue) then
+                Event.emitLocal("PlayUIAbilityValid", {})
+                Event.emitLocal("FocusChaosGrid", {})
+                Event.emitLocal("PlayUIAbilityValid", {})
+                return true
+            end
+
+            return false
+        end,
+        Update = function(self, entity)
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].ChaosGrid
+
+            if not grid then return end
+
+            local world = Grid.getMouseWorldPerspective(CONSTANTS.TILEMAP_PERSPECTIVE_FACTOR)
+            local tilePos = Grid.worldToGrid(grid.gridID, world.x, world.y)
+            local ability = AbilityList[4]
+
+            if not tilePos then return end
+
+            ability.targetGridX = tilePos.x
+            ability.targetGridY = tilePos.y
+
+            -- Calculate X pattern tiles
+            local tiles = {}
+            tiles[1] = tilePos.y * CONSTANTS.GRID_COLS + tilePos.x + 1
+            
+            if tilePos.y - 1 >= 0 and tilePos.x - 1 >= 0 then
+                tiles[2] = (tilePos.y - 1) * CONSTANTS.GRID_COLS + (tilePos.x - 1) + 1
+            end
+            if tilePos.y - 1 >= 0 and tilePos.x + 1 < CONSTANTS.GRID_COLS then
+                tiles[3] = (tilePos.y - 1) * CONSTANTS.GRID_COLS + (tilePos.x + 1) + 1
+            end
+            if tilePos.y + 1 < CONSTANTS.GRID_ROWS and tilePos.x - 1 >= 0 then
+                tiles[4] = (tilePos.y + 1) * CONSTANTS.GRID_COLS + (tilePos.x - 1) + 1
+            end
+            if tilePos.y + 1 < CONSTANTS.GRID_ROWS and tilePos.x + 1 < CONSTANTS.GRID_COLS then
+                tiles[5] = (tilePos.y + 1) * CONSTANTS.GRID_COLS + (tilePos.x + 1) + 1
+            end
+            
+            for row = 0, CONSTANTS.GRID_ROWS - 1 do
+                for col = 0, CONSTANTS.GRID_COLS - 1 do
+                    local index = row * CONSTANTS.GRID_COLS + col + 1
+                    
+                    local isHighlighted = false
+                    for i = 1, 5 do
+                        if tiles[i] and index == tiles[i] then
+                            isHighlighted = true
+                            break
+                        end
+                    end
+
+                    if isHighlighted then
+                        Grid.setTileColorAdd(grid.gridID, 
+                            row, col, 0, CONSTANTS.COLOR_OFFENSIVE_ABILITY_HIGHLIGHT
+                        )
+                    else
+                        Grid.setTileColorAdd(grid.gridID,
+                            row, col, 0, CONSTANTS.COLOR_NONE
+                        )
+                    end
+                end
+            end
+        end,
+        Queue = function(self, entity)
+            local ability = AbilityList[4]
+            AbilitiesQueue[numAbilities + 1] = {}
+
+            local queuedAbility = {
+                targetGridX = ability.targetGridX,
+                targetGridY = ability.targetGridY,
+                tileDamage = ability.tileDamage,
+                unitDamage = ability.unitDamage,
+                Trigger = ability.Trigger
+            }
+
+            AbilitiesQueue[numAbilities + 1] = queuedAbility
+            numAbilities = numAbilities + 1
+            self.orderAP = self.orderAP - CONSTANTS.TEMP_ABILITY_COST
+            Event.emitLocal("OnAPUpdate", {
+                value = self.orderAP
+            })
+            self.selectedAbility = 0
+            Log.info("Queued DRAGOON_2")
+            Event.emitLocal("PlayUIAbilityValid", {})
+            Event.emitLocal("FocusOrderGrid", {})
+        end
+    },
+
+    -- IMP_1
+    [5] = {
+        -- UNIT.IMP
+        unit = 4,
+        numBlue = 0,
+        numRed = 2,
+        targetGridX = 0,
+        targetGridY = 0,
+        unitDamage = 2,
+        tileDamage = 2,
+        adjacentTileDamage = 1,
+        Trigger = function(self, entity, ability)
+            Log.info("IMP_1 Trigger!")
+
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].OrderGrid
+
+            -- Plus pattern: center + 4 adjacent (up, down, left, right)
+            local centerTile = ability.targetGridY * CONSTANTS.GRID_COLS + ability.targetGridX + 1
+            
+            local adjacentTiles = {}
+            
+            -- Up
+            if ability.targetGridY - 1 >= 0 then
+                adjacentTiles[1] = (ability.targetGridY - 1) * CONSTANTS.GRID_COLS + ability.targetGridX + 1
+            end
+            
+            -- Down
+            if ability.targetGridY + 1 < CONSTANTS.GRID_ROWS then
+                adjacentTiles[2] = (ability.targetGridY + 1) * CONSTANTS.GRID_COLS + ability.targetGridX + 1
+            end
+            
+            -- Left
+            if ability.targetGridX - 1 >= 0 then
+                adjacentTiles[3] = ability.targetGridY * CONSTANTS.GRID_COLS + (ability.targetGridX - 1) + 1
+            end
+            
+            -- Right
+            if ability.targetGridX + 1 < CONSTANTS.GRID_COLS then
+                adjacentTiles[4] = ability.targetGridY * CONSTANTS.GRID_COLS + (ability.targetGridX + 1) + 1
+            end
+
+            local damageVal = 0
+
+            -- Damage center tile (2 damage)
+            if grid.Tiles[centerTile].occupied then
+                damageVal = damageVal + ability.unitDamage
+            else
+                grid.Tiles[centerTile].health = math.max(0, math.min(5, grid.Tiles[centerTile].health - ability.tileDamage))
+            end
+
+            -- Damage adjacent tiles (1 damage each)
+            for i = 1, 4 do
+                if adjacentTiles[i] then
+                    if grid.Tiles[adjacentTiles[i]].occupied then
+                        damageVal = damageVal + ability.unitDamage
+                    else
+                        grid.Tiles[adjacentTiles[i]].health = math.max(0, math.min(5, grid.Tiles[adjacentTiles[i]].health - ability.adjacentTileDamage))
+                    end
+                end
+            end
+
+            Event.emitLocal("TakeDamage", {
+                player = CONSTANTS.ORDER_PLAYER,
+                damage = damageVal
+            })
+
+            Event.emitLocal("TriggerImp1", {})
+        end,
+        Selected = function(self, entity)
+            if self.chaosAP < CONSTANTS.TEMP_ABILITY_COST then 
+                Event.emitLocal("PlayUIAbilityInvalid", {})
+                self.selectedAbility = 0
+                Event.emitLocal("OutOfAPWarning", {})
+                Event.emitLocal("PlayUIAbilityInvalid", {})
+                return
+            end
+            Log.info("IMP_1 Selected!")
+
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].ChaosGrid
+
+            local numRed, numBlue = CountNumTiles(grid)
+            local ability = AbilityList[5]
+
+            if (numRed >= ability.numRed) and (numBlue >= ability.numBlue) then
+                Event.emitLocal("PlayUIAbilityValid", {})
+                Event.emitLocal("FocusOrderGrid", {})
+                Event.emitLocal("PlayUIAbilityValid", {})
+                return true
+            end
+
+            return false
+        end,
+        Update = function(self, entity)
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].OrderGrid
+
+            if not grid then return end
+
+            local world = Grid.getMouseWorldPerspective(CONSTANTS.TILEMAP_PERSPECTIVE_FACTOR)
+            local tilePos = Grid.worldToGrid(grid.gridID, world.x, world.y)
+            local ability = AbilityList[5]
+
+            if not tilePos then return end
+
+            ability.targetGridX = tilePos.x
+            ability.targetGridY = tilePos.y
+
+            -- Calculate plus pattern tiles
+            local tiles = {}
+            tiles[1] = tilePos.y * CONSTANTS.GRID_COLS + tilePos.x + 1  -- Center
+            
+            if tilePos.y - 1 >= 0 then
+                tiles[2] = (tilePos.y - 1) * CONSTANTS.GRID_COLS + tilePos.x + 1  -- Up
+            end
+            if tilePos.y + 1 < CONSTANTS.GRID_ROWS then
+                tiles[3] = (tilePos.y + 1) * CONSTANTS.GRID_COLS + tilePos.x + 1  -- Down
+            end
+            if tilePos.x - 1 >= 0 then
+                tiles[4] = tilePos.y * CONSTANTS.GRID_COLS + (tilePos.x - 1) + 1  -- Left
+            end
+            if tilePos.x + 1 < CONSTANTS.GRID_COLS then
+                tiles[5] = tilePos.y * CONSTANTS.GRID_COLS + (tilePos.x + 1) + 1  -- Right
+            end
+            
+            for row = 0, CONSTANTS.GRID_ROWS - 1 do
+                for col = 0, CONSTANTS.GRID_COLS - 1 do
+                    local index = row * CONSTANTS.GRID_COLS + col + 1
+                    
+                    local isHighlighted = false
+                    for i = 1, 5 do
+                        if tiles[i] and index == tiles[i] then
+                            isHighlighted = true
+                            break
+                        end
+                    end
+
+                    if isHighlighted then
+                        Grid.setTileColorAdd(grid.gridID, 
+                            row, col, 0, CONSTANTS.COLOR_OFFENSIVE_ABILITY_HIGHLIGHT
+                        )
+                    else
+                        Grid.setTileColorAdd(grid.gridID,
+                            row, col, 0, CONSTANTS.COLOR_NONE
+                        )
+                    end
+                end
+            end
+        end,
+        Queue = function(self, entity)
+            local ability = AbilityList[5]
+            numAbilities = numAbilities + 1
+
+            local queuedAbility = {
+                targetGridX = ability.targetGridX,
+                targetGridY = ability.targetGridY,
+                unitDamage = ability.unitDamage,
+                tileDamage = ability.tileDamage,
+                adjacentTileDamage = ability.adjacentTileDamage,
+                Trigger = ability.Trigger
+            }
+
+            AbilitiesQueue[numAbilities] = queuedAbility
+            Log.info("Queued IMP_1")
+            self.chaosAP = self.chaosAP - CONSTANTS.TEMP_ABILITY_COST
+            Event.emitLocal("OnAPUpdate", {
+                value = self.chaosAP
+            })
+            self.selectedAbility = 0
+            Event.emitLocal("PlayUIAbilityValid", {})
+            Event.emitLocal("FocusChaosGrid", {})
+        end
+    },
+
+    -- IMP_2
+    [6] = {
+        -- UNIT.IMP
+        unit = 4,
+        numBlue = 2,
+        numRed = 0,
+        targetGridX = 0,
+        targetGridY = 0,
+        
+        targetUnitGridX = 0,
+        targetUnitGridY = 0,
+        destinationGridX = 0,
+        destinationGridY = 0,
+        -- 0: Not active, 1: selecting unit, 2: selecting destination
+        state = 0,
+        Trigger = function(self, entity, ability)
+            Log.info("IMP_2 Trigger!")
+
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].ChaosGrid
+
+            -- Move the unit
+            local fromIndex = GetTileIndex(ability.targetUnitGridX, ability.targetUnitGridY)
+            local toIndex = GetTileIndex(ability.destinationGridX, ability.destinationGridY)
+
+            if fromIndex > 0 and toIndex > 0 then
+                if TrySetTileOccupied(session, false, ability.destinationGridX, ability.destinationGridY, grid.Tiles[fromIndex].unit) then
+                    SetTileUnoccupied(session, false, ability.targetUnitGridX, ability.targetUnitGridY)
+                    
+                    Event.emitLocal("TriggerImp2", {
+                        sessionID = session,
+                        isOrder = false,
+                        unitType = ability.targetUnit,
+                        fromX = ability.targetUnitGridX,
+                        fromY = ability.targetUnitGridY,
+                        toX = ability.destinationGridX,
+                        toY = ability.destinationGridY
+                    })
+
+                    -- Reset ability state
+                    ability.targetUnit = 0
+                    ability.targetUnitGridX = 0
+                    ability.targetUnitGridY = 0
+                    ability.destinationGridX = 0
+                    ability.destinationGridY = 0
+                    ability.state = 0
+                end
+            end
+        end,
+        Selected = function(self, entity)
+            if self.chaosAP < CONSTANTS.TEMP_ABILITY_COST then 
+                Event.emitLocal("PlayUIAbilityInvalid", {})
+                self.selectedAbility = 0
+                Event.emitLocal("OutOfAPWarning", {})
+                Event.emitLocal("PlayUIAbilityInvalid", {})
+                return
+            end
+            Log.info("IMP_2 Selected!")
+
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].ChaosGrid
+
+            local numRed, numBlue = CountNumTiles(grid)
+            local ability = AbilityList[6]
+
+            -- Check cost
+            if not ((numRed >= ability.numRed) and (numBlue >= ability.numBlue)) then
+                return false
+            end
+
+            -- Find the Imp unit on the grid
+            local impGridX, impGridY = -1, -1
+            for row = 0, CONSTANTS.GRID_ROWS - 1 do
+                for col = 0, CONSTANTS.GRID_COLS - 1 do
+                    local index = GetTileIndex(col, row)
+                    if grid.Tiles[index].occupied and grid.Tiles[index].unit == CONSTANTS.UNIT.IMP then
+                        impGridX = col
+                        impGridY = row
+                        break
+                    end
+                end
+                if impGridX >= 0 then break end
+            end
+
+            if impGridX < 0 then
+                return false  -- Imp not found
+            end
+
+            -- Store Imp position
+            ability.targetGridX = impGridX
+            ability.targetGridY = impGridY
+
+            -- Check if there are any unoccupied adjacent slots
+            local hasValidSlots = false
+            local adjacentOffsets = {{0, -1}, {0, 1}, {-1, 0}, {1, 0}}  -- Up, Down, Left, Right
+            
+            for _, offset in ipairs(adjacentOffsets) do
+                local adjX = impGridX + offset[1]
+                local adjY = impGridY + offset[2]
+                
+                if adjX >= 0 and adjX < CONSTANTS.GRID_COLS and
+                adjY >= 0 and adjY < CONSTANTS.GRID_ROWS then
+                    local index = GetTileIndex(adjX, adjY)
+                    if not grid.Tiles[index].occupied and grid.Tiles[index].health > 0 then
+                        hasValidSlots = true
+                        break
+                    end
+                end
+            end
+
+            if not hasValidSlots then
+                return false  -- No valid adjacent slots
+            end
+
+            -- Set state to selecting unit
+            ability.state = 1
+            Event.emitLocal("PlayUIAbilityValid", {})
+            return true
+        end,
+        Update = function(self, entity)
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].ChaosGrid
+            local ability = AbilityList[6]
+
+            if not grid or ability.state == 0 then return end
+
+            local world = Grid.getMouseWorldPerspective(CONSTANTS.TILEMAP_PERSPECTIVE_FACTOR)
+            local tilePos = Grid.worldToGrid(grid.gridID, world.x, world.y)
+
+            if not tilePos then 
+                tilePos = { x = -1, y = -1 }
+            end
+            local tileIndex = GetTileIndex(tilePos.x, tilePos.y)
+            
+            if ability.state == 1 then
+                ability.targetUnitGridX = tilePos.x
+                ability.targetUnitGridY = tilePos.y
+                -- Highlight friendly units that can be moved
+                for row = 0, CONSTANTS.GRID_ROWS - 1 do
+                    for col = 0, CONSTANTS.GRID_COLS - 1 do
+                        local index = GetTileIndex(col, row)
+                        
+                        if grid.Tiles[index].occupied and 
+                        grid.Tiles[index].unit >= CONSTANTS.UNIT.EYE and
+                        grid.Tiles[index].unit ~= CONSTANTS.UNIT.IMP then
+                            Grid.setTileColorAdd(grid.gridID, 
+                                row, col, 0, CONSTANTS.COLOR_SUPPORT_ABILITY_HIGHLIGHT
+                            )
+                        else
+                            Grid.setTileColorAdd(grid.gridID,
+                                row, col, 0, CONSTANTS.COLOR_NONE
+                            )
+                        end
+                    end
+                end
+
+            elseif ability.state == 2 then
+                -- Highlight valid adjacent destination tiles around the Imp
+                local validTiles = {}
+                local adjacentOffsets = {{0, -1}, {0, 1}, {-1, 0}, {1, 0}}
+                
+                for _, offset in ipairs(adjacentOffsets) do
+                    local adjX = ability.targetGridX + offset[1]
+                    local adjY = ability.targetGridY + offset[2]
+                    
+                    if adjX >= 0 and adjX < CONSTANTS.GRID_COLS and
+                    adjY >= 0 and adjY < CONSTANTS.GRID_ROWS then
+                        local index = GetTileIndex(adjX, adjY)
+                        if not grid.Tiles[index].occupied and grid.Tiles[index].health > 0 then
+                            validTiles[index] = true
+                        end
+                    end
+                end
+
+                for row = 0, CONSTANTS.GRID_ROWS - 1 do
+                    for col = 0, CONSTANTS.GRID_COLS - 1 do
+                        local index = GetTileIndex(col, row)
+                        
+                        if validTiles[index] then
+                            if index == tileIndex then
+                                ability.destinationGridX = col
+                                ability.destinationGridY = row
+                            end
+                            Grid.setTileColorAdd(grid.gridID, 
+                                row, col, 0, CONSTANTS.COLOR_SUPPORT_ABILITY_HIGHLIGHT
+                            )
+                        else
+                            Grid.setTileColorAdd(grid.gridID,
+                                row, col, 0, CONSTANTS.COLOR_NONE
+                            )
+                        end
+                    end
+                end
+            end
+        end,
+        Queue = function(self, entity)
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].ChaosGrid
+            local ability = AbilityList[6]
+
+            if ability.state == 1 then
+                -- User selected a unit to move
+                local index = GetTileIndex(ability.targetUnitGridX, ability.targetUnitGridY)
+                
+                Log.info("Selected index: " .. index .. " gridX: " .. ability.targetUnitGridX .. " gridY: " .. ability.targetUnitGridY)
+                -- Check if clicked tile has a friendly unit
+                if grid.Tiles[index].occupied and 
+                grid.Tiles[index].unit >= CONSTANTS.UNIT.EYE and
+                grid.Tiles[index].unit ~= CONSTANTS.UNIT.IMP then
+                    
+                    ability.targetUnit = grid.Tiles[index].unit
+                    ability.state = 2
+                    Log.info("IMP_2: Unit selected, now select destination")
+                end
+
+            elseif ability.state == 2 then
+                -- User selected destination
+                local destIndex = GetTileIndex(ability.destinationGridX, ability.destinationGridY)
+                
+                -- Check if destination is valid (adjacent to Imp and unoccupied)
+                local dx = math.abs(ability.destinationGridX - ability.targetGridX)
+                local dy = math.abs(ability.destinationGridY - ability.targetGridY)
+                
+                if (dx == 1 and dy == 0) or (dx == 0 and dy == 1) then
+                    if not grid.Tiles[destIndex].occupied and grid.Tiles[destIndex].health > 0 then
+                        -- Trigger immediately
+                        self.chaosAP = self.chaosAP - CONSTANTS.TEMP_ABILITY_COST
+                        Event.emitLocal("OnAPUpdate", {
+                            value = self.chaosAP
+                        })
+                        ability.Trigger(self, entity, ability)
+                        self.selectedAbility = 0
+                        Event.emitLocal("ClearHighlights", {})
+                        Log.info("IMP_2: Triggered immediately")
+                    end
+                end
+            end
+        end
+    },
+
+    -- EYE_1
+    [7] = {
+        -- UNIT.EYE
+        unit = 3,
+        numBlue = 1,
+        numRed = 1,
+        targetGridX = 0,
+        targetGridY = 0,
+        unitDamage = 1,
+        tileDamage = 1,
+        Trigger = function(self, entity, ability)
+            Log.info("EYE_1 Trigger!")
+
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].OrderGrid
+
+            -- 3x3 square centered on target
+            local tiles = {}
+            for dy = -1, 1 do
+                for dx = -1, 1 do
+                    local targetX = ability.targetGridX + dx
+                    local targetY = ability.targetGridY + dy
+                    
+                    if targetX >= 0 and targetX < CONSTANTS.GRID_COLS and
+                    targetY >= 0 and targetY < CONSTANTS.GRID_ROWS then
+                        local index = targetY * CONSTANTS.GRID_COLS + targetX + 1
+                        table.insert(tiles, index)
+                    end
+                end
+            end
+
+            local damageVal = 0
+
+            for _, tileIndex in ipairs(tiles) do
+                if grid.Tiles[tileIndex].occupied then
+                    damageVal = damageVal + ability.unitDamage
+                else
+                    grid.Tiles[tileIndex].health = math.max(0, math.min(5, grid.Tiles[tileIndex].health - ability.tileDamage))
+                end
+            end
+
+            Event.emitLocal("TakeDamage", {
+                player = CONSTANTS.ORDER_PLAYER,
+                damage = damageVal
+            })
+
+            Event.emitLocal("TriggerEye1", {})
+        end,
+        Selected = function(self, entity)
+            if self.chaosAP < CONSTANTS.TEMP_ABILITY_COST then 
+                Event.emitLocal("PlayUIAbilityInvalid", {})
+                self.selectedAbility = 0
+                Event.emitLocal("OutOfAPWarning", {})
+                Event.emitLocal("PlayUIAbilityInvalid", {})
+                return
+            end
+            Log.info("EYE_1 Selected!")
+
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].ChaosGrid
+
+            local numRed, numBlue = CountNumTiles(grid)
+            local ability = AbilityList[7]
+
+            if (numRed >= ability.numRed) and (numBlue >= ability.numBlue) then
+                Event.emitLocal("PlayUIAbilityValid", {})
+                Event.emitLocal("FocusOrderGrid", {})
+                return true
+            end
+
+            return false
+        end,
+        Update = function(self, entity)
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].OrderGrid
+
+            if not grid then return end
+
+            local world = Grid.getMouseWorldPerspective(CONSTANTS.TILEMAP_PERSPECTIVE_FACTOR)
+            local tilePos = Grid.worldToGrid(grid.gridID, world.x, world.y)
+            local ability = AbilityList[7]
+
+            if not tilePos then return end
+
+            ability.targetGridX = tilePos.x
+            ability.targetGridY = tilePos.y
+
+            -- Highlight 3x3 square
+            for row = 0, CONSTANTS.GRID_ROWS - 1 do
+                for col = 0, CONSTANTS.GRID_COLS - 1 do
+                    local dx = math.abs(col - tilePos.x)
+                    local dy = math.abs(row - tilePos.y)
+                    
+                    if dx <= 1 and dy <= 1 then
+                        Grid.setTileColorAdd(grid.gridID, 
+                            row, col, 0, CONSTANTS.COLOR_OFFENSIVE_ABILITY_HIGHLIGHT
+                        )
+                    else
+                        Grid.setTileColorAdd(grid.gridID,
+                            row, col, 0, CONSTANTS.COLOR_NONE
+                        )
+                    end
+                end
+            end
+        end,
+        Queue = function(self, entity)
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].OrderGrid
+            local world = Grid.getMouseWorldPerspective(CONSTANTS.TILEMAP_PERSPECTIVE_FACTOR)
+            local tilePos = Grid.worldToGrid(grid.gridID, world.x, world.y)
+            if not tilePos then
+                Log.error("EYE_1 Queue: No valid tile position")
+                self.selectedAbility = 0
+                return
+            end
+            
+            -- Create a copy with captured coordinates
+            local queuedAbility = {
+                targetGridX = tilePos.x,
+                targetGridY = tilePos.y,
+                unitDamage = AbilityList[7].unitDamage,
+                tileDamage = AbilityList[7].tileDamage,
+                Trigger = AbilityList[7].Trigger
+            }
+            
+            numAbilities = numAbilities + 1
+            AbilitiesQueue[numAbilities] = queuedAbility
+            self.chaosAP = self.chaosAP - CONSTANTS.TEMP_ABILITY_COST
+            Event.emitLocal("OnAPUpdate", {
+                value = self.chaosAP
+            })
+            self.selectedAbility = 0
+            Log.info("Queued EYE_1 at (" .. tilePos.x .. ", " .. tilePos.y .. ")")
+            Event.emitLocal("PlayUIAbilityValid", {})
+            Event.emitLocal("FocusChaosGrid", {})
+        end
+    },
+
+    -- EYE_2
+    [8] = {
+        -- UNIT.EYE
+        unit = 3,
+        numBlue = 1,
+        numRed = 0,
+        targetGridX = 0,
+        targetGridY = 0,
+        selfDamage = 3,
+        selfHeal = 3,
+        Trigger = function(self, entity, ability)
+            Log.info("EYE_2 Trigger!")
+
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].ChaosGrid
+
+            -- Find Eye's position
+            local eyeIndex = -1
+            for row = 0, CONSTANTS.GRID_ROWS - 1 do
+                for col = 0, CONSTANTS.GRID_COLS - 1 do
+                    local index = GetTileIndex(col, row)
+                    if grid.Tiles[index].occupied and grid.Tiles[index].unit == CONSTANTS.UNIT.EYE then
+                        eyeIndex = index
+                        break
+                    end
+                end
+                if eyeIndex >= 0 then break end
+            end
+
+            if eyeIndex < 0 then
+                Log.error("EYE_2 Trigger: Eye unit not found!")
+                return
+            end
+
+            -- Damage tile
+            grid.Tiles[eyeIndex].health = math.max(0, math.min(5, grid.Tiles[eyeIndex].health - ability.selfDamage))
+
+            -- Heal player
+            Event.emitLocal("GainHealth", {
+                player = CONSTANTS.CHAOS_PLAYER,
+                healthAmount = ability.selfHeal
+            })
+
+            Event.emitLocal("TriggerEye2", {})
+        end,
+        Selected = function(self, entity)
+            if self.chaosAP < CONSTANTS.TEMP_ABILITY_COST then 
+                Event.emitLocal("PlayUIAbilityInvalid", {})
+                self.selectedAbility = 0
+                Event.emitLocal("OutOfAPWarning", {})
+                Event.emitLocal("PlayUIAbilityInvalid", {})
+                return
+            end
+            
+            Log.info("EYE_2 Selected!")
+
+            local session = SessionManager_instance.sessionID
+            local grid = GridInstances[session].ChaosGrid
+
+            local numRed, numBlue = CountNumTiles(grid)
+            local ability = AbilityList[8]
+
+            -- Check cost
+            if not ((numRed >= ability.numRed) and (numBlue >= ability.numBlue)) then
+                return false
+            end
+
+            -- Find Eye's position and check tile health
+            for row = 0, CONSTANTS.GRID_ROWS - 1 do
+                for col = 0, CONSTANTS.GRID_COLS - 1 do
+                    local index = GetTileIndex(col, row)
+                    if grid.Tiles[index].occupied and grid.Tiles[index].unit == CONSTANTS.UNIT.EYE then
+                        if grid.Tiles[index].health >= 4 then
+                            -- Immediately trigger
+                            local immediateAbility = {
+                                selfDamage = ability.selfDamage,
+                                selfHeal = ability.selfHeal,
+                                Trigger = ability.Trigger
+                            }
+                            self.chaosAP = self.chaosAP - CONSTANTS.TEMP_ABILITY_COST
+                            Event.emitLocal("OnAPUpdate", {
+                                value = self.chaosAP
+                            })
+                            Event.emitLocal("PlayUIAbilityValid", {})
+                            ability.Trigger(self, entity, immediateAbility)
+                            return false
+                        else
+                            Log.info("EYE_2: Tile health too low (need 4+, have " .. grid.Tiles[index].health .. ")")
+                            return false
+                        end
+                    end
+                end
+            end
+
+            Log.error("EYE_2: Eye unit not found!")
+            return false
+        end,
+        Update = function(self, entity)
+            -- No update needed - instant cast ability
+        end,
+        Queue = function(self, entity)
+            -- No queue needed - instant cast ability
+        end
+    },
+
+    -- GENERIC_1
+    [9] = {
+        -- UNIT.NONE
+        unit = 0,
+        numBlue = 1,
+        numRed = 1,
+        targetGridX = 0,
+        targetGridY = 0,
+        unitDamage = 3,
+        tileDamage = 1,
+        Trigger = function(self, entity, ability)
+            Log.info("GENERIC_1 Trigger!")
+        end,
+        Selected = function(self, entity)
+            Log.info("GENERIC_1 Selected!")
+        end,
+        Update = function(self, entity)
+
+        end,
+        Queue = function(self, entity)
+
+        end
+    },
+
+    -- GENERIC_2
+    [10] = {
+        -- UNIT.NONE
+        unit = 0,
+        numBlue = 1,
+        numRed = 0,
+        targetGridX = 0,
+        targetGridY = 0,
+        unitDamage = 1,
+        tileDamage = 2,
+        Trigger = function(self, entity, ability)
+            Log.info("GENERIC_2 Trigger!")
+        end,
+        Selected = function(self, entity)
+            Log.info("GENERIC_2 Selected!")
+        end,
+        Update = function(self, entity)
+
+        end,
+        Queue = function(self, entity)
+
+        end
+    }
+}
+
+local class = DefineType("Abilities",
+{
+    currentAbility = 0,
+
+    Init = function(self, entity)
+        Log.info("Abilities Initialized")
+
+        Event.subscribe("OnResolveAbilities", function(params)
+            self.currentAbility = self.currentAbility + 1
+
+            -- No more abilities to resolve, return to GameManager
+            if self.currentAbility > numAbilities then
+                self.currentAbility = 0
+                ResetAbilityQueue()
+                Event.emitLocal("OnChangePhase", {})
+                return
+            end
+
+            local ability = AbilitiesQueue[self.currentAbility]
+            if ability then
+                ability.Trigger(self, entity, ability)
+            else
+                Log.error("[Abilities] No ability at index " .. self.currentAbility)
+            end
+        end)
+    end
+})
+
+return class

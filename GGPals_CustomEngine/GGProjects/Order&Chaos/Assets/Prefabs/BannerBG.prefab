@@ -1,0 +1,99 @@
+{
+    "entities": [
+        {
+            "id": 3,
+            "generation": 0,
+            "name": "BannerBG",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 900.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 1.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 9,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": false
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                900.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "BannerBG"
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "BannerBG"
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 0,
+                        "firstChild": 0,
+                        "nextSibling": 0
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "eb7c77c0-e3c2-484d-bd23-b81cc27e06e2",
+                        "fadeDuration": 0.5,
+                        "targetAlpha": 0.6000000238418579
+                    }
+                }
+            ]
+        }
+    ]
+}

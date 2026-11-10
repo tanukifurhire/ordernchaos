@@ -1,0 +1,269 @@
+{
+    "anims": [
+        {
+            "textureAssetUUID": "9237ad68-812b-487d-b58c-45c67e508a3f",
+            "animFPS": 12.0,
+            "spritesPerRow": 12,
+            "numRows": 9,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.0833333358168602,
+                "tMax": 0.1111111119389534
+            },
+            "animStates": [
+                {
+                    "stateName": "Dragoon_Ability1",
+                    "startIndex": 36,
+                    "endIndex": 58,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnAnimationFinished"
+                        },
+                        {
+                            "name": "OnAnimationTransition",
+                            "frame": 18
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Dragoon_Ability2",
+                    "startIndex": 65,
+                    "endIndex": 80,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnAnimationFinished"
+                        },
+                        {
+                            "name": "OnAnimationTransition",
+                            "frame": 11
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Eye_Ability1",
+                    "startIndex": 155,
+                    "endIndex": 175,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnAnimationFinished"
+                        },
+                        {
+                            "name": "OnAnimationTransition",
+                            "frame": 14
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Eye_Ability2",
+                    "startIndex": 183,
+                    "endIndex": 224,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnAnimationFinished"
+                        },
+                        {
+                            "name": "OnAnimationTransition",
+                            "frame": 16
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Imp_Ability2",
+                    "startIndex": 304,
+                    "endIndex": 317,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnAnimationFinished"
+                        },
+                        {
+                            "name": "OnAnimationTransition",
+                            "frame": 9
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Imp_Ability1",
+                    "startIndex": 290,
+                    "endIndex": 303,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnAnimationFinished"
+                        },
+                        {
+                            "name": "OnAnimationTransition",
+                            "frame": 9
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Oracle_Ability1",
+                    "startIndex": 365,
+                    "endIndex": 405,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnAnimationFinished"
+                        },
+                        {
+                            "name": "OnAnimationTransition",
+                            "frame": 16
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Oracle_Ability2",
+                    "startIndex": 413,
+                    "endIndex": 438,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnAnimationFinished"
+                        },
+                        {
+                            "name": "OnAnimationTransition",
+                            "frame": 15
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Tirion_Ability1",
+                    "startIndex": 485,
+                    "endIndex": 509,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnAnimationFinished"
+                        },
+                        {
+                            "name": "OnAnimationTransition",
+                            "frame": 11
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Vizom_Ability1",
+                    "startIndex": 570,
+                    "endIndex": 593,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnAnimationFinished"
+                        },
+                        {
+                            "name": "OnAnimationTransition",
+                            "frame": 12
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Tirion_Ability2",
+                    "startIndex": 515,
+                    "endIndex": 533,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnAnimationFinished"
+                        },
+                        {
+                            "name": "OnAnimationTransition",
+                            "frame": 13
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Vizom_Ability2",
+                    "startIndex": 599,
+                    "endIndex": 617,
+                    "shouldLoop": true,
+                    "events": [
+                        {
+                            "name": "OnAnimationFinished"
+                        },
+                        {
+                            "name": "OnAnimationTransition",
+                            "frame": 13
+                        }
+                    ]
+                },
+                {
+                    "stateName": "None",
+                    "startIndex": 632,
+                    "endIndex": 632,
+                    "shouldLoop": true
+                }
+            ]
+        },
+        {
+            "textureAssetUUID": "3f4f9c4b-9ff1-4a35-a133-6d264a8665ed",
+            "animFPS": 12.0,
+            "spritesPerRow": 12,
+            "numRows": 12,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.0833333358168602,
+                "tMax": 0.0833333358168602
+            },
+            "animStates": []
+        },
+        {
+            "textureAssetUUID": "f3d71e8d-5d87-439c-b8fe-6a2ab59e503d",
+            "animFPS": 12.0,
+            "spritesPerRow": 12,
+            "numRows": 7,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.0833333358168602,
+                "tMax": 0.1428571492433548
+            },
+            "animStates": []
+        },
+        {
+            "textureAssetUUID": "8e25be8b-dd1e-4333-98e7-f1e5986b887f",
+            "animFPS": 12.0,
+            "spritesPerRow": 12,
+            "numRows": 11,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.0833333358168602,
+                "tMax": 0.09090909361839295
+            },
+            "animStates": []
+        },
+        {
+            "textureAssetUUID": "405314f6-fc00-476d-8494-3a934716f7b2",
+            "animFPS": 12.0,
+            "spritesPerRow": 12,
+            "numRows": 7,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.0833333358168602,
+                "tMax": 0.1428571492433548
+            },
+            "animStates": []
+        },
+        {
+            "textureAssetUUID": "8c4a68f7-d3af-434c-b9aa-7b313ddf8d84",
+            "animFPS": 12.0,
+            "spritesPerRow": 12,
+            "numRows": 7,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.0833333358168602,
+                "tMax": 0.1428571492433548
+            },
+            "animStates": []
+        }
+    ]
+}

@@ -1,0 +1,322 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "CutscenePrefab",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "CutscenePrefab"
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "CutscenePrefab"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "CutsceneButton",
+            "prefabParentName": "CutscenePrefab",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 1.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": true,
+                        "layer": 16,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 593.9000244140625,
+                            "y": -380.6000061035156
+                        },
+                        "scale": {
+                            "x": 50.0,
+                            "y": 50.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                50.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                50.0,
+                                0.0
+                            ],
+                            [
+                                593.9000244140625,
+                                -380.6000061035156,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "CutsceneButton"
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "CutsceneButton"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "209f1e9d-8f57-4fcd-8097-dd49e551d70a",
+                        "hiddenX": -10000,
+                        "hiddenY": -10000
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "cc86ea03-c6a5-4646-9ae4-a302ec5b20cd",
+                        "textureUVBounds": {
+                            "x": 0.6000000238418579,
+                            "y": 0.0,
+                            "z": 0.800000011920929,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 10,
+                    "SpriteAnimator": {
+                        "animationAssetUUID": "91c10fd4-9a45-4ae9-ac0e-bdf248aa0af4"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "CutScenePanel",
+            "prefabParentName": "CutscenePrefab",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 1.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": true,
+                        "layer": 3,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 2080.0,
+                            "y": 1170.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                2080.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1170.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "CutScenePanel"
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "CutScenePanel"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "30ed8f3d-5c09-4ef5-9341-1ee28b105caf",
+                        "lineDelay": 50,
+                        "hiddenX": -10000,
+                        "visibleX": 0,
+                        "hiddenY": -10000,
+                        "visibleY": 0,
+                        "textY": -350,
+                        "textX": -570,
+                        "fontSize": 28,
+                        "fontAssetID": 3,
+                        "artTexture": "a262711d-b466-484e-a518-f5902ea8d7b6"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "a262711d-b466-484e-a518-f5902ea8d7b6",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

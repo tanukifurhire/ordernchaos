@@ -1,0 +1,207 @@
+/*************************************************************************
+  \file       GGInputCodes.hpp
+  \author     Tok Duan Jie Nelson
+  \par        Email: t.duanjienelson@digipen.edu
+  \date       20 September 2025
+  \version    1.0
+  \brief
+	Defines engine-specific input codes by mapping GLFW key and button codes
+    into the GGKey and GGMouse enumerations for consistent input handling.
+  \details
+	This header provides a unified set of enums (GGKey, GGMouse) that mirror
+    the key and mouse button values defined in GLFW. By wrapping GLFWs
+    codes into GGPal's engine naming convention (GGKey_* / GGMouse_* / GGJS_*),
+    the rest of the engine can use consistent input identifiers without
+    relying directly on GLFW macros.
+  \dependencies
+	<GLFW/glfw3.h>
+  \see
+  \history
+  \copyright
+	Copyright (C) 2025 DigiPen Institute of Technology.
+*************************************************************************/
+#pragma once
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
+
+enum Key : int {
+
+	// Mouse input
+	GGMouse_LEFT = GLFW_MOUSE_BUTTON_LEFT, 
+	GGMouse_RIGHT = GLFW_MOUSE_BUTTON_RIGHT, 
+	GGMouse_MIDDLE = GLFW_MOUSE_BUTTON_MIDDLE,
+	GGMouse_1 = GLFW_MOUSE_BUTTON_1,
+	GGMouse_2 = GLFW_MOUSE_BUTTON_2,
+	GGMouse_3 = GLFW_MOUSE_BUTTON_3,
+	GGMouse_4 = GLFW_MOUSE_BUTTON_4,
+	GGMouse_5 = GLFW_MOUSE_BUTTON_5,
+	GGMouse_6 = GLFW_MOUSE_BUTTON_6,
+	GGMouse_7 = GLFW_MOUSE_BUTTON_7,
+	GGMouse_8 = GLFW_MOUSE_BUTTON_8,
+
+	// keyboard inputs
+	GGKey_F1 = GLFW_KEY_F1, 
+	GGKey_F2 = GLFW_KEY_F2, 
+	GGKey_F3 = GLFW_KEY_F3,
+	GGKey_F4 = GLFW_KEY_F4, 
+	GGKey_F5 = GLFW_KEY_F5, 
+	GGKey_F6 = GLFW_KEY_F6,
+	GGKey_F7 = GLFW_KEY_F7, 
+	GGKey_F8 = GLFW_KEY_F8, 
+	GGKey_F9 = GLFW_KEY_F9, 
+	GGKey_F10 = GLFW_KEY_F10, 
+	GGKey_F11 = GLFW_KEY_F11, 
+	GGKey_F12 = GLFW_KEY_F12,
+	GGKey_F13 = GLFW_KEY_F13,
+	GGKey_F14 = GLFW_KEY_F14,
+	GGKey_F15 = GLFW_KEY_F15,
+	GGKey_F16 = GLFW_KEY_F16,
+	GGKey_F17 = GLFW_KEY_F17,
+	GGKey_F18 = GLFW_KEY_F18,
+	GGKey_F19 = GLFW_KEY_F19,
+	GGKey_F20 = GLFW_KEY_F20,
+	GGKey_F21 = GLFW_KEY_F21,
+	GGKey_F22 = GLFW_KEY_F22,
+	GGKey_F23 = GLFW_KEY_F23,
+	GGKey_F24 = GLFW_KEY_F24,
+	GGKey_F25 = GLFW_KEY_F25,
+
+	GGKey_1 = GLFW_KEY_1, 
+	GGKey_2 = GLFW_KEY_2, 
+	GGKey_3 = GLFW_KEY_3,
+	GGKey_4 = GLFW_KEY_4, 
+	GGKey_5 = GLFW_KEY_5,	
+	GGKey_6 = GLFW_KEY_6,
+	GGKey_7 = GLFW_KEY_7, 
+	GGKey_8 = GLFW_KEY_8,	
+	GGKey_9 = GLFW_KEY_9,
+	GGKey_0 = GLFW_KEY_0,
+
+	GGKey_Q = GLFW_KEY_Q, 
+	GGKey_W = GLFW_KEY_W, 
+	GGKey_E = GLFW_KEY_E,
+	GGKey_R = GLFW_KEY_R, 
+	GGKey_T = GLFW_KEY_T, 
+	GGKey_Y = GLFW_KEY_Y,
+	GGKey_U = GLFW_KEY_U, 
+	GGKey_I = GLFW_KEY_I, 
+	GGKey_O = GLFW_KEY_O,
+	GGKey_P = GLFW_KEY_P,
+
+	GGKey_A = GLFW_KEY_A, 
+	GGKey_S = GLFW_KEY_S, 
+	GGKey_D = GLFW_KEY_D,
+	GGKey_F = GLFW_KEY_F, 
+	GGKey_G = GLFW_KEY_G, 
+	GGKey_H = GLFW_KEY_H,
+	GGKey_J = GLFW_KEY_J, 
+	GGKey_K = GLFW_KEY_K, 
+	GGKey_L = GLFW_KEY_L,
+	
+	GGKey_Z = GLFW_KEY_Z, 
+	GGKey_X = GLFW_KEY_X, 
+	GGKey_C = GLFW_KEY_C,
+	GGKey_V = GLFW_KEY_V, 
+	GGKey_B = GLFW_KEY_B, 
+	GGKey_N = GLFW_KEY_N,
+	GGKey_M = GLFW_KEY_M,
+
+	GGKey_SPACE = GLFW_KEY_SPACE,
+	GGKey_APOSTROPHE = GLFW_KEY_APOSTROPHE,			// '
+	GGKey_COMMA = GLFW_KEY_COMMA,					// ,
+	GGKey_MINUS = GLFW_KEY_MINUS,					// -
+	GGKey_PERIOD = GLFW_KEY_PERIOD,					// .
+	GGKey_SLASH = GLFW_KEY_SLASH,					// /
+	GGKey_SEMICOLON = GLFW_KEY_SEMICOLON,			// ;
+	GGKey_EQUAL = GLFW_KEY_EQUAL,					// =
+	GGKey_LEFT_BRACKET = GLFW_KEY_LEFT_BRACKET,		// [
+	GGKey_RIGHT_BRACKET = GLFW_KEY_RIGHT_BRACKET,	// ]
+	GGKey_GRAVE_ACCENT = GLFW_KEY_GRAVE_ACCENT,		// `
+	GGKey_BACKSLASH = GLFW_KEY_BACKSLASH,			// \
+
+	// Arrow input
+	GGKey_RIGHT = GLFW_KEY_RIGHT, 
+	GGKey_LEFT = GLFW_KEY_LEFT, 
+	GGKey_DOWN = GLFW_KEY_DOWN,
+	GGKey_UP = GLFW_KEY_UP,
+
+	//Functional inputs
+	GGKey_ESCAPE = GLFW_KEY_ESCAPE, 
+	GGKey_ENTER = GLFW_KEY_ENTER, 
+	GGKey_TAB = GLFW_KEY_TAB,
+	GGKey_BACKSPACE = GLFW_KEY_BACKSPACE, 
+	GGKey_INSERT = GLFW_KEY_INSERT, 
+	GGKey_DELETE = GLFW_KEY_DELETE,
+	GGKey_PAGE_UP = GLFW_KEY_PAGE_UP, 
+	GGKey_PAGE_DOWN = GLFW_KEY_PAGE_DOWN,
+	GGKey_HOME = GLFW_KEY_HOME, 
+	GGKey_END = GLFW_KEY_END, 
+	GGKey_CAPS_LOCK = GLFW_KEY_CAPS_LOCK,
+	GGKey_SCROLL_LOCK = GLFW_KEY_SCROLL_LOCK, 
+	GGKey_NUM_LOCK = GLFW_KEY_NUM_LOCK, 
+	GGKey_PRINT_SCREEN = GLFW_KEY_PRINT_SCREEN,
+	GGKey_PAUSE = GLFW_KEY_PAUSE,
+
+	// Keypad
+	GGKey_KP_0 = GLFW_KEY_KP_0, 
+	GGKey_KP_1 = GLFW_KEY_KP_1, 
+	GGKey_KP_2 = GLFW_KEY_KP_2,
+	GGKey_KP_3 = GLFW_KEY_KP_3, 
+	GGKey_KP_4 = GLFW_KEY_KP_4, 
+	GGKey_KP_5 = GLFW_KEY_KP_5,
+	GGKey_KP_6 = GLFW_KEY_KP_6, 
+	GGKey_KP_7 = GLFW_KEY_KP_7, 
+	GGKey_KP_8 = GLFW_KEY_KP_8,
+	GGKey_KP_9 = GLFW_KEY_KP_9,
+
+	GGKey_KP_DECIMAL = GLFW_KEY_KP_DECIMAL, 
+	GGKey_KP_DIVIDE = GLFW_KEY_KP_DIVIDE, 
+	GGKey_KP_MULTIPLY = GLFW_KEY_KP_MULTIPLY,
+	GGKey_KP_SUBTRACT = GLFW_KEY_KP_SUBTRACT, 
+	GGKey_KP_ADD = GLFW_KEY_KP_ADD, 
+	GGKey_KP_ENTER = GLFW_KEY_KP_ENTER,
+	GGKey_KP_EQUAL = GLFW_KEY_KP_EQUAL,
+
+	// Modifiers 
+	GGKey_LEFT_SHIFT = GLFW_KEY_LEFT_SHIFT, 
+	GGKey_LEFT_CONTROL = GLFW_KEY_LEFT_CONTROL, 
+	GGKey_LEFT_ALT = GLFW_KEY_LEFT_ALT,
+	GGKey_LEFT_SUPER = GLFW_KEY_LEFT_SUPER, 
+	GGKey_RIGHT_SHIFT = GLFW_KEY_RIGHT_SHIFT, 
+	GGKey_RIGHT_CONTROL = GLFW_KEY_RIGHT_CONTROL,
+	GGKey_RIGHT_ALT = GLFW_KEY_RIGHT_ALT, 
+	GGKey_RIGHT_SUPER = GLFW_KEY_RIGHT_SUPER, 
+	GGKey_MENU = GLFW_KEY_MENU,
+	GGKey_LAST = GLFW_KEY_LAST,
+
+	// World key??
+	GGKey_WORLD_1 = GLFW_KEY_WORLD_1,   /* non-US #1 */
+	GGKey_WORLD_2 = GLFW_KEY_WORLD_2,   /* non-US #2 */
+
+	// joystick input
+	GGJS_1 = GLFW_JOYSTICK_1,
+	GGJS_2 = GLFW_JOYSTICK_2,
+	GGJS_3 = GLFW_JOYSTICK_3,
+	GGJS_4 = GLFW_JOYSTICK_4,
+	GGJS_5 = GLFW_JOYSTICK_5,
+	GGJS_6 = GLFW_JOYSTICK_6,
+	GGJS_7 = GLFW_JOYSTICK_7,
+	GGJS_8 = GLFW_JOYSTICK_8,
+	GGJS_9 = GLFW_JOYSTICK_9,
+	GGJS_10 = GLFW_JOYSTICK_10,
+	GGJS_11 = GLFW_JOYSTICK_11,
+	GGJS_12 = GLFW_JOYSTICK_12,
+	GGJS_13 = GLFW_JOYSTICK_13,
+	GGJS_14 = GLFW_JOYSTICK_14,
+	GGJS_15 = GLFW_JOYSTICK_15,
+	GGJS_16 = GLFW_JOYSTICK_16,
+	GGJS_CENTERED = GLFW_HAT_CENTERED,
+	GGJS_UP = GLFW_HAT_UP,
+	GGJS_RIGHT = GLFW_HAT_RIGHT,
+	GGJS_DOWN = GLFW_HAT_DOWN,
+	GGJS_LEFT = GLFW_HAT_LEFT,
+	GGJS_RIGHT_UP = GLFW_HAT_RIGHT_UP,
+	GGJS_RIGHT_DOWN = GLFW_HAT_RIGHT_DOWN,
+	GGJS_LEFT_UP = GLFW_HAT_LEFT_UP,
+	GGJS_LEFT_DOWN = GLFW_HAT_LEFT_DOWN
+};

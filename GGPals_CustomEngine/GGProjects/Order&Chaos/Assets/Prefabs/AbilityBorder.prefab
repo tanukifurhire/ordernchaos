@@ -1,0 +1,118 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "AbilityBorder",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityBorder"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "d08360b5-f870-4934-90b1-d5c1b598e41f",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 2,
+                    "MeshRenderer": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": true,
+                        "layer": 2
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityBorder"
+                    }
+                }
+            ]
+        }
+    ]
+}

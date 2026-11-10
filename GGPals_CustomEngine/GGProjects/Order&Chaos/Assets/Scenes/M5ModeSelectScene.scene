@@ -1,0 +1,1532 @@
+{
+    "sceneName": "M5ModeSelectScene",
+    "entities": [
+        {
+            "id": 11,
+            "generation": 0,
+            "name": "SFXManager",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 19.7584285736084,
+                            "y": -9.817684173583985
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                19.7584285736084,
+                                -9.817684173583985,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "SFXManager"
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "SFXManager"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "f9feb20c-3e6d-42c7-bbed-050c35489f8c",
+                        "uiAbilityInvalid": "29b83519-d218-4166-8198-7d65ac432c5f",
+                        "uiAbilityInvalid_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animTirion1": "3627aa81-e824-4a7e-8636-84391aac8b1a",
+                        "animTirion1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxVizomA1Attack": "fcb9d8cc-03af-4389-960a-0e3735e198ef",
+                        "vfxVizomA1Attack_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animVizom2": "ddea5597-3c7a-46e8-8e00-1b192bf9f610",
+                        "animVizom2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxVizomA2TrapHit": "b45fb2cd-0e6c-4c9c-818d-8c2b14ae5ad2",
+                        "vfxVizomA2TrapHit_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "gridHoverTile": "f90892d6-f59d-4e7f-a668-aa8f50836e9f",
+                        "gridHoverTile_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatUnitHit1": "8e665fcc-9259-4f48-8058-e1786c66f556",
+                        "combatUnitHit1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "gridConfirmTile": "f2f8c90d-2131-4d7b-b30a-a1f977892202",
+                        "gridConfirmTile_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "mainMenuHoverChaos": "db7b2d80-d127-494b-adb0-b401b636325b",
+                        "mainMenuHoverChaos_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "gridPickup": "6c0fa754-2faf-4e9f-9512-725686410fac",
+                        "gridPickup_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderLowHPPlan1": "3024dc25-0252-46f2-ba96-93ec94c15d1a",
+                        "announcerOrderLowHPPlan1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitTirionCry": "3627aa81-e824-4a7e-8636-84391aac8b1a",
+                        "unitTirionCry_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "gridPlaceGrid": "60d3f8c9-3a94-4175-8e0b-5e41fe9b33c5",
+                        "gridPlaceGrid_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderDeploy2": "9b26a6e4-6ea9-4160-9aa0-21d6e2f68f6b",
+                        "announcerOrderDeploy2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxGeneric1": "",
+                        "vfxGeneric1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": false
+                        },
+                        "vfxEyeA2": "b94bb948-2ffa-4e28-baee-c38b4907c846",
+                        "vfxEyeA2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "uiAbilityValid": "306345a3-d116-43b8-a01a-3a2dc316c441",
+                        "uiAbilityValid_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxWyvernFeatherWind": "ab7a295e-3911-4001-8e3d-3ecf32472676",
+                        "vfxWyvernFeatherWind_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "uiEndTurn": "b7bea3fd-aeb7-458f-862e-da317d33b498",
+                        "uiEndTurn_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "mainMenuClick": "3a7e259a-74a3-4447-9142-1e2ba05d1091",
+                        "mainMenuClick_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatNoAP": "05f0562b-337d-4925-8d9d-74c8749d73e5",
+                        "combatNoAP_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "mainMenuHoverBling": "64d246c5-1edb-4989-8dd9-6e77c48de085",
+                        "mainMenuHoverBling_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitImpCry": "eaea8437-1eb4-4200-9ceb-5ae90b547807",
+                        "unitImpCry_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "mainMenuHoverOrder": "18f4810f-1586-4b80-b961-f91c69f9c2b1",
+                        "mainMenuHoverOrder_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderResolution2": "74a0e32c-b0cc-4926-bab0-4c1b54705b5b",
+                        "announcerOrderResolution2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderDeploy3": "870ddd08-1146-47f8-b954-39152412a8de",
+                        "announcerOrderDeploy3_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxImpA2": "ab3529d8-0f70-42f4-b675-6bdb93af091d",
+                        "vfxImpA2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitEyeCry": "e5bda204-d2d4-4344-b425-9ad0fbf6e91d",
+                        "unitEyeCry_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitEyeMove": "2e27c541-b456-4b5f-b910-7a359eb10f3c",
+                        "unitEyeMove_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderPlan1": "f58d8eb1-5d6c-45a0-9b0b-6a4478436e9b",
+                        "announcerOrderPlan1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitImpMove": "c8458273-1672-4c69-94f5-eb576ed8e563",
+                        "unitImpMove_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitOracleCry": "af2a8ed4-253b-43fe-8914-925b259cc533",
+                        "unitOracleCry_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitOracleMove": "36cb66c4-273b-408f-84d7-4c8802b4d22a",
+                        "unitOracleMove_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxWyvernA1": "8bf0aaeb-0d5e-436b-a8a6-6fad7aeaa7fc",
+                        "vfxWyvernA1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitWyvernCry": "f2e33fd1-2b91-4fcf-bb25-6520e7f0af56",
+                        "unitWyvernCry_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatOrderWin": "6e053fdf-917e-414f-96d5-79685d3545a8",
+                        "combatOrderWin_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitWyvernMove": "4b1d1227-156d-4c66-9a58-656479f9fb22",
+                        "unitWyvernMove_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderResolution1": "84e6984f-5c6c-4f40-bd9f-d9a933261a58",
+                        "announcerOrderResolution1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatTileCrack": "",
+                        "combatTileCrack_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": false
+                        },
+                        "vfxImpA1": "cf918619-ae99-4450-bf65-1b27b87b90ea",
+                        "vfxImpA1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderDeploy1": "b827931a-1755-4b1b-bf52-83dd005efdcc",
+                        "announcerOrderDeploy1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxEyeA1": "5a7c856d-6f81-4623-8c05-0c37cd423712",
+                        "vfxEyeA1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxOracleA1": "1d5d33b2-3c3a-4716-9de9-4c79ddafcf52",
+                        "vfxOracleA1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxOracleA2": "831cec6a-ae54-49aa-9ad7-8e5673328555",
+                        "vfxOracleA2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerDraw": "5de20714-1154-48f2-8326-ac3b309a775c",
+                        "announcerDraw_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animWyvern1": "0ca8c5e1-b264-4e73-99f2-67cafa53975d",
+                        "animWyvern1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animWyvern2": "a71552de-ab7c-450d-ab79-f9a0fd89fb8e",
+                        "animWyvern2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animImp1": "06f6b3ee-e796-4e9f-892a-d2ef2b8d5295",
+                        "animImp1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animImp2": "e88e5147-8645-4617-8363-78cdb116b913",
+                        "animImp2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animEye1": "5463394d-4704-4ccf-8b21-8c24ac8cdcf2",
+                        "animEye1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animEye2": "3b110e55-fc17-416e-ab2a-4c533f675023",
+                        "animEye2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animOracle1": "9087d1e1-d484-4ddc-907c-5c6fa6a47e57",
+                        "animOracle1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animOracle2": "610cec96-a0f7-441e-8b4f-a05a0e25d755",
+                        "animOracle2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animTirion2": "9c41e71f-19e5-438c-a99a-9e1b7d932729",
+                        "animTirion2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animVizom1": "30f329b5-73e8-4009-9185-c061b7ba68f9",
+                        "animVizom1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatUnitHit3": "4b586ce4-5e74-46c4-9dc3-a097f509f8b9",
+                        "combatUnitHit3_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatChangeGrid": "e8d20a1e-e391-4e2e-bcc6-f871f92f65dd",
+                        "combatChangeGrid_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatTileDeselect": "3c2adba8-3276-453d-81db-39abedc537cc",
+                        "combatTileDeselect_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatAnimPreviewOpen": "b8726028-992e-4a45-90f7-d15703cc36aa",
+                        "combatAnimPreviewOpen_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatEndTurnTimerLow": "1abdfbef-7e5e-4900-97c0-6bc485770bb9",
+                        "combatEndTurnTimerLow_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatChaosWin": "617baad7-4173-4fe8-9cae-eae325dda80b",
+                        "combatChaosWin_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatDraw": "5de20714-1154-48f2-8326-ac3b309a775c",
+                        "combatDraw_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatUnitHit2": "e561a9d4-d762-4597-8e79-0dd1210d625b",
+                        "combatUnitHit2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatTileDestroyed": "7cafa3fe-f61b-4bea-a62b-eb38ff9f6049",
+                        "combatTileDestroyed_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderPlan2": "1a85403f-4052-484d-b1c0-32e9502fb847",
+                        "announcerOrderPlan2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderPlan3": "a88705ba-be7a-4780-8534-33dda8ef3286",
+                        "announcerOrderPlan3_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderLowHPPlan2": "241660f8-b7e1-4bc3-8d06-9b453bd52651",
+                        "announcerOrderLowHPPlan2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxTirionA2TrapHit": "ee69bc05-c199-4f01-b460-5356517335ad",
+                        "vfxTirionA2TrapHit_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderResolution3": "8c67a04d-439c-4ee3-8e8e-ff3e50fe2311",
+                        "announcerOrderResolution3_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderWins": "6e053fdf-917e-414f-96d5-79685d3545a8",
+                        "announcerOrderWins_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosDeploy1": "c6c2f392-df08-487d-a4f9-08cf4b69d118",
+                        "announcerChaosDeploy1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosDeploy2": "5730b9e6-db9e-4510-a2ba-baf0be923360",
+                        "announcerChaosDeploy2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosDeploy3": "95f609ed-71ec-44ba-8a6d-6b7cc0da963d",
+                        "announcerChaosDeploy3_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosPlan1": "1818a96e-0dbc-4cbe-916d-eb09a50f6827",
+                        "announcerChaosPlan1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "uiMenuPauseOpen": "0a12768f-75c9-4b6e-8601-6f15b7f65360",
+                        "uiMenuPauseOpen_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosPlan2": "802dc539-608b-4d5d-bc1f-80e6ec37e2ef",
+                        "announcerChaosPlan2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosPlan3": "401a779e-da4a-4ba9-9bc9-0334a08af4bc",
+                        "announcerChaosPlan3_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosLowHPPlan1": "a03ae3c0-3470-463d-ade8-ff88ef149f2d",
+                        "announcerChaosLowHPPlan1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosLowHPPlan2": "7c3491ad-27e1-420e-86ae-35f34e20aec2",
+                        "announcerChaosLowHPPlan2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosResolution1": "3e83cde1-1d19-4eab-b40c-1e3a76b65be5",
+                        "announcerChaosResolution1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosResolution2": "bfa5e767-7601-4a82-aae3-4198b7487e74",
+                        "announcerChaosResolution2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosResolution3": "8bd06ee4-58e3-4e3f-ba05-17c848985740",
+                        "announcerChaosResolution3_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosWins": "617baad7-4173-4fe8-9cae-eae325dda80b",
+                        "announcerChaosWins_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitTirionMove": "33db4cd3-707c-4bfc-bd29-1779375637f8",
+                        "unitTirionMove_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitVizomCry": "30f329b5-73e8-4009-9185-c061b7ba68f9",
+                        "unitVizomCry_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitVizomMove": "33db4cd3-707c-4bfc-bd29-1779375637f8",
+                        "unitVizomMove_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxWyvernA2": "88f5de37-4aef-48b6-bb65-770c6aed0286",
+                        "vfxWyvernA2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxWyvernFeatherSlash": "c9baff8a-1535-4b42-bf66-19fa05ade780",
+                        "vfxWyvernFeatherSlash_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxTirionA1Attack": "e3ebe999-3715-49d8-87c9-14a65d876a50",
+                        "vfxTirionA1Attack_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        }
+                    }
+                },
+                {
+                    "componentID": 19,
+                    "AudioSource": {
+                        "audioAssetUUID": "",
+                        "outputBus": 0,
+                        "playOnAwake": false,
+                        "isLooping": false,
+                        "isMuted": false,
+                        "volume": 1.0,
+                        "pitch": 1.0,
+                        "stereoPan": 0.0,
+                        "playbackCursor": 0,
+                        "justTriggered": false,
+                        "isPlaying": false,
+                        "isPaused": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AudioManager"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "902647b6-4e31-47a3-a567-d0ad30de4b84",
+                        "masterVolume": 0.9990000128746032
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "generation": 0,
+            "name": "BGMManager",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "BGMManager"
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "BGMManager"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "201954cb-0732-480f-ab2e-4fb0a062880d",
+                        "combat": "0ff89171-8854-4dae-83cd-1d6b0a5f3ed2",
+                        "combat_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": false
+                        }
+                    }
+                },
+                {
+                    "componentID": 19,
+                    "AudioSource": {
+                        "audioAssetUUID": "0ff89171-8854-4dae-83cd-1d6b0a5f3ed2",
+                        "outputBus": 0,
+                        "playOnAwake": true,
+                        "isLooping": true,
+                        "isMuted": false,
+                        "volume": 1.0,
+                        "pitch": 1.0,
+                        "stereoPan": 0.0,
+                        "playbackCursor": 0,
+                        "justTriggered": false,
+                        "isPlaying": false,
+                        "isPaused": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -312.7000122070313,
+                            "y": -44.599998474121097
+                        },
+                        "scale": {
+                            "x": 416.5,
+                            "y": 716.9000244140625
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": true,
+                        "layer": 0,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                416.5,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                716.9000244140625,
+                                0.0
+                            ],
+                            [
+                                -312.7000122070313,
+                                -44.599998474121097,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "Pass and Play"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "60748871-f298-4d5b-99ff-54b26895492e",
+                        "buttonState": 1,
+                        "targetSceneName": "M6PassAndPlayArsenalScene",
+                        "normalTexture": "4d0b324b-c481-4028-a184-19782f0a9ad0",
+                        "hoverTexture": "75a195d3-62e4-443f-aa00-160598674b9d"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "4d0b324b-c481-4028-a184-19782f0a9ad0",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 0,
+                        "firstChild": 0,
+                        "nextSibling": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 900.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": true,
+                        "layer": 0,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                900.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "Background"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "0b6ed32f-f710-4e03-8bab-de9e13649f2a",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "ModeSelectUI"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "3e37c803-7d88-4254-8326-dcbdc0cd8a07"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -598.7999877929688,
+                            "y": 342.1000061035156
+                        },
+                        "scale": {
+                            "x": 224.6999969482422,
+                            "y": 95.4000015258789
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": true,
+                        "layer": 6,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                224.6999969482422,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                95.4000015258789,
+                                0.0
+                            ],
+                            [
+                                -598.7999877929688,
+                                342.1000061035156,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "BackButton"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "514605fc-84ca-4273-95c4-18bd6a8e6f35"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "5168b9a6-4264-4cfc-b6c6-982da1cc5121",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 353.7000122070313,
+                            "y": -44.599998474121097
+                        },
+                        "scale": {
+                            "x": 416.5,
+                            "y": 716.9000244140625
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": true,
+                        "layer": 0,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                416.5,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                716.9000244140625,
+                                0.0
+                            ],
+                            [
+                                353.7000122070313,
+                                -44.599998474121097,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "Multiplayer"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "dc57d10e-5d50-4219-80fe-46adb460cc78",
+                        "buttonState": 2,
+                        "normalTexture": "ea97808d-ed72-4456-9381-c536613e44c5",
+                        "hoverTexture": "d0b01ede-e650-474e-a3bc-15165f2d69ef"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "ea97808d-ed72-4456-9381-c536613e44c5",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 0,
+                        "firstChild": 0,
+                        "nextSibling": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "FloatingTextManager"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "ea3ea9bd-0bf8-478d-82d5-15b2f0a3c107",
+                        "holdDuration": 0.5,
+                        "digitAdvance": 0.44999998807907107,
+                        "damageFontID": 1,
+                        "lifetime": 1.5,
+                        "digitWidth": 1,
+                        "errorLifetime": 3,
+                        "digitHeight": 1,
+                        "errorFontSize": 60,
+                        "digitSpacing": 0.05999999865889549,
+                        "scaleX": 0.004999999888241291,
+                        "fontSize": 80,
+                        "floatSpeed": 1,
+                        "scaleY": 0.009999999776482582,
+                        "digitID_7": "",
+                        "digitID_0": "",
+                        "digitID_8": "",
+                        "digitID_1": "",
+                        "digitID_9": "",
+                        "digitID_2": "",
+                        "digitID_3": "",
+                        "digitID_4": "",
+                        "digitID_5": "",
+                        "digitID_6": ""
+                    }
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "FadeTransition"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "4468e460-769f-4eb7-b9a4-0e44331b409e"
+                    }
+                }
+            ]
+        }
+    ]
+}

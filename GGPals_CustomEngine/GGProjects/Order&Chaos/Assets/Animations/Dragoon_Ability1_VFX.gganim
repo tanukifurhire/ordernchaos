@@ -1,0 +1,33 @@
+{
+    "anims": [
+        {
+            "textureAssetUUID": "10ac616c-d4a4-4b89-8848-9125ef24eda6",
+            "animFPS": 12.0,
+            "spritesPerRow": 8,
+            "numRows": 2,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.125,
+                "tMax": 0.5
+            },
+            "animStates": [
+                {
+                    "stateName": "Fire",
+                    "startIndex": 0,
+                    "endIndex": 15,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnVFXAnimationTransition",
+                            "frame": 4
+                        },
+                        {
+                            "name": "OnVFXAnimationFinished"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

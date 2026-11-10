@@ -1,0 +1,1248 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "PauseMenu",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -2000.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                -2000.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PauseMenu"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "PauseMenu"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "95011003-f50d-480a-9e1c-366604f94a7a",
+                        "resumePosY": 0.0,
+                        "pausedPosX": 0.0,
+                        "pausedPosY": 0.0,
+                        "resumePosX": -2000.0
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "PauseMenu_Child_1",
+            "prefabParentName": "PauseMenu",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -100.0,
+                            "y": -50.0
+                        },
+                        "scale": {
+                            "x": 0.800000011920929,
+                            "y": 0.800000011920929
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                0.800000011920929,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.800000011920929,
+                                0.0
+                            ],
+                            [
+                                -2100.0,
+                                -50.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PauseMenu_Child_1"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "PauseMenu_Child_1"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "PauseMenu_Child_1_Child_2",
+            "prefabParentName": "PauseMenu_Child_1",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -400.0,
+                            "y": 165.0
+                        },
+                        "scale": {
+                            "x": 700.0,
+                            "y": 80.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 7
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                560.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                64.0,
+                                0.0
+                            ],
+                            [
+                                -2420.0,
+                                82.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PauseMenu_Child_1_Child_2"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "PauseMenu_Child_1_Child_2"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "cdcef6fc-84d6-48ca-966e-8a540a46846c",
+                        "normalSprite": "696b988a-3d9b-415a-b597-8dae6feb648a",
+                        "hoverSprite": "6d856775-dccd-4b55-9723-d8e34f57b825"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "696b988a-3d9b-415a-b597-8dae6feb648a",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "PauseMenu_Child_1_Child_3",
+            "prefabParentName": "PauseMenu_Child_1",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -400.0,
+                            "y": -195.0
+                        },
+                        "scale": {
+                            "x": 700.0,
+                            "y": 80.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 7
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                560.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                64.0,
+                                0.0
+                            ],
+                            [
+                                -2420.0,
+                                -206.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PauseMenu_Child_1_Child_3"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "PauseMenu_Child_1_Child_3"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "ca60daaf-1127-484d-b9ac-990c91a7bb9c",
+                        "normalSprite": "115e1866-a6a0-4210-a512-ef49348d92a5",
+                        "hoverSprite": "eb41c553-e294-48f4-9cdc-d2a92c0dfaf6"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "115e1866-a6a0-4210-a512-ef49348d92a5",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "PauseMenu_Child_1_Child_4",
+            "prefabParentName": "PauseMenu_Child_1",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -400.0,
+                            "y": -15.0
+                        },
+                        "scale": {
+                            "x": 700.0,
+                            "y": 80.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 7
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                560.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                64.0,
+                                0.0
+                            ],
+                            [
+                                -2420.0,
+                                -62.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PauseMenu_Child_1_Child_4"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "PauseMenu_Child_1_Child_4"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "17aab580-fc48-4ce9-a6c6-e6f8c2682bd9",
+                        "normalSprite": "ddc38dc3-8e37-41d8-b51b-19c62d687827",
+                        "hoverSprite": "5417e2ba-dbb7-4c46-9c99-6653c6841c38"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "ddc38dc3-8e37-41d8-b51b-19c62d687827",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "PauseMenu_Child_1_Child_5",
+            "prefabParentName": "PauseMenu_Child_1",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -400.0,
+                            "y": 75.0
+                        },
+                        "scale": {
+                            "x": 700.0,
+                            "y": 80.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 7
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                560.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                64.0,
+                                0.0
+                            ],
+                            [
+                                -2420.0,
+                                10.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PauseMenu_Child_1_Child_5"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "PauseMenu_Child_1_Child_5"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "6f684b26-d01c-4c15-a3eb-b331f7a5ebe9",
+                        "normalSprite": "94a3f94b-45a3-4de6-a2f3-0be3f0eda9da",
+                        "hoverSprite": "236eb97b-92ee-414d-8d6f-0baf890e585a"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "94a3f94b-45a3-4de6-a2f3-0be3f0eda9da",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "PauseMenu_Child_1_Child_6",
+            "prefabParentName": "PauseMenu_Child_1",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -400.0,
+                            "y": -105.0
+                        },
+                        "scale": {
+                            "x": 700.0,
+                            "y": 80.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 7
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                560.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                64.0,
+                                0.0
+                            ],
+                            [
+                                -2420.0,
+                                -134.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PauseMenu_Child_1_Child_6"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "PauseMenu_Child_1_Child_6"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "f7204d22-6801-45d5-8c5a-eb65e119baac",
+                        "normalSprite": "1d0cb3ae-2542-4fc3-8954-fbd2c9d64e72",
+                        "hoverSprite": "9408442e-5150-4541-8a38-b99aa23b8beb"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "1d0cb3ae-2542-4fc3-8954-fbd2c9d64e72",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "PauseMenu_Child_7",
+            "prefabParentName": "PauseMenu",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                -2000.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PauseMenu_Child_7"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "PauseMenu_Child_7"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "PauseMenu_Child_7_Child_8",
+            "prefabParentName": "PauseMenu_Child_7",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -420.0,
+                            "y": -50.0
+                        },
+                        "scale": {
+                            "x": 600.0,
+                            "y": 900.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 6
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                900.0,
+                                0.0
+                            ],
+                            [
+                                -2420.0,
+                                -50.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PauseMenu_Child_7_Child_8"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "PauseMenu_Child_7_Child_8"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "97a2daa5-a5a7-4e84-803f-d075674d3434",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "PauseMenu_Child_7_Child_9",
+            "prefabParentName": "PauseMenu_Child_7",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -465.0,
+                            "y": 320.0
+                        },
+                        "scale": {
+                            "x": 2750.0,
+                            "y": 300.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 5
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                2750.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                300.0,
+                                0.0
+                            ],
+                            [
+                                -2465.0,
+                                320.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PauseMenu_Child_7_Child_9"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "PauseMenu_Child_7_Child_9"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "9601d0e8-7516-492d-bd25-3c2fb9ab161e",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "PauseMenu_Child_10",
+            "prefabParentName": "PauseMenu",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 900.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 6
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                900.0,
+                                0.0
+                            ],
+                            [
+                                -2000.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PauseMenu_Child_10"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "PauseMenu_Child_10"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "80acbad1-ebf5-41b3-9525-4bff9e65df21",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "PauseMenu_Child_11",
+            "prefabParentName": "PauseMenu",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 900.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                900.0,
+                                0.0
+                            ],
+                            [
+                                -2000.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PauseMenu_Child_11"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "PauseMenu_Child_11"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "98634f6f-8fb2-4759-b38d-22f2a46c45ba",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

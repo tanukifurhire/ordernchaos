@@ -1,0 +1,80 @@
+{
+    "anims": [
+        {
+            "textureAssetUUID": "8c4a68f7-d3af-434c-b9aa-7b313ddf8d84",
+            "animFPS": 10.0,
+            "spritesPerRow": 12,
+            "numRows": 7,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.0833333358168602,
+                "tMax": 0.1428571492433548
+            },
+            "animStates": [
+                {
+                    "stateName": "Idle",
+                    "startIndex": 0,
+                    "endIndex": 5,
+                    "shouldLoop": true
+                },
+                {
+                    "stateName": "MoveStart",
+                    "startIndex": 5,
+                    "endIndex": 11,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnMoveStartFinished"
+                        }
+                    ]
+                },
+                {
+                    "stateName": "MoveLoop",
+                    "startIndex": 12,
+                    "endIndex": 15,
+                    "shouldLoop": false
+                },
+                {
+                    "stateName": "MoveEnd",
+                    "startIndex": 15,
+                    "endIndex": 17,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnMoveEndFinished"
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Hit",
+                    "startIndex": 66,
+                    "endIndex": 83,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnHitFinished"
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Ability1",
+                    "startIndex": 18,
+                    "endIndex": 41,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnAnimationTransition "
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Ability2",
+                    "startIndex": 47,
+                    "endIndex": 65,
+                    "shouldLoop": true
+                }
+            ]
+        }
+    ]
+}

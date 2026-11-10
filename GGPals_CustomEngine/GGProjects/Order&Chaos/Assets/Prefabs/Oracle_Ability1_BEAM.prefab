@@ -1,0 +1,131 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "Oracle_Ability1_BEAM",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 4,
+                        "pixelPerfectPicking": false
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 240.0,
+                            "y": 240.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                240.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                240.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "Oracle_Ability1_BEAM"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "Oracle_Ability1_BEAM"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "aecaa7df-cc0f-4048-9184-4e1e643e55ff",
+                        "textureUVBounds": {
+                            "x": 0.5,
+                            "y": 0.0,
+                            "z": 0.625,
+                            "w": 0.20000000298023225
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "edd5188f-8cdf-42f6-9707-bccca3a05609"
+                    }
+                },
+                {
+                    "componentID": 10,
+                    "SpriteAnimator": {
+                        "animationAssetUUID": "7ecda22c-236e-416d-94da-a6c2d8cb7981"
+                    }
+                }
+            ]
+        }
+    ]
+}

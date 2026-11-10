@@ -1,0 +1,130 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "Dragoon_Ability2_VFX",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                -1.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "Dragoon_Ability2_VFX"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "Dragoon_Ability2_VFX"
+                    }
+                },
+                {
+                    "componentID": 2,
+                    "MeshRenderer": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": true,
+                        "layer": 3
+                    }
+                },
+                {
+                    "componentID": 10,
+                    "SpriteAnimator": {
+                        "animationAssetUUID": "5a8dc14c-a9fe-40e4-9551-1a7eb3370e31"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "c0fbcb3c-8cc1-4ad7-8e65-80b5c6e203ae",
+                        "textureUVBounds": {
+                            "x": 0.125,
+                            "y": 0.0,
+                            "z": 0.25,
+                            "w": 0.3333333432674408
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "a0a9969a-35c3-4098-a112-08496ba12a89"
+                    }
+                }
+            ]
+        }
+    ]
+}

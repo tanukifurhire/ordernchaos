@@ -1,0 +1,134 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "TileBreakVFX_Red",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                2.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                2.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "TileBreakVFX_Red"
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "TileBreakVFX_Red"
+                    }
+                },
+                {
+                    "componentID": 10,
+                    "SpriteAnimator": {
+                        "animationAssetUUID": "da54c019-45b8-4ba1-a8ce-ef0b804819a7"
+                    }
+                },
+                {
+                    "componentID": 2,
+                    "MeshRenderer": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 1.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 0,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "dcd518f7-c13e-4a73-b88e-783e3b51e5ce",
+                        "offsetX": 0.07999999821186066,
+                        "offsetY": 0.07999999821186066
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "d0623371-7a7a-469b-8829-3456d188dbf2",
+                        "textureUVBounds": {
+                            "x": 0.75,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 0.25
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

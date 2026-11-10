@@ -1,0 +1,134 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "BurnVFX",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.2799999713897706,
+                            "y": 0.7200000286102295
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.2799999713897706,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.7200000286102295,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "BurnVFX"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "BurnVFX"
+                    }
+                },
+                {
+                    "componentID": 2,
+                    "MeshRenderer": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 1.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 4,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 10,
+                    "SpriteAnimator": {
+                        "animationAssetUUID": "98addcc3-6fe6-41b0-b76b-28efa67c923a"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "3417241c-ea7a-4d79-b929-9c52789b2ec1",
+                        "textureUVBounds": {
+                            "x": 0.1666666716337204,
+                            "y": 0.0,
+                            "z": 0.3333333432674408,
+                            "w": 0.25
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "e446690f-23e6-449a-a3b3-a7021d5d99f5",
+                        "unitType": 0,
+                        "applyDelay": 0.20000000298023225
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "BleedVFX",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.2799999713897706,
+                            "y": 0.7200000286102295
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.2799999713897706,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.7200000286102295,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "BleedVFX"
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "BleedVFX"
+                    }
+                },
+                {
+                    "componentID": 2,
+                    "MeshRenderer": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 1.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 4,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": false
+                    }
+                },
+                {
+                    "componentID": 10,
+                    "SpriteAnimator": {
+                        "animationAssetUUID": "c0cee470-3803-4ae5-9b02-115950375863"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "0c5d8cf8-31a6-4b39-99dc-3bd5fd4a8284",
+                        "unitType": 0,
+                        "applyDelay": 0.20000000298023225
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "c980056b-3dba-4d09-a3e4-ffab8550e024",
+                        "textureUVBounds": {
+                            "x": 0.5,
+                            "y": 0.0,
+                            "z": 0.6666666865348816,
+                            "w": 0.1428571492433548
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

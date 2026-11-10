@@ -1,0 +1,58 @@
+{
+    "anims": [
+        {
+            "textureAssetUUID": "b434e57d-4276-474d-a060-40eaede3dc12",
+            "animFPS": 24.0,
+            "spritesPerRow": 12,
+            "numRows": 3,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.0833333358168602,
+                "tMax": 0.3333333432674408
+            },
+            "animStates": [
+                {
+                    "stateName": "Fire",
+                    "startIndex": 0,
+                    "endIndex": 24,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnVFXAnimationTransition",
+                            "frame": 14
+                        },
+                        {
+                            "name": "OnPreviewVFXAnimationFinished",
+                            "frame": 24
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Trigger",
+                    "startIndex": 38,
+                    "endIndex": 53,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnVFXAnimationFinished"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "textureAssetUUID": "14676e54-c1ea-415a-a41a-3a8a887d59ee",
+            "animFPS": 24.0,
+            "spritesPerRow": 12,
+            "numRows": 3,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.0833333358168602,
+                "tMax": 0.3333333432674408
+            },
+            "animStates": []
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "HuntersMarkArsenalIcon",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 1.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 7,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.03500000014901161
+                        },
+                        "scale": {
+                            "x": 0.6499999761581421,
+                            "y": 0.6499999761581421
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                81.25,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                81.25,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                -144.9149932861328,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "HuntersMarkArsenalIcon"
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "HuntersMarkArsenalIcon"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "c47c58a7-e2cf-4c35-aefd-b6fc71ec053c"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "c4b4904f-5694-40f2-9bd8-ddaa961f0cb7",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

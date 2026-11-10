@@ -1,0 +1,1437 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "SettingsMenu",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 2000.0,
+                            "y": -80.0
+                        },
+                        "scale": {
+                            "x": 750.0,
+                            "y": 600.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 6,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                750.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                600.0,
+                                0.0
+                            ],
+                            [
+                                2000.0,
+                                -80.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "SettingsMenu"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "SettingsMenu"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "2d09b95b-9c1f-4756-8230-1431f178eec3",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "ecde0c1a-6a48-44e7-b6cf-881f0242d3f1",
+                        "openY": -80,
+                        "easeOpen": 0.18000000715255738,
+                        "easeClosed": 0.05000000074505806,
+                        "openX": 330,
+                        "snapDistance": 0.5,
+                        "closedX": 2000,
+                        "closedY": -80
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "SFXVolume",
+            "prefabParentName": "SettingsMenu",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                750.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                600.0,
+                                0.0
+                            ],
+                            [
+                                2000.0,
+                                -80.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "SFXVolume"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "SFXVolume"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "+SFXVolume",
+            "prefabParentName": "SFXVolume",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.30000001192092898,
+                            "y": -0.07999999821186066
+                        },
+                        "scale": {
+                            "x": 0.09000000357627869,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 7,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                67.5,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                60.0,
+                                0.0
+                            ],
+                            [
+                                2225.0,
+                                -128.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "+SFXVolume"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "+SFXVolume"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "bda7d8ca-5e6d-494c-86a0-ad325f8cf636",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "bab09f64-fd5d-4cec-935a-c0afd33787e7",
+                        "hoverSizeX": 0.0949999988079071,
+                        "hoverSizeY": 0.10499999672174454,
+                        "normalSizeX": 0.09000000357627869,
+                        "normalSizeY": 0.10000000149011612
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "-SFXVolume",
+            "prefabParentName": "SFXVolume",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.05000000074505806,
+                            "y": -0.07999999821186066
+                        },
+                        "scale": {
+                            "x": 0.09000000357627869,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 7,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                67.5,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                60.0,
+                                0.0
+                            ],
+                            [
+                                2037.5,
+                                -128.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "-SFXVolume"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "-SFXVolume"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "747088ce-dec9-485d-825b-fd277af203a7",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "0a60c6f4-f592-43c7-9953-93d9e4fdaff2",
+                        "hoverSizeX": 0.0949999988079071,
+                        "hoverSizeY": 0.10499999672174454,
+                        "normalSizeX": 0.09000000357627869,
+                        "normalSizeY": 0.10000000149011612
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "SFXVolumePercentage",
+            "prefabParentName": "SFXVolume",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.13500000536441804,
+                            "y": -0.10000000149011612
+                        },
+                        "scale": {
+                            "x": 0.0010000000474974514,
+                            "y": 0.0010000000474974514
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                0.7500000596046448,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.6000000238418579,
+                                0.0
+                            ],
+                            [
+                                2101.25,
+                                -140.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "SFXVolumePercentage"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "SFXVolumePercentage"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "5d70a1c4-d928-4dfa-86a5-7674476b0b0c"
+                    }
+                },
+                {
+                    "componentID": 22,
+                    "TextComponent": {
+                        "text": "100\n",
+                        "fontAssetUUID": "",
+                        "shaderAssetUUID": "",
+                        "fontSize": 48,
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "layer": 50,
+                        "ySort": false,
+                        "visible": true,
+                        "alignment": 0,
+                        "verticalAlignment": 3,
+                        "maxWidth": 0.0,
+                        "lineSpacing": 1.200000047683716
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "ScreenshakeToggle",
+            "prefabParentName": "SettingsMenu",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.17499999701976777,
+                            "y": -0.35499998927116396
+                        },
+                        "scale": {
+                            "x": 0.20000000298023225,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.3921568691730499
+                        },
+                        "ySort": false,
+                        "layer": 7,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                150.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                60.0,
+                                0.0
+                            ],
+                            [
+                                2131.25,
+                                -293.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "ScreenshakeToggle"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "ScreenshakeToggle"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "8a77e7a7-29e9-419e-af69-72a81aaeca90",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "4e630255-d205-4436-a6c0-537006ea4998",
+                        "hoverSizeX": 0.20499999821186069,
+                        "hoverSizeY": 0.10499999672174454,
+                        "normalSizeX": 0.20000000298023225,
+                        "normalSizeY": 0.10000000149011612,
+                        "disabledSprite": "3acc3b2b-defd-4ce2-ab5c-60d4b402c218",
+                        "enabledSprite": "8a77e7a7-29e9-419e-af69-72a81aaeca90"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "BGMVolume",
+            "prefabParentName": "SettingsMenu",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                750.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                600.0,
+                                0.0
+                            ],
+                            [
+                                2000.0,
+                                -80.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "BGMVolume"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "BGMVolume"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "-BGMVolume",
+            "prefabParentName": "BGMVolume",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.05000000074505806,
+                            "y": 0.019999999552965165
+                        },
+                        "scale": {
+                            "x": 0.09000000357627869,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 7,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                67.5,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                60.0,
+                                0.0
+                            ],
+                            [
+                                2037.5,
+                                -68.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "-BGMVolume"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "-BGMVolume"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "747088ce-dec9-485d-825b-fd277af203a7",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "9657148c-ca11-41d7-af20-c60e81945977",
+                        "hoverSizeX": 0.0949999988079071,
+                        "hoverSizeY": 0.10499999672174454,
+                        "normalSizeX": 0.09000000357627869,
+                        "normalSizeY": 0.10000000149011612
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "BGMVolumePercentage",
+            "prefabParentName": "BGMVolume",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.13500000536441804,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 0.0010000000474974514,
+                            "y": 0.0010000000474974514
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                0.7500000596046448,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.6000000238418579,
+                                0.0
+                            ],
+                            [
+                                2101.25,
+                                -80.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "BGMVolumePercentage"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "BGMVolumePercentage"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "99e59563-fe34-4829-913e-37c2efad19a8"
+                    }
+                },
+                {
+                    "componentID": 22,
+                    "TextComponent": {
+                        "text": "100\n",
+                        "fontAssetUUID": "",
+                        "shaderAssetUUID": "",
+                        "fontSize": 48,
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "layer": 50,
+                        "ySort": false,
+                        "visible": true,
+                        "alignment": 0,
+                        "verticalAlignment": 3,
+                        "maxWidth": 0.0,
+                        "lineSpacing": 1.200000047683716
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "+BGMVolume",
+            "prefabParentName": "BGMVolume",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.30000001192092898,
+                            "y": 0.019999999552965165
+                        },
+                        "scale": {
+                            "x": 0.09000000357627869,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 7,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                67.5,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                60.0,
+                                0.0
+                            ],
+                            [
+                                2225.0,
+                                -68.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "+BGMVolume"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "+BGMVolume"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "bda7d8ca-5e6d-494c-86a0-ad325f8cf636",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "635b4ad2-6346-4bd3-97da-2959c61a5198",
+                        "hoverSizeX": 0.0949999988079071,
+                        "hoverSizeY": 0.10499999672174454,
+                        "normalSizeX": 0.09000000357627869,
+                        "normalSizeY": 0.10000000149011612
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "MasterVolume",
+            "prefabParentName": "SettingsMenu",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                750.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                600.0,
+                                0.0
+                            ],
+                            [
+                                2000.0,
+                                -80.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "MasterVolume"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "MasterVolume"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "-MasterVolume",
+            "prefabParentName": "MasterVolume",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.05000000074505806,
+                            "y": 0.125
+                        },
+                        "scale": {
+                            "x": 0.09000000357627869,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 7,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                67.5,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                60.0,
+                                0.0
+                            ],
+                            [
+                                2037.5,
+                                -5.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "-MasterVolume"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "-MasterVolume"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "747088ce-dec9-485d-825b-fd277af203a7",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "88218f9c-2862-40d3-9a43-2aa8d28aecdf",
+                        "hoverSizeX": 0.0949999988079071,
+                        "hoverSizeY": 0.10499999672174454,
+                        "normalSizeX": 0.09000000357627869,
+                        "normalSizeY": 0.10000000149011612
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "+MasterVolume",
+            "prefabParentName": "MasterVolume",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.30000001192092898,
+                            "y": 0.125
+                        },
+                        "scale": {
+                            "x": 0.09000000357627869,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.5106606483459473,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 7,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                67.5,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                60.0,
+                                0.0
+                            ],
+                            [
+                                2225.0,
+                                -5.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "+MasterVolume"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "+MasterVolume"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "bda7d8ca-5e6d-494c-86a0-ad325f8cf636",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "d5bc3e84-0100-4967-824c-a8fdcf988152",
+                        "hoverSizeX": 0.0949999988079071,
+                        "hoverSizeY": 0.10499999672174454,
+                        "normalSizeX": 0.09000000357627869,
+                        "normalSizeY": 0.10000000149011612
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "MasterVolumePercentage",
+            "prefabParentName": "MasterVolume",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.13500000536441804,
+                            "y": 0.10000000149011612
+                        },
+                        "scale": {
+                            "x": 0.0010000000474974514,
+                            "y": 0.0010000000474974514
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                0.7500000596046448,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.6000000238418579,
+                                0.0
+                            ],
+                            [
+                                2101.25,
+                                -20.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "MasterVolumePercentage"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "MasterVolumePercentage"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "57250c7d-265f-4a7a-afad-d161d6e813ce"
+                    }
+                },
+                {
+                    "componentID": 22,
+                    "TextComponent": {
+                        "text": "100",
+                        "fontAssetUUID": "",
+                        "shaderAssetUUID": "",
+                        "fontSize": 45,
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "layer": 50,
+                        "ySort": false,
+                        "visible": true,
+                        "alignment": 0,
+                        "verticalAlignment": 3,
+                        "maxWidth": 0.0,
+                        "lineSpacing": 1.200000047683716
+                    }
+                }
+            ]
+        }
+    ]
+}

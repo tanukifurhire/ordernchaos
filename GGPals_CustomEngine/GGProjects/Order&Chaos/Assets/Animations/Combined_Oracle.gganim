@@ -1,0 +1,93 @@
+{
+    "anims": [
+        {
+            "textureAssetUUID": "8e25be8b-dd1e-4333-98e7-f1e5986b887f",
+            "animFPS": 10.0,
+            "spritesPerRow": 12,
+            "numRows": 11,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.08333300054073334,
+                "tMax": 0.09090899676084519
+            },
+            "animStates": [
+                {
+                    "stateName": "Idle",
+                    "startIndex": 0,
+                    "endIndex": 4,
+                    "shouldLoop": true
+                },
+                {
+                    "stateName": "MoveStart",
+                    "startIndex": 5,
+                    "endIndex": 16,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnMoveStartFinished"
+                        }
+                    ]
+                },
+                {
+                    "stateName": "MoveLoop",
+                    "startIndex": 17,
+                    "endIndex": 21,
+                    "shouldLoop": true
+                },
+                {
+                    "stateName": "MoveEnd",
+                    "startIndex": 22,
+                    "endIndex": 28,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnMoveEndFinished"
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Ability1",
+                    "startIndex": 29,
+                    "endIndex": 68,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnAbility1Finished"
+                        },
+                        {
+                            "name": "OnAbility1Transition",
+                            "frame": 25
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Ability2",
+                    "startIndex": 69,
+                    "endIndex": 107,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnAbility2Transition",
+                            "frame": 23
+                        },
+                        {
+                            "name": "OnAbility2Finished"
+                        }
+                    ]
+                },
+                {
+                    "stateName": "Hit",
+                    "startIndex": 107,
+                    "endIndex": 122,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnHitFinished"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

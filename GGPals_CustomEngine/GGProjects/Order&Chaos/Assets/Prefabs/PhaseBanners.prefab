@@ -1,0 +1,1178 @@
+{
+    "entities": [
+        {
+            "id": 177,
+            "generation": 0,
+            "name": "PhaseBanners",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PhaseBanners"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "PhaseBanners"
+                    }
+                },
+                {
+                    "componentID": 17
+                },
+                {
+                    "componentID": 9
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 20,
+                        "firstChild": 128,
+                        "nextSibling": 199
+                    }
+                },
+                {
+                    "componentID": 2
+                },
+                {
+                    "componentID": 10
+                },
+                {
+                    "componentID": 21
+                },
+                {
+                    "componentID": 22
+                },
+                {
+                    "componentID": 18
+                },
+                {
+                    "componentID": 20
+                },
+                {
+                    "componentID": 24
+                },
+                {
+                    "componentID": 19
+                },
+                {
+                    "componentID": 1
+                }
+            ]
+        },
+        {
+            "id": 128,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 900.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                900.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "DrawBanner"
+                    }
+                },
+                {
+                    "componentID": 8
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "619b9d95-ecdc-4f8c-a046-c882716c8623",
+                        "onClick": "OnReturnMainMenu",
+                        "hiddenY": 0.000009999999747378752,
+                        "visibleY": 900.0,
+                        "phase": "Draw",
+                        "timeToReset": 1.0000100135803225,
+                        "shouldReset": false,
+                        "lerpSpeed": 8.000009536743164
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "3b3476f8-23d0-439e-a2de-f7eac00beb94",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 177,
+                        "firstChild": 0,
+                        "nextSibling": 92
+                    }
+                },
+                {
+                    "componentID": 2
+                },
+                {
+                    "componentID": 10
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 1.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 10,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 22
+                },
+                {
+                    "componentID": 18
+                },
+                {
+                    "componentID": 20
+                },
+                {
+                    "componentID": 24
+                },
+                {
+                    "componentID": 19
+                },
+                {
+                    "componentID": 1
+                }
+            ]
+        },
+        {
+            "id": 92,
+            "generation": 0,
+            "name": "BannerBG",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 900.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                900.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "BannerBG"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "BannerBG"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "eb7c77c0-e3c2-484d-bd23-b81cc27e06e2",
+                        "fadeDuration": 0.5,
+                        "targetAlpha": 0.30000001192092898
+                    }
+                },
+                {
+                    "componentID": 9
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 177,
+                        "firstChild": 0,
+                        "nextSibling": 74
+                    }
+                },
+                {
+                    "componentID": 2
+                },
+                {
+                    "componentID": 10
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 1.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 9,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": false
+                    }
+                },
+                {
+                    "componentID": 22
+                },
+                {
+                    "componentID": 18
+                },
+                {
+                    "componentID": 20
+                },
+                {
+                    "componentID": 24
+                },
+                {
+                    "componentID": 19
+                },
+                {
+                    "componentID": 1
+                }
+            ]
+        },
+        {
+            "id": 74,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 900.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                900.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "ChaosWinBanner"
+                    }
+                },
+                {
+                    "componentID": 8
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "619b9d95-ecdc-4f8c-a046-c882716c8623",
+                        "onClick": "OnReturnMainMenu",
+                        "hiddenY": 0.000009999999747378752,
+                        "visibleY": 900.0,
+                        "phase": "ChaosWin",
+                        "timeToReset": 1.0000100135803225,
+                        "shouldReset": false,
+                        "lerpSpeed": 8.000009536743164
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "2c4ebcfe-ec98-4e8e-be8d-a83379948290",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 177,
+                        "firstChild": 0,
+                        "nextSibling": 7
+                    }
+                },
+                {
+                    "componentID": 2
+                },
+                {
+                    "componentID": 10
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 10,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 22
+                },
+                {
+                    "componentID": 18
+                },
+                {
+                    "componentID": 20
+                },
+                {
+                    "componentID": 24
+                },
+                {
+                    "componentID": 19
+                },
+                {
+                    "componentID": 1
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 11.399999618530274,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 900.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                900.0,
+                                0.0
+                            ],
+                            [
+                                11.399999618530274,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "OrderWinBanner"
+                    }
+                },
+                {
+                    "componentID": 8
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "619b9d95-ecdc-4f8c-a046-c882716c8623",
+                        "onClick": "OnReturnMainMenu",
+                        "hiddenY": 0.000009999999747378752,
+                        "visibleY": 900.0,
+                        "phase": "OrderWin",
+                        "timeToReset": 1.0000100135803225,
+                        "shouldReset": false,
+                        "lerpSpeed": 8.000009536743164
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "2a2c0def-7f52-40b6-b737-1d4008379c61",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 177,
+                        "firstChild": 0,
+                        "nextSibling": 96
+                    }
+                },
+                {
+                    "componentID": 2
+                },
+                {
+                    "componentID": 10
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 10,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 22
+                },
+                {
+                    "componentID": 18
+                },
+                {
+                    "componentID": 20
+                },
+                {
+                    "componentID": 24
+                },
+                {
+                    "componentID": 19
+                },
+                {
+                    "componentID": 1
+                }
+            ]
+        },
+        {
+            "id": 96,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": -6.984334468841553
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 450.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                450.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                -6.984334468841553,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "DeployBanner"
+                    }
+                },
+                {
+                    "componentID": 8
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "619b9d95-ecdc-4f8c-a046-c882716c8623",
+                        "onClick": "",
+                        "hiddenY": 0.000009999999747378752,
+                        "visibleY": 450.0,
+                        "phase": "deploy",
+                        "timeToReset": 1.0000100135803225,
+                        "shouldReset": true,
+                        "lerpSpeed": 8.000009536743164
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "03fa7b96-bc2d-4f19-a6cb-fa708ed974a7",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 177,
+                        "firstChild": 0,
+                        "nextSibling": 249
+                    }
+                },
+                {
+                    "componentID": 2
+                },
+                {
+                    "componentID": 10
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 10,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 22
+                },
+                {
+                    "componentID": 18
+                },
+                {
+                    "componentID": 20
+                },
+                {
+                    "componentID": 24
+                },
+                {
+                    "componentID": 19
+                },
+                {
+                    "componentID": 1
+                }
+            ]
+        },
+        {
+            "id": 249,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 450.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                450.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PlanningBanner"
+                    }
+                },
+                {
+                    "componentID": 8
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "619b9d95-ecdc-4f8c-a046-c882716c8623",
+                        "onClick": "",
+                        "hiddenY": 0.000009999999747378752,
+                        "visibleY": 450.0,
+                        "phase": "planphase",
+                        "timeToReset": 1.0000100135803225,
+                        "shouldReset": true,
+                        "lerpSpeed": 8.000009536743164
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "388b90c1-ab02-4224-a07e-47b8320d9c2d",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 177,
+                        "firstChild": 0,
+                        "nextSibling": 152
+                    }
+                },
+                {
+                    "componentID": 2
+                },
+                {
+                    "componentID": 10
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 10,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 22
+                },
+                {
+                    "componentID": 18
+                },
+                {
+                    "componentID": 20
+                },
+                {
+                    "componentID": 24
+                },
+                {
+                    "componentID": 19
+                },
+                {
+                    "componentID": 1
+                }
+            ]
+        },
+        {
+            "id": 152,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 450.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                450.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "ResolutionBanner"
+                    }
+                },
+                {
+                    "componentID": 8
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "619b9d95-ecdc-4f8c-a046-c882716c8623",
+                        "onClick": "",
+                        "hiddenY": 0.000009999999747378752,
+                        "visibleY": 450.0,
+                        "phase": "resphase",
+                        "timeToReset": 1.0000100135803225,
+                        "shouldReset": true,
+                        "lerpSpeed": 8.000009536743164
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "7647f217-34ba-497c-805c-f5cbf052790d",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 177,
+                        "firstChild": 0,
+                        "nextSibling": 0
+                    }
+                },
+                {
+                    "componentID": 2
+                },
+                {
+                    "componentID": 10
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 10,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 22
+                },
+                {
+                    "componentID": 18
+                },
+                {
+                    "componentID": 20
+                },
+                {
+                    "componentID": 24
+                },
+                {
+                    "componentID": 19
+                },
+                {
+                    "componentID": 1
+                }
+            ]
+        }
+    ]
+}

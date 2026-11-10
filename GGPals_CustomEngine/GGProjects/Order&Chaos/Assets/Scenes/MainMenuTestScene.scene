@@ -1,0 +1,2905 @@
+{
+    "sceneName": "MainMenuTestScene",
+    "entities": [
+        {
+            "id": 22,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "FactionSelectionUI"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "ddbe4047-bf32-4066-a542-3bdfba721388"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "SessionManager"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "12d54fdd-47a9-4255-816e-98878294077c",
+                        "isNetworked": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.44999998807907107,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 0.05000000074505806,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 6,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                65.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                70.0,
+                                0.0
+                            ],
+                            [
+                                -10585.0,
+                                -10000.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "LeftNav"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "63d62e4f-7097-4669-ac17-cbe55618337d",
+                        "isNextButton": false
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "daab1d28-7ae4-4c63-a385-c9edc9f1203c",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 1,
+                    "AABBFloat": {
+                        "top": -9965.0,
+                        "bottom": -10035.0,
+                        "left": -10617.5,
+                        "right": -10552.5
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 17,
+                        "firstChild": 0,
+                        "nextSibling": 19
+                    }
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.44999998807907107,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 0.05000000074505806,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 6,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                65.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                70.0,
+                                0.0
+                            ],
+                            [
+                                -9415.0,
+                                -10000.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "RightNav"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "63d62e4f-7097-4669-ac17-cbe55618337d",
+                        "isNextButton": true
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "9f1a757b-3528-45b1-b5bd-5fec0c899d3a",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 1,
+                    "AABBFloat": {
+                        "top": -9965.0,
+                        "bottom": -10035.0,
+                        "left": -9447.5,
+                        "right": -9382.5
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 17,
+                        "firstChild": 0,
+                        "nextSibling": 18
+                    }
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.44999998807907107,
+                            "y": 0.4000000059604645
+                        },
+                        "scale": {
+                            "x": 0.05000000074505806,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 6,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                65.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                70.0,
+                                0.0
+                            ],
+                            [
+                                -9415.0,
+                                -9720.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "CloseButton"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "b98cbc6d-0192-4c64-a5ae-8b9e4efdc412",
+                        "hiddenX": -10000,
+                        "hiddenY": -10000
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "15690e1f-f4cd-41ce-b7f3-c5b97a46fb7a",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 1,
+                    "AABBFloat": {
+                        "top": -9685.0,
+                        "bottom": -9755.0,
+                        "left": -9447.5,
+                        "right": -9382.5
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 17,
+                        "firstChild": 0,
+                        "nextSibling": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -10000.0,
+                            "y": -10000.0
+                        },
+                        "scale": {
+                            "x": 1300.0,
+                            "y": 700.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 5,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1300.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                700.0,
+                                0.0
+                            ],
+                            [
+                                -10000.0,
+                                -10000.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "HowToPlayPanel"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "0cb6e51d-17c9-48d5-b824-b58740b88814",
+                        "currentPage": 7,
+                        "hiddenY": -10000,
+                        "visibleY": 0,
+                        "totalPages": 7,
+                        "hiddenX": -10000,
+                        "visibleX": 0,
+                        "page3": "b7b69ccf-3a7a-48a1-8cbb-e5ddc7127c81",
+                        "page1": "6c9edcec-c4a3-4d7c-aead-10e38988a90d",
+                        "page4": "60aaa888-bbec-4ee2-970e-e3ac1f6e1dcf",
+                        "page2": "d737d0f8-7786-413a-8a7a-c39f397ce84e"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "067704ff-b585-4b89-a67a-3ed44dd21d38",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 0,
+                        "firstChild": 20,
+                        "nextSibling": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "Buttons"
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 0,
+                        "firstChild": 6,
+                        "nextSibling": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AudioManager"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "902647b6-4e31-47a3-a567-d0ad30de4b84",
+                        "masterVolume": 0.9990000128746032
+                    }
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -492.6000061035156,
+                            "y": 196.0
+                        },
+                        "scale": {
+                            "x": 612.0,
+                            "y": 508.3399963378906
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 2,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                612.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                508.3399963378906,
+                                0.0
+                            ],
+                            [
+                                -492.6000061035156,
+                                196.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "Logo"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "f3cd9f1e-ef2e-42e9-b56a-b4791afd16da",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -494.1000061035156,
+                            "y": -259.0
+                        },
+                        "scale": {
+                            "x": 600.0,
+                            "y": 52.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 3,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                52.0,
+                                0.0
+                            ],
+                            [
+                                -494.1000061035156,
+                                -259.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "HowToPlayButton"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "d8e62573-6a74-489f-b619-09c8899d4c41",
+                        "menuState": 4,
+                        "isStoryButton": false,
+                        "isHowToPlayButton": true,
+                        "isQuitButton": false,
+                        "targetSceneName": "M4GameScene",
+                        "playAsChaos": false,
+                        "playAsOrder": false,
+                        "isSettingsButton": false
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 16,
+                        "firstChild": 0,
+                        "nextSibling": 7
+                    }
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.44999998807907107,
+                            "y": 0.4000000059604645
+                        },
+                        "scale": {
+                            "x": 0.05000000074505806,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 6,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                65.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                70.0,
+                                0.0
+                            ],
+                            [
+                                -9415.0,
+                                -9720.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "Close"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "adcb46ce-76eb-4068-97e2-fb4f29b63e06"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "15690e1f-f4cd-41ce-b7f3-c5b97a46fb7a",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 1,
+                    "AABBFloat": {
+                        "top": -9685.0,
+                        "bottom": -9755.0,
+                        "left": -9447.5,
+                        "right": -9382.5
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 10,
+                        "firstChild": 0,
+                        "nextSibling": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.44999998807907107,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 0.05000000074505806,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 6,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                65.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                70.0,
+                                0.0
+                            ],
+                            [
+                                -9415.0,
+                                -10000.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "Rightnav"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "cad5ae31-a8a7-403c-9506-e2c330b343e5",
+                        "isNextButton": true
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "9f1a757b-3528-45b1-b5bd-5fec0c899d3a",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 1,
+                    "AABBFloat": {
+                        "top": -9965.0,
+                        "bottom": -10035.0,
+                        "left": -9447.5,
+                        "right": -9382.5
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 10,
+                        "firstChild": 0,
+                        "nextSibling": 12
+                    }
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -10000.0,
+                            "y": -10000.0
+                        },
+                        "scale": {
+                            "x": 1300.0,
+                            "y": 700.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 5,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1300.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                700.0,
+                                0.0
+                            ],
+                            [
+                                -10000.0,
+                                -10000.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "StoryPanel"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "5b3f08d5-c932-4516-8759-a0080e81c8cd",
+                        "storyPage1": "6573c2df-0dd2-49f7-ac0c-32aee1b27f5f",
+                        "storyPage2": "20458881-42a9-49e1-bddc-38dd1f1f6992",
+                        "storyPage3": "7e9889e5-3950-48de-85e6-77c97a51f66f"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 0,
+                        "firstChild": 1,
+                        "nextSibling": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "generation": 0,
+            "name": "BGMManager",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "BGMManager"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "201954cb-0732-480f-ab2e-4fb0a062880d",
+                        "combat": "c2917b94-5404-48b1-a4ca-40595ed1e7e9",
+                        "combat_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": false
+                        }
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "BGMManager"
+                    }
+                },
+                {
+                    "componentID": 19,
+                    "AudioSource": {
+                        "audioAssetUUID": "0ff89171-8854-4dae-83cd-1d6b0a5f3ed2",
+                        "outputBus": 0,
+                        "playOnAwake": true,
+                        "isLooping": true,
+                        "isMuted": false,
+                        "volume": 1.0,
+                        "pitch": 1.0,
+                        "stereoPan": 0.0,
+                        "playbackCursor": 0,
+                        "justTriggered": false,
+                        "isPlaying": false,
+                        "isPaused": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.44999998807907107,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 0.05000000074505806,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 6,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                65.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                70.0,
+                                0.0
+                            ],
+                            [
+                                -10585.0,
+                                -10000.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "Leftnav"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "cad5ae31-a8a7-403c-9506-e2c330b343e5",
+                        "isNextButton": false
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "daab1d28-7ae4-4c63-a385-c9edc9f1203c",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 1,
+                    "AABBFloat": {
+                        "top": -9965.0,
+                        "bottom": -10035.0,
+                        "left": -10617.5,
+                        "right": -10552.5
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 10,
+                        "firstChild": 0,
+                        "nextSibling": 11
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -494.1000061035156,
+                            "y": -133.0
+                        },
+                        "scale": {
+                            "x": 600.0,
+                            "y": 52.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 3,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                52.0,
+                                0.0
+                            ],
+                            [
+                                -494.1000061035156,
+                                -133.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PlayOrderButton"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "d8e62573-6a74-489f-b619-09c8899d4c41",
+                        "menuState": 2,
+                        "isStoryButton": false,
+                        "isHowToPlayButton": false,
+                        "isQuitButton": false,
+                        "targetSceneName": "M5GameScene",
+                        "playAsChaos": false,
+                        "playAsOrder": true,
+                        "isSettingsButton": false
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 16,
+                        "firstChild": 0,
+                        "nextSibling": 5
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -494.1000061035156,
+                            "y": -385.0
+                        },
+                        "scale": {
+                            "x": 600.0,
+                            "y": 52.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 3,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                52.0,
+                                0.0
+                            ],
+                            [
+                                -494.1000061035156,
+                                -385.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "QuitButton"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "d8e62573-6a74-489f-b619-09c8899d4c41",
+                        "menuState": 6,
+                        "isStoryButton": false,
+                        "isHowToPlayButton": false,
+                        "isQuitButton": true,
+                        "targetSceneName": "M4GameScene",
+                        "playAsChaos": false,
+                        "playAsOrder": false,
+                        "isSettingsButton": false
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 16,
+                        "firstChild": 0,
+                        "nextSibling": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 900.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 0,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                900.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "BG"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "5ad8194a-cf54-4f97-94e8-b9e395503bf5",
+                        "orderSprite": "38752560-2115-4530-87eb-4eadfab24d1c",
+                        "plainSprite": "08186c3f-a254-4c81-a5c1-2d93c583c628",
+                        "chaosSprite": "b80506cc-a86b-48e5-b873-325e17d9825f",
+                        "storySprite": "bc18e37b-f3d1-476d-b1b5-242274ac3db6",
+                        "settingsSprite": "b840bf18-5cbf-4f4c-a8f4-d70b21f50668",
+                        "quitSprite": "d39b4d48-7d9d-4304-bb86-a895c15b507e",
+                        "howToSprite": "e9d4454d-6fef-4863-8c5a-e490a0d0c089"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "08186c3f-a254-4c81-a5c1-2d93c583c628",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -494.1000061035156,
+                            "y": -196.0
+                        },
+                        "scale": {
+                            "x": 600.0,
+                            "y": 52.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 3,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                52.0,
+                                0.0
+                            ],
+                            [
+                                -494.1000061035156,
+                                -196.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PlayChaosButton"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "d8e62573-6a74-489f-b619-09c8899d4c41",
+                        "menuState": 3,
+                        "isStoryButton": false,
+                        "isHowToPlayButton": false,
+                        "isQuitButton": false,
+                        "targetSceneName": "M5GameScene",
+                        "playAsChaos": true,
+                        "playAsOrder": false,
+                        "isSettingsButton": false
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 16,
+                        "firstChild": 0,
+                        "nextSibling": 13
+                    }
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -494.1000061035156,
+                            "y": -72.0
+                        },
+                        "scale": {
+                            "x": 600.0,
+                            "y": 52.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 3,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                52.0,
+                                0.0
+                            ],
+                            [
+                                -494.1000061035156,
+                                -72.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "StoryButton"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "d8e62573-6a74-489f-b619-09c8899d4c41",
+                        "menuState": 1,
+                        "isStoryButton": true,
+                        "isHowToPlayButton": false,
+                        "isQuitButton": false,
+                        "targetSceneName": "MyScene",
+                        "playAsChaos": false,
+                        "playAsOrder": false,
+                        "isSettingsButton": false
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 16,
+                        "firstChild": 0,
+                        "nextSibling": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -494.1000061035156,
+                            "y": -322.0
+                        },
+                        "scale": {
+                            "x": 600.0,
+                            "y": 52.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 3,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                52.0,
+                                0.0
+                            ],
+                            [
+                                -494.1000061035156,
+                                -322.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "SettingsButton"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "d8e62573-6a74-489f-b619-09c8899d4c41",
+                        "menuState": 5,
+                        "isStoryButton": false,
+                        "isHowToPlayButton": false,
+                        "isQuitButton": false,
+                        "targetSceneName": "M4GameScene",
+                        "playAsChaos": false,
+                        "playAsOrder": false,
+                        "isSettingsButton": true
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 16,
+                        "firstChild": 0,
+                        "nextSibling": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "generation": 0,
+            "name": "SFXManager",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "SFXManager"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "f9feb20c-3e6d-42c7-bbed-050c35489f8c",
+                        "uiAbilityInvalid": "29b83519-d218-4166-8198-7d65ac432c5f",
+                        "uiAbilityInvalid_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animTirion1": "3627aa81-e824-4a7e-8636-84391aac8b1a",
+                        "animTirion1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxVizomA1Attack": "fcb9d8cc-03af-4389-960a-0e3735e198ef",
+                        "vfxVizomA1Attack_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animVizom2": "ddea5597-3c7a-46e8-8e00-1b192bf9f610",
+                        "animVizom2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxVizomA2TrapHit": "b45fb2cd-0e6c-4c9c-818d-8c2b14ae5ad2",
+                        "vfxVizomA2TrapHit_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "gridHoverTile": "f90892d6-f59d-4e7f-a668-aa8f50836e9f",
+                        "gridHoverTile_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatUnitHit1": "8e665fcc-9259-4f48-8058-e1786c66f556",
+                        "combatUnitHit1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "gridConfirmTile": "f2f8c90d-2131-4d7b-b30a-a1f977892202",
+                        "gridConfirmTile_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "mainMenuHoverChaos": "db7b2d80-d127-494b-adb0-b401b636325b",
+                        "mainMenuHoverChaos_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "gridPickup": "6c0fa754-2faf-4e9f-9512-725686410fac",
+                        "gridPickup_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderLowHPPlan1": "3024dc25-0252-46f2-ba96-93ec94c15d1a",
+                        "announcerOrderLowHPPlan1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitTirionCry": "3627aa81-e824-4a7e-8636-84391aac8b1a",
+                        "unitTirionCry_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "gridPlaceGrid": "60d3f8c9-3a94-4175-8e0b-5e41fe9b33c5",
+                        "gridPlaceGrid_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderDeploy2": "9b26a6e4-6ea9-4160-9aa0-21d6e2f68f6b",
+                        "announcerOrderDeploy2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxGeneric1": "",
+                        "vfxGeneric1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": false
+                        },
+                        "vfxEyeA2": "b94bb948-2ffa-4e28-baee-c38b4907c846",
+                        "vfxEyeA2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "uiAbilityValid": "306345a3-d116-43b8-a01a-3a2dc316c441",
+                        "uiAbilityValid_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxWyvernFeatherWind": "ab7a295e-3911-4001-8e3d-3ecf32472676",
+                        "vfxWyvernFeatherWind_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "uiEndTurn": "b7bea3fd-aeb7-458f-862e-da317d33b498",
+                        "uiEndTurn_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "mainMenuClick": "3a7e259a-74a3-4447-9142-1e2ba05d1091",
+                        "mainMenuClick_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatNoAP": "05f0562b-337d-4925-8d9d-74c8749d73e5",
+                        "combatNoAP_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "mainMenuHoverBling": "64d246c5-1edb-4989-8dd9-6e77c48de085",
+                        "mainMenuHoverBling_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitImpCry": "eaea8437-1eb4-4200-9ceb-5ae90b547807",
+                        "unitImpCry_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "mainMenuHoverOrder": "18f4810f-1586-4b80-b961-f91c69f9c2b1",
+                        "mainMenuHoverOrder_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderResolution2": "74a0e32c-b0cc-4926-bab0-4c1b54705b5b",
+                        "announcerOrderResolution2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderDeploy3": "870ddd08-1146-47f8-b954-39152412a8de",
+                        "announcerOrderDeploy3_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxImpA2": "ab3529d8-0f70-42f4-b675-6bdb93af091d",
+                        "vfxImpA2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitEyeCry": "e5bda204-d2d4-4344-b425-9ad0fbf6e91d",
+                        "unitEyeCry_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitEyeMove": "2e27c541-b456-4b5f-b910-7a359eb10f3c",
+                        "unitEyeMove_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderPlan1": "f58d8eb1-5d6c-45a0-9b0b-6a4478436e9b",
+                        "announcerOrderPlan1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitImpMove": "c8458273-1672-4c69-94f5-eb576ed8e563",
+                        "unitImpMove_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitOracleCry": "af2a8ed4-253b-43fe-8914-925b259cc533",
+                        "unitOracleCry_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitOracleMove": "36cb66c4-273b-408f-84d7-4c8802b4d22a",
+                        "unitOracleMove_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxWyvernA1": "8bf0aaeb-0d5e-436b-a8a6-6fad7aeaa7fc",
+                        "vfxWyvernA1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitWyvernCry": "f2e33fd1-2b91-4fcf-bb25-6520e7f0af56",
+                        "unitWyvernCry_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatOrderWin": "6e053fdf-917e-414f-96d5-79685d3545a8",
+                        "combatOrderWin_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitWyvernMove": "4b1d1227-156d-4c66-9a58-656479f9fb22",
+                        "unitWyvernMove_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderResolution1": "84e6984f-5c6c-4f40-bd9f-d9a933261a58",
+                        "announcerOrderResolution1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatTileCrack": "",
+                        "combatTileCrack_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": false
+                        },
+                        "vfxImpA1": "cf918619-ae99-4450-bf65-1b27b87b90ea",
+                        "vfxImpA1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderDeploy1": "b827931a-1755-4b1b-bf52-83dd005efdcc",
+                        "announcerOrderDeploy1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxEyeA1": "5a7c856d-6f81-4623-8c05-0c37cd423712",
+                        "vfxEyeA1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxOracleA1": "1d5d33b2-3c3a-4716-9de9-4c79ddafcf52",
+                        "vfxOracleA1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxOracleA2": "831cec6a-ae54-49aa-9ad7-8e5673328555",
+                        "vfxOracleA2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerDraw": "5de20714-1154-48f2-8326-ac3b309a775c",
+                        "announcerDraw_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animWyvern1": "0ca8c5e1-b264-4e73-99f2-67cafa53975d",
+                        "animWyvern1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animWyvern2": "a71552de-ab7c-450d-ab79-f9a0fd89fb8e",
+                        "animWyvern2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animImp1": "06f6b3ee-e796-4e9f-892a-d2ef2b8d5295",
+                        "animImp1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animImp2": "e88e5147-8645-4617-8363-78cdb116b913",
+                        "animImp2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animEye1": "5463394d-4704-4ccf-8b21-8c24ac8cdcf2",
+                        "animEye1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animEye2": "3b110e55-fc17-416e-ab2a-4c533f675023",
+                        "animEye2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animOracle1": "9087d1e1-d484-4ddc-907c-5c6fa6a47e57",
+                        "animOracle1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animOracle2": "610cec96-a0f7-441e-8b4f-a05a0e25d755",
+                        "animOracle2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animTirion2": "9c41e71f-19e5-438c-a99a-9e1b7d932729",
+                        "animTirion2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "animVizom1": "30f329b5-73e8-4009-9185-c061b7ba68f9",
+                        "animVizom1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatUnitHit3": "4b586ce4-5e74-46c4-9dc3-a097f509f8b9",
+                        "combatUnitHit3_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatChangeGrid": "e8d20a1e-e391-4e2e-bcc6-f871f92f65dd",
+                        "combatChangeGrid_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatTileDeselect": "3c2adba8-3276-453d-81db-39abedc537cc",
+                        "combatTileDeselect_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatAnimPreviewOpen": "b8726028-992e-4a45-90f7-d15703cc36aa",
+                        "combatAnimPreviewOpen_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatEndTurnTimerLow": "1abdfbef-7e5e-4900-97c0-6bc485770bb9",
+                        "combatEndTurnTimerLow_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatChaosWin": "617baad7-4173-4fe8-9cae-eae325dda80b",
+                        "combatChaosWin_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatDraw": "5de20714-1154-48f2-8326-ac3b309a775c",
+                        "combatDraw_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatUnitHit2": "e561a9d4-d762-4597-8e79-0dd1210d625b",
+                        "combatUnitHit2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "combatTileDestroyed": "7cafa3fe-f61b-4bea-a62b-eb38ff9f6049",
+                        "combatTileDestroyed_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderPlan2": "1a85403f-4052-484d-b1c0-32e9502fb847",
+                        "announcerOrderPlan2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderPlan3": "a88705ba-be7a-4780-8534-33dda8ef3286",
+                        "announcerOrderPlan3_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderLowHPPlan2": "241660f8-b7e1-4bc3-8d06-9b453bd52651",
+                        "announcerOrderLowHPPlan2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxTirionA2TrapHit": "ee69bc05-c199-4f01-b460-5356517335ad",
+                        "vfxTirionA2TrapHit_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderResolution3": "8c67a04d-439c-4ee3-8e8e-ff3e50fe2311",
+                        "announcerOrderResolution3_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerOrderWins": "6e053fdf-917e-414f-96d5-79685d3545a8",
+                        "announcerOrderWins_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosDeploy1": "c6c2f392-df08-487d-a4f9-08cf4b69d118",
+                        "announcerChaosDeploy1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosDeploy2": "5730b9e6-db9e-4510-a2ba-baf0be923360",
+                        "announcerChaosDeploy2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosDeploy3": "95f609ed-71ec-44ba-8a6d-6b7cc0da963d",
+                        "announcerChaosDeploy3_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosPlan1": "1818a96e-0dbc-4cbe-916d-eb09a50f6827",
+                        "announcerChaosPlan1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "uiMenuPauseOpen": "0a12768f-75c9-4b6e-8601-6f15b7f65360",
+                        "uiMenuPauseOpen_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosPlan2": "802dc539-608b-4d5d-bc1f-80e6ec37e2ef",
+                        "announcerChaosPlan2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosPlan3": "401a779e-da4a-4ba9-9bc9-0334a08af4bc",
+                        "announcerChaosPlan3_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosLowHPPlan1": "a03ae3c0-3470-463d-ade8-ff88ef149f2d",
+                        "announcerChaosLowHPPlan1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosLowHPPlan2": "7c3491ad-27e1-420e-86ae-35f34e20aec2",
+                        "announcerChaosLowHPPlan2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosResolution1": "3e83cde1-1d19-4eab-b40c-1e3a76b65be5",
+                        "announcerChaosResolution1_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosResolution2": "bfa5e767-7601-4a82-aae3-4198b7487e74",
+                        "announcerChaosResolution2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosResolution3": "8bd06ee4-58e3-4e3f-ba05-17c848985740",
+                        "announcerChaosResolution3_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "announcerChaosWins": "617baad7-4173-4fe8-9cae-eae325dda80b",
+                        "announcerChaosWins_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitTirionMove": "33db4cd3-707c-4bfc-bd29-1779375637f8",
+                        "unitTirionMove_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitVizomCry": "30f329b5-73e8-4009-9185-c061b7ba68f9",
+                        "unitVizomCry_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "unitVizomMove": "33db4cd3-707c-4bfc-bd29-1779375637f8",
+                        "unitVizomMove_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxWyvernA2": "88f5de37-4aef-48b6-bb65-770c6aed0286",
+                        "vfxWyvernA2_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxWyvernFeatherSlash": "c9baff8a-1535-4b42-bf66-19fa05ade780",
+                        "vfxWyvernFeatherSlash_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        },
+                        "vfxTirionA1Attack": "e3ebe999-3715-49d8-87c9-14a65d876a50",
+                        "vfxTirionA1Attack_config": {
+                            "volume": 1.0,
+                            "pitch": 1.0,
+                            "loop": false,
+                            "oneShot": true
+                        }
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "SFXManager"
+                    }
+                },
+                {
+                    "componentID": 19,
+                    "AudioSource": {
+                        "audioAssetUUID": "",
+                        "outputBus": 0,
+                        "playOnAwake": false,
+                        "isLooping": false,
+                        "isMuted": false,
+                        "volume": 1.0,
+                        "pitch": 1.0,
+                        "stereoPan": 0.0,
+                        "playbackCursor": 0,
+                        "justTriggered": false,
+                        "isPlaying": false,
+                        "isPaused": false
+                    }
+                }
+            ]
+        }
+    ]
+}

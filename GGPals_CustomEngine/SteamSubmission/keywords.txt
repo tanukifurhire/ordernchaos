@@ -1,0 +1,71 @@
+ORDER N CHAOS - KEYWORDS
+
+Genre
+    turn-based
+    turn-based tactics
+    turn-based strategy
+    tactical
+    strategy
+    grid-based
+    squad tactics
+    tactical RPG
+    board game
+    tabletop-inspired
+
+Core mechanics
+    simultaneous turns
+    simultaneous turn resolution
+    hidden information
+    blind planning
+    mind games
+    bluffing
+    prediction
+    unit positioning
+    action points
+    turn timer
+    status effects
+    destructible terrain
+    loadout
+    loadout drafting
+    ability customization
+    team building
+    artillery duel
+
+Multiplayer
+    PvP
+    1v1
+    duel
+    multiplayer
+    online multiplayer
+    online PvP
+    local multiplayer
+    pass and play
+    hotseat
+    shared screen
+    two player
+    competitive
+    skill-based
+
+Setting and style
+    fantasy
+    dark fantasy
+    magic
+    demons
+    knights
+    good vs evil
+    faction warfare
+    Order
+    Chaos
+    anime
+    stylized
+    hand-drawn
+    2D
+    colorful
+
+Other
+    indie
+    short sessions
+    quick matches
+    easy to learn hard to master
+    student game
+    DigiPen

@@ -1,0 +1,76 @@
+{
+    "sceneName": "NetworkGame\\M5\\M5NetworkServer",
+    "entities": [
+        {
+            "id": 1,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "GameServer"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "bc26906c-2f6f-4dbb-9ab5-1b4ff612f658"
+                    }
+                },
+                {
+                    "componentID": 18,
+                    "GridComponent": {
+                        "gridSizeX": 6,
+                        "gridSizeY": 4
+                    }
+                },
+                {
+                    "componentID": 20,
+                    "TilemapComponent": {
+                        "tilemapAssetUUID": "44a0f37d-b37f-4893-8de0-8d2c7987e21a",
+                        "perspectiveFactor": 0.20000000298023225
+                    }
+                }
+            ]
+        }
+    ]
+}

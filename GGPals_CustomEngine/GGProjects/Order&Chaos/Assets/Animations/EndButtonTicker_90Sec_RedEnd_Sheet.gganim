@@ -1,0 +1,39 @@
+{
+    "anims": [
+        {
+            "textureAssetUUID": "1cba7102-bcbf-4ab7-b65a-333f951f3366",
+            "animFPS": 5.0,
+            "spritesPerRow": 23,
+            "numRows": 20,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.043478261679410937,
+                "tMax": 0.05000000074505806
+            },
+            "animStates": [
+                {
+                    "stateName": "Ticking",
+                    "startIndex": 0,
+                    "endIndex": 452,
+                    "shouldLoop": false,
+                    "events": [
+                        {
+                            "name": "OnVFXAnimationTransition",
+                            "frame": 13
+                        },
+                        {
+                            "name": "OnVFXAnimationFinished"
+                        }
+                    ]
+                },
+                {
+                    "stateName": "End",
+                    "startIndex": 452,
+                    "endIndex": 452,
+                    "shouldLoop": true
+                }
+            ]
+        }
+    ]
+}

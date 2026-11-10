@@ -1,0 +1,555 @@
+{
+    "mapName": "M3Tile",
+    "tileSize": 0.800000011920929,
+    "layers": [
+        {
+            "layerName": "Ground",
+            "isVisible": true,
+            "isLocked": false,
+            "tiles": [
+                [
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    }
+                ],
+                [
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    }
+                ],
+                [
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    }
+                ],
+                [
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Tile.png",
+                        "textureAssetUUID": "654c3f1a-3030-4f8e-9040-06205c546c76",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "layerName": "Crossfade Overlays",
+            "isVisible": true,
+            "isLocked": false,
+            "tiles": [
+                [
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    }
+                ],
+                [
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    }
+                ],
+                [
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    }
+                ],
+                [
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "layerName": "Crosshairs And Borders",
+            "isVisible": true,
+            "isLocked": false,
+            "tiles": [
+                [
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    }
+                ],
+                [
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    }
+                ],
+                [
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    }
+                ],
+                [
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    },
+                    {
+                        "spritePath": "Textures\\Empty.png",
+                        "textureAssetUUID": "0c3a2ef9-9627-48a5-ad83-2b46d869cdfc",
+                        "isDestructible": false,
+                        "tileType": 1,
+                        "variation": 0
+                    }
+                ]
+            ]
+        }
+    ]
+}

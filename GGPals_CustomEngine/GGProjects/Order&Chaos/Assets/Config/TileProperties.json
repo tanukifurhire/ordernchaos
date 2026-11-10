@@ -1,0 +1,97 @@
+{
+  "tileTypes": [
+    {
+      "tileTypeId": 0,
+      "name": "Empty",
+      "description": "Empty tile - walkable space with no obstacles",
+      "isWalkable": true,
+      "blocksVision": false,
+      "coverValue": 0.0,
+      "movementCost": 1.0,
+      "isDestructible": false,
+      "defaultSpritePath": ""
+    },
+    {
+      "tileTypeId": 1,
+      "name": "Wall",
+      "description": "Solid wall - blocks movement and vision",
+      "isWalkable": false,
+      "blocksVision": true,
+      "coverValue": 1.0,
+      "movementCost": 999.0,
+      "isDestructible": false,
+      "defaultSpritePath": "Textures/Brick_Wall.png"
+    },
+    {
+      "tileTypeId": 2,
+      "name": "Low Cover",
+      "description": "Low cover - walkable but provides partial protection",
+      "isWalkable": true,
+      "blocksVision": false,
+      "coverValue": 0.3,
+      "movementCost": 1.2,
+      "isDestructible": true,
+      "defaultSpritePath": ""
+    },
+    {
+      "tileTypeId": 3,
+      "name": "High Cover",
+      "description": "High cover - walkable, provides significant protection",
+      "isWalkable": true,
+      "blocksVision": false,
+      "coverValue": 0.7,
+      "movementCost": 1.5,
+      "isDestructible": true,
+      "defaultSpritePath": ""
+    },
+    {
+      "tileTypeId": 4,
+      "name": "Destructible Wall",
+      "description": "Destructible wall - blocks movement/vision until destroyed",
+      "isWalkable": false,
+      "blocksVision": true,
+      "coverValue": 1.0,
+      "movementCost": 999.0,
+      "isDestructible": true,
+      "defaultSpritePath": ""
+    },
+    {
+      "tileTypeId": 5,
+      "name": "Slow Terrain",
+      "description": "Difficult terrain - walkable but slows movement",
+      "isWalkable": true,
+      "blocksVision": false,
+      "coverValue": 0.0,
+      "movementCost": 2.0,
+      "isDestructible": false,
+      "defaultSpritePath": ""
+    },
+    {
+      "tileTypeId": 6,
+      "name": "Window",
+      "description": "Window - blocks movement but allows vision",
+      "isWalkable": false,
+      "blocksVision": false,
+      "coverValue": 0.5,
+      "movementCost": 999.0,
+      "isDestructible": true,
+      "defaultSpritePath": ""
+    }
+  ],
+  
+  "_comment_adding_properties": "To add new gameplay properties: (1) Add field to each tileType entry above, (2) Add corresponding member to TileTypeProperties struct in TilePropertiesConfig.hpp, (3) Update LoadFromFile() deserialization in TilePropertiesConfig.cpp to read the new field, (4) Use the new property in your gameplay systems (GGGrid, pathfinding, etc.)",
+  
+  "_comment_adding_types": "To add new tile types: Copy an existing tileType object, increment tileTypeId, modify properties as needed. The tileTypeId must match the tileType value used in GGTileData.",
+  
+  "_comment_property_meanings": {
+    "tileTypeId": "Unique integer ID matching GGTileData.tileType. Used to look up properties at runtime.",
+    "name": "Human-readable name displayed in editor",
+    "description": "Detailed explanation of tile behavior",
+    "isWalkable": "Can units move through this tile? (pathfinding)",
+    "blocksVision": "Does this tile block line of sight? (fog of war)",
+    "coverValue": "Defense bonus (0.0 = no cover, 1.0 = full cover). Higher values reduce damage.",
+    "movementCost": "Multiplier for movement points. 1.0 = normal, 2.0 = double cost, 999.0 = impassable.",
+    "isDestructible": "Can this tile be destroyed by attacks?",
+    "defaultSpritePath": "Default texture for this tile type (can be overridden per-tile)"
+  }
+}

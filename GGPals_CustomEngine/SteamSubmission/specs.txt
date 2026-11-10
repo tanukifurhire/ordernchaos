@@ -1,0 +1,66 @@
+ORDER N CHAOS - COMPUTER REQUIREMENTS
+
+Is the game 64 bit only?    YES
+                            Order N Chaos ships as a 64-bit Windows
+                            executable only. There is no 32-bit build.
+
+--------------------------------------------------------------------------
+MINIMUM
+--------------------------------------------------------------------------
+
+    OS              Windows 10 64-bit
+
+    Processor       Dual-core 2.4 GHz
+                    (Intel Core i3-4130 / AMD FX-4300 or equivalent)
+
+    Memory          4 GB RAM
+
+    Graphics        Dedicated or integrated GPU with OpenGL 4.5 core profile
+                    support and 1 GB VRAM
+                    (Intel HD Graphics 520 / NVIDIA GeForce GT 730 /
+                    AMD Radeon R7 250 or equivalent)
+
+    Storage         1 GB available space
+
+    Sound Card      Any Windows-compatible sound device (optional)
+
+    Network         Broadband internet connection required for online
+                    multiplayer. The Steam client must be running.
+
+--------------------------------------------------------------------------
+RECOMMENDED
+--------------------------------------------------------------------------
+
+    OS              Windows 11 64-bit
+
+    Processor       Quad-core 3.0 GHz
+                    (Intel Core i5-8400 / AMD Ryzen 5 2600 or equivalent)
+
+    Memory          8 GB RAM
+
+    Graphics        NVIDIA GeForce GTX 1050 / AMD Radeon RX 560 or better
+                    with 2 GB VRAM
+
+    Storage         2 GB available space
+
+    Sound Card      Any Windows-compatible sound device (optional)
+
+    Network         Broadband internet connection required for online
+                    multiplayer. The Steam client must be running.
+
+--------------------------------------------------------------------------
+ADDITIONAL NOTES
+--------------------------------------------------------------------------
+
+    * OpenGL 4.5 with core profile is a hard requirement. The renderer
+      requests a 4.5 core context at start-up and its shaders are written
+      against GLSL 450, so the game will not start on a GPU or driver that
+      cannot provide one.
+
+    * The game runs fullscreen at 1920x1080 and the window is not resizable,
+      so a display capable of 1920x1080 is required.
+
+    * The frame rate is capped at 60 FPS.
+
+    * Storage figures cover the executable, the FMOD, LuaJIT and Steam API
+      runtime libraries, and roughly 400 MB of game assets.

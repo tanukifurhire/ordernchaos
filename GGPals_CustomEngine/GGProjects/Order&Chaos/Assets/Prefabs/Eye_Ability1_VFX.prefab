@@ -1,0 +1,130 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "Eye_Ability1_VFX",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 1.0,
+                            "y": 10.0
+                        },
+                        "scale": {
+                            "x": 4.0,
+                            "y": 4.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                4.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                4.0,
+                                0.0
+                            ],
+                            [
+                                1.0,
+                                10.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "Eye_Ability1_VFX"
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "Eye_Ability1_VFX"
+                    }
+                },
+                {
+                    "componentID": 10,
+                    "SpriteAnimator": {
+                        "animationAssetUUID": "123f2ead-73f0-48fb-a4ca-3d0a48365aec"
+                    }
+                },
+                {
+                    "componentID": 2,
+                    "MeshRenderer": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 0
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "75d4fd0d-d1d4-418f-be4d-772ce84a3855",
+                        "textureUVBounds": {
+                            "x": 0.125,
+                            "y": 0.0,
+                            "z": 0.25,
+                            "w": 0.25
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "afc00423-ad39-4c28-b868-dc3496570aa4"
+                    }
+                }
+            ]
+        }
+    ]
+}

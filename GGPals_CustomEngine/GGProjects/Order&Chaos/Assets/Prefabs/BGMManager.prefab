@@ -1,0 +1,84 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "BGMManager",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "BGMManager"
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "BGMManager"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "201954cb-0732-480f-ab2e-4fb0a062880d",
+                        "combat": "c2917b94-5404-48b1-a4ca-40595ed1e7e9"
+                    }
+                },
+                {
+                    "componentID": 19,
+                    "AudioSource": {
+                        "audioAssetUUID": "c2917b94-5404-48b1-a4ca-40595ed1e7e9",
+                        "outputBus": 0,
+                        "playOnAwake": true,
+                        "isLooping": true,
+                        "isMuted": false,
+                        "volume": 1.0,
+                        "pitch": 1.0,
+                        "stereoPan": 0.0,
+                        "playbackCursor": 0,
+                        "justTriggered": false,
+                        "isPlaying": false,
+                        "isPaused": false
+                    }
+                }
+            ]
+        }
+    ]
+}

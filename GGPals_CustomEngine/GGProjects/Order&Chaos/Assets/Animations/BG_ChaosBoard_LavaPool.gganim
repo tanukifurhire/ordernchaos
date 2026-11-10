@@ -1,0 +1,24 @@
+{
+    "anims": [
+        {
+            "textureAssetUUID": "eb989880-82eb-4253-afea-4c01839446a8",
+            "animFPS": 12.0,
+            "spritesPerRow": 8,
+            "numRows": 3,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.125,
+                "tMax": 0.3333333432674408
+            },
+            "animStates": [
+                {
+                    "stateName": "Idle",
+                    "startIndex": 0,
+                    "endIndex": 23,
+                    "shouldLoop": true
+                }
+            ]
+        }
+    ]
+}

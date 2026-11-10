@@ -1,0 +1,45 @@
+ORDER N CHAOS - DESCRIPTION
+
+Order N Chaos is a turn-based tactical duel fought across two grids at once.
+
+In the world of Oudain, humanity harvested the spiritual energy lingering in
+places heavy with memory, and gave form to the myths it found there. Every
+harvest came at a cost. The drained places soured, corrupting whatever they
+touched into something sinister, and humanity gave the result a name: Chaos.
+The survivors raised floating fortresses called Skycastles above the ruined
+land. Chaos seized what it could reach and twisted them into Dreadcastles.
+From those fortresses the two sides now bombard each other across the sky.
+
+You command three champions on your own six-by-four grid while your opponent
+commands theirs. Each turn, both players plan at the same time and under a
+timer, spending action points to move units and queue abilities onto tiles of
+the enemy board. Nothing resolves until both sides lock in. Then the resolution
+phase plays out every queued action in order, and you find out whether you read
+your opponent correctly or spent the turn shelling ground they had already left.
+
+Where your units stand matters as much as what they cast. Every ability demands
+a number of red and blue tiles held by your own units, so positioning is what
+unlocks your arsenal. Tiles crack and break as they take fire, and a board you
+have been bombarding all match eventually stops supporting the abilities that
+depend on it. Before deployment you build each unit's loadout from its signature
+abilities, a pool of shared generics, and a passive, then take that squad into a
+duel where a burn, a shield or a well-timed recast decides the exchange.
+
+FEATURES
+
+* Simultaneous turns - both players plan blind against a ninety-second timer,
+  then watch every queued move and ability resolve together in sequence.
+
+* Two factions, six champions - Dragoon, Oracle and Tirion fight for Order;
+  Imp, Eye and Vizom for Chaos. Each brings two signature abilities, a passive,
+  and status effects such as Burn, Bleed, Shield, Fervor, Wrath and Berserk.
+
+* Positional casting on a breakable board - abilities are gated by the red and
+  blue tiles your units occupy, and the tiles themselves degrade under fire.
+
+* Pre-match loadout drafting - assign two active abilities and one passive to
+  every unit before deployment, and build a squad around how you like to play.
+
+* Two ways to duel - online 1v1 matchmaking through Steam, or shared-screen
+  pass-and-play on a single machine, with a guided interactive tutorial to learn
+  the flow of a turn.

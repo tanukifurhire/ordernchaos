@@ -1,0 +1,125 @@
+{
+    "anims": [
+        {
+            "textureAssetUUID": "86ed7b74-383c-4583-82f0-19d8960f196f",
+            "animFPS": 12.0,
+            "spritesPerRow": 12,
+            "numRows": 9,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.0833333358168602,
+                "tMax": 0.1111111119389534
+            },
+            "animStates": [
+                {
+                    "stateName": "Dragoon_Idle",
+                    "startIndex": 0,
+                    "endIndex": 11,
+                    "shouldLoop": true
+                },
+                {
+                    "stateName": "Oracle_Idle",
+                    "startIndex": 108,
+                    "endIndex": 113,
+                    "shouldLoop": true
+                },
+                {
+                    "stateName": "Tirion_Idle",
+                    "startIndex": 240,
+                    "endIndex": 245,
+                    "shouldLoop": true
+                },
+                {
+                    "stateName": "Vizom_Idle",
+                    "startIndex": 324,
+                    "endIndex": 329,
+                    "shouldLoop": true
+                },
+                {
+                    "stateName": "Imp_Idle",
+                    "startIndex": 408,
+                    "endIndex": 413,
+                    "shouldLoop": true
+                },
+                {
+                    "stateName": "Eye_Idle",
+                    "startIndex": 540,
+                    "endIndex": 554,
+                    "shouldLoop": true
+                },
+                {
+                    "stateName": "None_Idle",
+                    "startIndex": 568,
+                    "endIndex": 569,
+                    "shouldLoop": true
+                }
+            ]
+        },
+        {
+            "textureAssetUUID": "8e25be8b-dd1e-4333-98e7-f1e5986b887f",
+            "animFPS": 12.0,
+            "spritesPerRow": 12,
+            "numRows": 11,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.0833333358168602,
+                "tMax": 0.09090909361839295
+            },
+            "animStates": []
+        },
+        {
+            "textureAssetUUID": "405314f6-fc00-476d-8494-3a934716f7b2",
+            "animFPS": 12.0,
+            "spritesPerRow": 12,
+            "numRows": 7,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.0833333358168602,
+                "tMax": 0.1428571492433548
+            },
+            "animStates": []
+        },
+        {
+            "textureAssetUUID": "8c4a68f7-d3af-434c-b9aa-7b313ddf8d84",
+            "animFPS": 12.0,
+            "spritesPerRow": 12,
+            "numRows": 7,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.0833333358168602,
+                "tMax": 0.1428571492433548
+            },
+            "animStates": []
+        },
+        {
+            "textureAssetUUID": "edcab7ce-7947-4210-b638-e712b7da2778",
+            "animFPS": 12.0,
+            "spritesPerRow": 12,
+            "numRows": 11,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.0833333358168602,
+                "tMax": 0.09090909361839295
+            },
+            "animStates": []
+        },
+        {
+            "textureAssetUUID": "3f4f9c4b-9ff1-4a35-a133-6d264a8665ed",
+            "animFPS": 12.0,
+            "spritesPerRow": 12,
+            "numRows": 12,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.0833333358168602,
+                "tMax": 0.0833333358168602
+            },
+            "animStates": []
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 5,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.30000001192092898,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                37.599998474121097,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                24.0,
+                                0.0
+                            ],
+                            [
+                                24.0,
+                                -47.19999694824219,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": ""
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": ""
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045",
+                        "segmentIndex": 3,
+                        "abilityType": 7,
+                        "playerId": 1,
+                        "blueUnhighlight": "503f52cc-4b58-4517-a5cd-a009e777c33a",
+                        "redHighlight": "05dba81f-19e2-4f4d-9ee0-9a69d720b216",
+                        "redUnhighlight": "073f27f8-a570-4dc7-9388-5115b4b69bb4",
+                        "blueHighlight": "89e55403-8103-4a0b-9a54-e8239a71ad6b"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+ORDER N CHAOS - FEATURE SUPPORT
+
+Of the features on the permitted list, Order N Chaos supports NONE.
+
+    Captions                    No
+    Steam Achievements          No
+    Steam Workshop              No
+    Steam Cloud                 No
+    Stats                       No
+    Steam Leaderboards          No
+    Async Game Notifications    No
+    Built with Source SDK       No  (built on GGEngine, our own C++ engine)
+    Developer Commentary        No
+
+Note for the IP committee:
+
+The game does use the Steamworks SDK, but only for matchmaking and networking:
+Steam lobbies for the online server browser and Steam Networking Sockets for
+the peer-to-peer game connection. Neither of those is an item on the list
+above, so nothing on the list should be ticked.

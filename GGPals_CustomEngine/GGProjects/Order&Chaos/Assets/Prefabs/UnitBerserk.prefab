@@ -1,0 +1,214 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "UnitBerserk",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 1.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 2,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 35.0,
+                            "y": 10.0
+                        },
+                        "scale": {
+                            "x": 30.0,
+                            "y": 30.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                30.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                30.0,
+                                0.0
+                            ],
+                            [
+                                35.0,
+                                10.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "UnitBerserk"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "UnitBerserk"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "ea7d1026-d392-4a31-87ff-bc9c8c224060",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "626ce403-3c2c-4849-9fcf-b6f1504a500f",
+                        "stackFontSize": 48,
+                        "stackFontAssetID": 1,
+                        "stackTextScaleY": 0.014999999664723874,
+                        "stackTextOffsetX": 0.5,
+                        "stackTextScaleX": 0.014999999664723874,
+                        "stackTextOffsetY": -0.5,
+                        "blinkMinAlpha": 0.3499999940395355,
+                        "blinkMaxAlpha": 1,
+                        "blinkSpeed": 8,
+                        "statusType": 11
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "StackText",
+            "prefabParentName": "UnitBerserk",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.5,
+                            "y": -0.5
+                        },
+                        "scale": {
+                            "x": 0.014999999664723874,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 22,
+                    "TextComponent": {
+                        "text": "1",
+                        "fontAssetUUID": "7c889e82-ae11-4ccf-875d-4f8012fb125e",
+                        "shaderAssetUUID": "",
+                        "fontSize": 48,
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "layer": 0,
+                        "ySort": false,
+                        "visible": true,
+                        "alignment": 0,
+                        "verticalAlignment": 3,
+                        "maxWidth": 0.0,
+                        "lineSpacing": 1.200000047683716
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                0.44999998807907107,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                30.0,
+                                0.0
+                            ],
+                            [
+                                50.0,
+                                -5.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "StackText"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "StackText"
+                    }
+                }
+            ]
+        }
+    ]
+}

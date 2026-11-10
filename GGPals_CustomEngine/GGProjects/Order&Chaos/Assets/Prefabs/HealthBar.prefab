@@ -1,0 +1,1148 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "HealthBar",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 360.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                360.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "HealthBar"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "HealthBar"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "PlayerNameRight",
+            "prefabParentName": "HealthBar",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 426.3999938964844,
+                            "y": 55.0
+                        },
+                        "scale": {
+                            "x": 0.4000000059604645,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                0.4000000059604645,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                426.3999938964844,
+                                415.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PlayerNameRight"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "PlayerNameRight"
+                    }
+                },
+                {
+                    "componentID": 22,
+                    "TextComponent": {
+                        "text": "Tanuki",
+                        "fontAssetUUID": "7c889e82-ae11-4ccf-875d-4f8012fb125e",
+                        "shaderAssetUUID": "",
+                        "fontSize": 48,
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "layer": 0,
+                        "ySort": false,
+                        "visible": true,
+                        "alignment": 0,
+                        "verticalAlignment": 3,
+                        "maxWidth": 0.0,
+                        "lineSpacing": 1.200000047683716
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "PlayerNameLeft",
+            "prefabParentName": "HealthBar",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -495.0,
+                            "y": 55.0
+                        },
+                        "scale": {
+                            "x": 0.4000000059604645,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                0.4000000059604645,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                -495.0,
+                                415.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PlayerNameLeft"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "PlayerNameLeft"
+                    }
+                },
+                {
+                    "componentID": 22,
+                    "TextComponent": {
+                        "text": "Tanuki",
+                        "fontAssetUUID": "7c889e82-ae11-4ccf-875d-4f8012fb125e",
+                        "shaderAssetUUID": "",
+                        "fontSize": 48,
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "layer": 0,
+                        "ySort": false,
+                        "visible": true,
+                        "alignment": 0,
+                        "verticalAlignment": 3,
+                        "maxWidth": 0.0,
+                        "lineSpacing": 1.200000047683716
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "HealthbarRightNumBG",
+            "prefabParentName": "HealthBar",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 1.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.8823529481887817
+                        },
+                        "ySort": false,
+                        "layer": -1,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 533.2999877929688,
+                            "y": 21.299999237060548
+                        },
+                        "scale": {
+                            "x": 115.0,
+                            "y": 100.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                115.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                100.0,
+                                0.0
+                            ],
+                            [
+                                533.2999877929688,
+                                381.2999877929688,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "HealthbarRightNumBG"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "e28d2553-7865-4a7c-91c2-309dbc2b9a63",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "bae54dc3-e4df-48c3-a677-50f9b4df996e",
+                        "hitShakeAmount": 5,
+                        "player": 2,
+                        "hitScale": 1.100000023841858,
+                        "hitShakeDuration": 0.30000001192092898
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "HealthbarRightNumBG"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "HealthbarLeftNumBG",
+            "prefabParentName": "HealthBar",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 1.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.8823529481887817
+                        },
+                        "ySort": false,
+                        "layer": -1,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -531.2000122070313,
+                            "y": 21.299999237060548
+                        },
+                        "scale": {
+                            "x": 115.0,
+                            "y": 100.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                115.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                100.0,
+                                0.0
+                            ],
+                            [
+                                -531.2000122070313,
+                                381.2999877929688,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "HealthbarLeftNumBG"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "e28d2553-7865-4a7c-91c2-309dbc2b9a63",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "bae54dc3-e4df-48c3-a677-50f9b4df996e",
+                        "hitShakeAmount": 5,
+                        "player": 1,
+                        "hitScale": 1.100000023841858,
+                        "hitShakeDuration": 0.30000001192092898
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "HealthbarLeftNumBG"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "HealthBarNum",
+            "prefabParentName": "HealthBar",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 531.7000122070313,
+                            "y": -9.0
+                        },
+                        "scale": {
+                            "x": 0.6000000238418579,
+                            "y": 0.00800000037997961
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                0.6000000238418579,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.00800000037997961,
+                                0.0
+                            ],
+                            [
+                                531.7000122070313,
+                                351.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "HealthBarNum"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "bf45ccb4-1234-4e8a-969d-72dcd1fe3281",
+                        "lerpSpeed": 10,
+                        "isOrder": false,
+                        "snapEpsilon": 0.009999999776482582
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "HealthBarNum"
+                    }
+                },
+                {
+                    "componentID": 22,
+                    "TextComponent": {
+                        "text": "100",
+                        "fontAssetUUID": "7c889e82-ae11-4ccf-875d-4f8012fb125e",
+                        "shaderAssetUUID": "",
+                        "fontSize": 48,
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "layer": 0,
+                        "ySort": false,
+                        "visible": true,
+                        "alignment": 1,
+                        "verticalAlignment": 1,
+                        "maxWidth": 0.0,
+                        "lineSpacing": 1.200000047683716
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "HealthBarNumLeft",
+            "prefabParentName": "HealthBar",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -532.0999755859375,
+                            "y": -9.100000381469729
+                        },
+                        "scale": {
+                            "x": 0.6000000238418579,
+                            "y": 0.009999999776482582
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                0.6000000238418579,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.009999999776482582,
+                                0.0
+                            ],
+                            [
+                                -532.0999755859375,
+                                350.8999938964844,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "HealthBarNumLeft"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "bf45ccb4-1234-4e8a-969d-72dcd1fe3281",
+                        "lerpSpeed": 10,
+                        "isOrder": true,
+                        "snapEpsilon": 0.009999999776482582
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "HealthBarNumLeft"
+                    }
+                },
+                {
+                    "componentID": 22,
+                    "TextComponent": {
+                        "text": "100",
+                        "fontAssetUUID": "7c889e82-ae11-4ccf-875d-4f8012fb125e",
+                        "shaderAssetUUID": "",
+                        "fontSize": 48,
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "layer": 0,
+                        "ySort": false,
+                        "visible": true,
+                        "alignment": 1,
+                        "verticalAlignment": 1,
+                        "maxWidth": 0.0,
+                        "lineSpacing": 1.200000047683716
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "HealthbarRight",
+            "prefabParentName": "HealthBar",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": -2,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 280.0,
+                            "y": 35.0
+                        },
+                        "scale": {
+                            "x": 500.0,
+                            "y": 78.33000183105469
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                500.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                78.33000183105469,
+                                0.0
+                            ],
+                            [
+                                280.0,
+                                395.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "HealthbarRight"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "6d908e26-70bf-4173-bc8e-7ab42270a696",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "bae54dc3-e4df-48c3-a677-50f9b4df996e",
+                        "hitShakeAmount": 25,
+                        "player": 2,
+                        "hitScale": 1.2999999523162842,
+                        "hitShakeDuration": 0.30000001192092898
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "HealthbarRight"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "FillRight",
+            "prefabParentName": "HealthbarRight",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": -1,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                500.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                78.33000183105469,
+                                0.0
+                            ],
+                            [
+                                280.0,
+                                395.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "FillRight"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "501c6fef-db76-4c35-b027-a8a3b99a219c",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "821f68f5-0deb-4c69-bf4d-154bb58283e9",
+                        "visibleX": 1,
+                        "lerpSpeed": 8,
+                        "hiddenX": 0,
+                        "anchorRight": -1,
+                        "player": 2
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "FillRight"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "HealthbarLeft",
+            "prefabParentName": "HealthBar",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": -2,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -280.0,
+                            "y": 35.0
+                        },
+                        "scale": {
+                            "x": 500.0,
+                            "y": 78.33000183105469
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                500.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                78.33000183105469,
+                                0.0
+                            ],
+                            [
+                                -280.0,
+                                395.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "HealthbarLeft"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "5221c243-ea08-47be-8ea1-1f7f00544a01",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "bae54dc3-e4df-48c3-a677-50f9b4df996e",
+                        "hitShakeAmount": 25,
+                        "player": 1,
+                        "hitScale": 1.2999999523162842,
+                        "hitShakeDuration": 0.30000001192092898
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "HealthbarLeft"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "FillLeft",
+            "prefabParentName": "HealthbarLeft",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": -1,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                500.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                78.33000183105469,
+                                0.0
+                            ],
+                            [
+                                -280.0,
+                                395.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "FillLeft"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "62f8c233-f0ce-4885-b8b3-65384528c720",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "821f68f5-0deb-4c69-bf4d-154bb58283e9",
+                        "visibleX": 1,
+                        "lerpSpeed": 8,
+                        "hiddenX": 0,
+                        "anchorRight": 1,
+                        "player": 1
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "FillLeft"
+                    }
+                }
+            ]
+        }
+    ]
+}

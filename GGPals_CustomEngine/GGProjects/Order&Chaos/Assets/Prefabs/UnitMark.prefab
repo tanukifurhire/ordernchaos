@@ -1,0 +1,136 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "UnitMark",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 1.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 2,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 35.0,
+                            "y": 10.0
+                        },
+                        "scale": {
+                            "x": 30.0,
+                            "y": 30.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                30.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                30.0,
+                                0.0
+                            ],
+                            [
+                                35.0,
+                                10.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "UnitMark"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "UnitMark"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "c4b4904f-5694-40f2-9bd8-ddaa961f0cb7",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "626ce403-3c2c-4849-9fcf-b6f1504a500f",
+                        "stackFontSize": 42,
+                        "stackFontAssetID": 0,
+                        "statusType": 17,
+                        "stackTextScaleY": 0.8500000238418579,
+                        "stackTextOffsetX": 0.5,
+                        "stackTextScaleX": 0.2199999988079071,
+                        "stackTextOffsetY": 0.5,
+                        "blinkMinAlpha": 0.3499999940395355,
+                        "blinkMaxAlpha": 1,
+                        "blinkSpeed": 8
+                    }
+                }
+            ]
+        }
+    ]
+}

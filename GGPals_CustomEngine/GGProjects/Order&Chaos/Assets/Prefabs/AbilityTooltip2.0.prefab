@@ -1,0 +1,306 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "AbilityTooltip2.0",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 500,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -1041.5,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 440.0,
+                            "y": 308.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                440.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                308.0,
+                                0.0
+                            ],
+                            [
+                                -1041.5,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityTooltip2.0"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "354ac25d-00f9-43ee-8b28-289c997affde",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "b8e704b3-c186-4c61-89fa-70d763f28cb0",
+                        "OffsetRuinousGaze": 217,
+                        "OffsetImpPact": 240,
+                        "OffsetLuminousCleave": 194,
+                        "OffsetWickedShift": 230,
+                        "OffsetSigilofMalevolence": 183,
+                        "OffsetFracturedEarth": 205,
+                        "OffsetUmbralCleave": 194,
+                        "OffsetCrystalCascade": 240,
+                        "OffsetFiberglassFinesse": 230,
+                        "OffsetAzureBlaze": 217,
+                        "OffsetFeatherCyclone": 205,
+                        "OffsetSigilofConsecration": 183
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityTooltip2.0"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityTooltip_Child_5",
+            "prefabParentName": "AbilityTooltip2.0",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.41999998688697817,
+                            "y": 0.1899999976158142
+                        },
+                        "scale": {
+                            "x": 0.00007999999797903001,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 22,
+                    "TextComponent": {
+                        "text": "TooltipDescriptionTooltipDescriptionTooltipDescriptionTooltipDe",
+                        "fontAssetUUID": "7c889e82-ae11-4ccf-875d-4f8012fb125e",
+                        "shaderAssetUUID": "",
+                        "fontSize": 600,
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "layer": 501,
+                        "ySort": false,
+                        "visible": true,
+                        "alignment": 0,
+                        "verticalAlignment": 3,
+                        "maxWidth": 370.0,
+                        "lineSpacing": 1.200000047683716
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                0.03519999980926514,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                308.0,
+                                0.0
+                            ],
+                            [
+                                -1226.300048828125,
+                                58.52000045776367,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityTooltip_Child_5"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "bbab201a-1c37-4278-b539-968435c75f2c"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityTooltip_Child_5"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityTooltip_Child_1",
+            "prefabParentName": "AbilityTooltip2.0",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.41999998688697817,
+                            "y": 0.3199999928474426
+                        },
+                        "scale": {
+                            "x": 0.00011999999696854502,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 22,
+                    "TextComponent": {
+                        "text": "TooltipName",
+                        "fontAssetUUID": "7c889e82-ae11-4ccf-875d-4f8012fb125e",
+                        "shaderAssetUUID": "",
+                        "fontSize": 600,
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "layer": 501,
+                        "ySort": false,
+                        "visible": true,
+                        "alignment": 0,
+                        "verticalAlignment": 3,
+                        "maxWidth": 335.0,
+                        "lineSpacing": 1.200000047683716
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                0.05279999971389771,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                308.0,
+                                0.0
+                            ],
+                            [
+                                -1226.300048828125,
+                                98.55999755859377,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityTooltip_Child_1"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "44963f93-1849-4de3-80b5-af11b5c11f22"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityTooltip_Child_1"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "info": {
+        "name": "GGEngine",
+        "debugMode": true
+    },
+    "debug": {
+        "showFPS": true,
+        "drawColliders": true
+    },
+    "graphics": {
+        "window": {
+            "windowName": "OrderNChaos",
+            "windowWidth": 1920,
+            "windowHeight": 1080,
+            "fullscreen": true,
+            "resizable": false
+        },
+        "viewport": {
+            "viewportWidth": 960,
+            "viewportHeight": 540
+        },
+        "renderer": {
+            "frameRateCap": 60
+        }
+    },
+    "physics": {
+        "enabled": true,
+        "gravity": -9.8,
+        "fixedTimeStep": 0.016
+    },
+    "tilemap": {
+        "tileWidth": 32,
+        "tileHeight": 32,
+        "maxLayers": 5,
+        "defaultLayer": "ground",
+        "collisionLayer": "collision"
+    },
+    "audio": {
+        "masterVolume": 1.0,
+        "bgmVolume": 1.0,
+        "sfxVolume": 1.0,
+        "maxPolyphony": 4,
+        "muteMaster": false,
+        "muteMusic": false,
+        "muteSFX": false
+    },
+    "input": {
+        "moveUp": "W",
+        "moveDown": "S",
+        "moveLeft": "A",
+        "moveRight": "D",
+        "jump": "Space",
+        "dash": "Shift",
+        "pause": "Escape"
+    },
+    "network": {
+        "enabled": false,
+        "serverIP": "onclocal.ddns.net",
+        "port": 9081,
+        "maxPlayers": 2
+    },
+    "paths": {
+        "assetPath": "../assets/",
+        "spritesheetPath": "../assets/spritesheets",
+        "tilesetPath": "../assets/tilesets",
+        "audioPath": "../assets/audio"
+    },
+    "gameSettings": {
+        "projectName": "Order&Chaos",
+        "defaultGameScene": "M5MainMenuScene",
+        "requiredScenes": [
+            {
+                "name": "M5ModeSelectScene"
+            },
+            {
+                "name": "M5LobbyRoomScene"
+            },
+            {
+                "name": "M6NetworkGameArsenalScene"
+            },
+            {
+                "name": "M6PassAndPlay"
+            },
+            {
+                "name": "M6PassAndPlayArsenalScene"
+            },
+            {
+                "name": "M6NetworkGame"
+            },
+            {
+                "name": "M5LobbySelectionScene"
+            },
+            {
+                "name": "M6Tutorial"
+            }
+        ],
+        "audioFadeDuration": 1.5
+    }
+}

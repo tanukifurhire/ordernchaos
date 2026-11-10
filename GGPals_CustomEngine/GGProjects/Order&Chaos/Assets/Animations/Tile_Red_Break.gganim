@@ -1,0 +1,24 @@
+{
+    "anims": [
+        {
+            "textureAssetUUID": "d0623371-7a7a-469b-8829-3456d188dbf2",
+            "animFPS": 12.0,
+            "spritesPerRow": 4,
+            "numRows": 4,
+            "textureUVBounds": {
+                "sMin": 0.0,
+                "tMin": 0.0,
+                "sMax": 0.25,
+                "tMax": 0.25
+            },
+            "animStates": [
+                {
+                    "stateName": "Break",
+                    "startIndex": 0,
+                    "endIndex": 15,
+                    "shouldLoop": false
+                }
+            ]
+        }
+    ]
+}

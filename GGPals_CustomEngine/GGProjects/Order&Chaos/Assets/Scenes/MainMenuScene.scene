@@ -1,0 +1,2026 @@
+{
+    "sceneName": "MainMenuScene",
+    "entities": [
+        {
+            "id": 19,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 5
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -10000.0,
+                            "y": -10000.0
+                        },
+                        "scale": {
+                            "x": 1300.0,
+                            "y": 700.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1300.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                700.0,
+                                0.0
+                            ],
+                            [
+                                -10000.0,
+                                -10000.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "StoryPanel"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "5b3f08d5-c932-4516-8759-a0080e81c8cd",
+                        "storyPage1": "6573c2df-0dd2-49f7-ac0c-32aee1b27f5f",
+                        "storyPage2": "20458881-42a9-49e1-bddc-38dd1f1f6992",
+                        "storyPage3": "7e9889e5-3950-48de-85e6-77c97a51f66f"
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 0,
+                        "firstChild": 12,
+                        "nextSibling": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 3
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -494.1000061035156,
+                            "y": -322.0
+                        },
+                        "scale": {
+                            "x": 600.0,
+                            "y": 52.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                52.0,
+                                0.0
+                            ],
+                            [
+                                -494.1000061035156,
+                                -322.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "SettingsButton"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "d8e62573-6a74-489f-b619-09c8899d4c41",
+                        "targetSceneName": "M4GameScene",
+                        "playAsOrder": false,
+                        "playAsChaos": false,
+                        "isQuitButton": false,
+                        "isHowToPlayButton": false,
+                        "menuState": 5,
+                        "isStoryButton": false,
+                        "isSettingsButton": true
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 5,
+                        "firstChild": 0,
+                        "nextSibling": 14
+                    }
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 3
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -494.1000061035156,
+                            "y": -72.0
+                        },
+                        "scale": {
+                            "x": 600.0,
+                            "y": 52.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                52.0,
+                                0.0
+                            ],
+                            [
+                                -494.1000061035156,
+                                -72.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "StoryButton"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "d8e62573-6a74-489f-b619-09c8899d4c41",
+                        "targetSceneName": "MyScene",
+                        "playAsOrder": false,
+                        "playAsChaos": false,
+                        "isQuitButton": false,
+                        "isHowToPlayButton": false,
+                        "menuState": 1,
+                        "isStoryButton": true,
+                        "isSettingsButton": false
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 5,
+                        "firstChild": 0,
+                        "nextSibling": 13
+                    }
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 3
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -494.1000061035156,
+                            "y": -196.0
+                        },
+                        "scale": {
+                            "x": 600.0,
+                            "y": 52.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                52.0,
+                                0.0
+                            ],
+                            [
+                                -494.1000061035156,
+                                -196.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PlayChaosButton"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "d8e62573-6a74-489f-b619-09c8899d4c41",
+                        "targetSceneName": "M4GameScene",
+                        "playAsOrder": false,
+                        "playAsChaos": true,
+                        "isQuitButton": false,
+                        "isHowToPlayButton": false,
+                        "menuState": 3,
+                        "isStoryButton": false,
+                        "isSettingsButton": false
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 5,
+                        "firstChild": 0,
+                        "nextSibling": 9
+                    }
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 0
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 900.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                900.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "BG"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "08186c3f-a254-4c81-a5c1-2d93c583c628",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "5ad8194a-cf54-4f97-94e8-b9e395503bf5",
+                        "storySprite": "bc18e37b-f3d1-476d-b1b5-242274ac3db6",
+                        "orderSprite": "38752560-2115-4530-87eb-4eadfab24d1c",
+                        "chaosSprite": "b80506cc-a86b-48e5-b873-325e17d9825f",
+                        "plainSprite": "08186c3f-a254-4c81-a5c1-2d93c583c628",
+                        "quitSprite": "d39b4d48-7d9d-4304-bb86-a895c15b507e",
+                        "settingsSprite": "b840bf18-5cbf-4f4c-a8f4-d70b21f50668",
+                        "howToSprite": "e9d4454d-6fef-4863-8c5a-e490a0d0c089"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 3
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -494.1000061035156,
+                            "y": -385.0
+                        },
+                        "scale": {
+                            "x": 600.0,
+                            "y": 52.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                52.0,
+                                0.0
+                            ],
+                            [
+                                -494.1000061035156,
+                                -385.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "QuitButton"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "d8e62573-6a74-489f-b619-09c8899d4c41",
+                        "targetSceneName": "M4GameScene",
+                        "playAsOrder": false,
+                        "playAsChaos": false,
+                        "isQuitButton": true,
+                        "isHowToPlayButton": false,
+                        "menuState": 6,
+                        "isStoryButton": false,
+                        "isSettingsButton": false
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 5,
+                        "firstChild": 0,
+                        "nextSibling": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 3
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -494.1000061035156,
+                            "y": -133.0
+                        },
+                        "scale": {
+                            "x": 600.0,
+                            "y": 52.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                52.0,
+                                0.0
+                            ],
+                            [
+                                -494.1000061035156,
+                                -133.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PlayOrderButton"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "d8e62573-6a74-489f-b619-09c8899d4c41",
+                        "targetSceneName": "M4GameScene",
+                        "playAsOrder": true,
+                        "playAsChaos": false,
+                        "isQuitButton": false,
+                        "isHowToPlayButton": false,
+                        "menuState": 2,
+                        "isStoryButton": false,
+                        "isSettingsButton": false
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 5,
+                        "firstChild": 0,
+                        "nextSibling": 16
+                    }
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 6
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.44999998807907107,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 0.05000000074505806,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                65.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                70.0,
+                                0.0
+                            ],
+                            [
+                                -10585.0,
+                                -10000.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "Leftnav"
+                    }
+                },
+                {
+                    "componentID": 1,
+                    "AABBFloat": {
+                        "top": -9965.0,
+                        "bottom": -10035.0,
+                        "left": -10617.5,
+                        "right": -10552.5
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "daab1d28-7ae4-4c63-a385-c9edc9f1203c",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "cad5ae31-a8a7-403c-9506-e2c330b343e5",
+                        "isNextButton": false
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 19,
+                        "firstChild": 0,
+                        "nextSibling": 11
+                    }
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 6
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.44999998807907107,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 0.05000000074505806,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                65.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                70.0,
+                                0.0
+                            ],
+                            [
+                                -9415.0,
+                                -10000.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "Rightnav"
+                    }
+                },
+                {
+                    "componentID": 1,
+                    "AABBFloat": {
+                        "top": -9965.0,
+                        "bottom": -10035.0,
+                        "left": -9447.5,
+                        "right": -9382.5
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "9f1a757b-3528-45b1-b5bd-5fec0c899d3a",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "cad5ae31-a8a7-403c-9506-e2c330b343e5",
+                        "isNextButton": true
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 19,
+                        "firstChild": 0,
+                        "nextSibling": 10
+                    }
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 6
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.44999998807907107,
+                            "y": 0.4000000059604645
+                        },
+                        "scale": {
+                            "x": 0.05000000074505806,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                65.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                70.0,
+                                0.0
+                            ],
+                            [
+                                -9415.0,
+                                -9720.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "Close"
+                    }
+                },
+                {
+                    "componentID": 1,
+                    "AABBFloat": {
+                        "top": -9685.0,
+                        "bottom": -9755.0,
+                        "left": -9447.5,
+                        "right": -9382.5
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "15690e1f-f4cd-41ce-b7f3-c5b97a46fb7a",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "adcb46ce-76eb-4068-97e2-fb4f29b63e06"
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 19,
+                        "firstChild": 0,
+                        "nextSibling": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 3
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -494.1000061035156,
+                            "y": -259.0
+                        },
+                        "scale": {
+                            "x": 600.0,
+                            "y": 52.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                600.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                52.0,
+                                0.0
+                            ],
+                            [
+                                -494.1000061035156,
+                                -259.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "HowToPlayButton"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "d8e62573-6a74-489f-b619-09c8899d4c41",
+                        "targetSceneName": "M4GameScene",
+                        "playAsOrder": false,
+                        "playAsChaos": false,
+                        "isQuitButton": false,
+                        "isHowToPlayButton": true,
+                        "menuState": 4,
+                        "isStoryButton": false,
+                        "isSettingsButton": false
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 5,
+                        "firstChild": 0,
+                        "nextSibling": 18
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 6
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.44999998807907107,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 0.05000000074505806,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                65.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                70.0,
+                                0.0
+                            ],
+                            [
+                                -10585.0,
+                                -10000.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "LeftNav"
+                    }
+                },
+                {
+                    "componentID": 1,
+                    "AABBFloat": {
+                        "top": -9965.0,
+                        "bottom": -10035.0,
+                        "left": -10617.5,
+                        "right": -10552.5
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "daab1d28-7ae4-4c63-a385-c9edc9f1203c",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "63d62e4f-7097-4669-ac17-cbe55618337d",
+                        "isNextButton": false
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 4,
+                        "firstChild": 0,
+                        "nextSibling": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 6
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.44999998807907107,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 0.05000000074505806,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                65.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                70.0,
+                                0.0
+                            ],
+                            [
+                                -9415.0,
+                                -10000.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "RightNav"
+                    }
+                },
+                {
+                    "componentID": 1,
+                    "AABBFloat": {
+                        "top": -9965.0,
+                        "bottom": -10035.0,
+                        "left": -9447.5,
+                        "right": -9382.5
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "9f1a757b-3528-45b1-b5bd-5fec0c899d3a",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "63d62e4f-7097-4669-ac17-cbe55618337d",
+                        "isNextButton": true
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 4,
+                        "firstChild": 0,
+                        "nextSibling": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 6
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.44999998807907107,
+                            "y": 0.4000000059604645
+                        },
+                        "scale": {
+                            "x": 0.05000000074505806,
+                            "y": 0.10000000149011612
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                65.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                70.0,
+                                0.0
+                            ],
+                            [
+                                -9415.0,
+                                -9720.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "CloseButton"
+                    }
+                },
+                {
+                    "componentID": 1,
+                    "AABBFloat": {
+                        "top": -9685.0,
+                        "bottom": -9755.0,
+                        "left": -9447.5,
+                        "right": -9382.5
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "15690e1f-f4cd-41ce-b7f3-c5b97a46fb7a",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "b98cbc6d-0192-4c64-a5ae-8b9e4efdc412"
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 4,
+                        "firstChild": 0,
+                        "nextSibling": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 5
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -10000.0,
+                            "y": -10000.0
+                        },
+                        "scale": {
+                            "x": 1300.0,
+                            "y": 700.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1300.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                700.0,
+                                0.0
+                            ],
+                            [
+                                -10000.0,
+                                -10000.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "HowToPlayPanel"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "067704ff-b585-4b89-a67a-3ed44dd21d38",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "0cb6e51d-17c9-48d5-b824-b58740b88814",
+                        "totalPages": 7,
+                        "hiddenX": -10000,
+                        "visibleX": 0,
+                        "hiddenY": -10000,
+                        "visibleY": 0,
+                        "currentPage": 7,
+                        "page1": "6c9edcec-c4a3-4d7c-aead-10e38988a90d",
+                        "page2": "d737d0f8-7786-413a-8a7a-c39f397ce84e",
+                        "page3": "b7b69ccf-3a7a-48a1-8cbb-e5ddc7127c81",
+                        "page4": "60aaa888-bbec-4ee2-970e-e3ac1f6e1dcf",
+                        "page5": "8602ab39-5464-4b6e-9bf2-fd100c03c650",
+                        "page6": "323156f6-90fc-4e24-aea7-d6750e68d14f",
+                        "page7": "067704ff-b585-4b89-a67a-3ed44dd21d38"
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 0,
+                        "firstChild": 1,
+                        "nextSibling": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "Buttons"
+                    }
+                },
+                {
+                    "componentID": 15,
+                    "HierarchyComponent": {
+                        "parent": 0,
+                        "firstChild": 17,
+                        "nextSibling": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AudioManager"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "902647b6-4e31-47a3-a567-d0ad30de4b84",
+                        "masterVolume": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 2
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -492.6000061035156,
+                            "y": 196.0
+                        },
+                        "scale": {
+                            "x": 612.0,
+                            "y": 508.3399963378906
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                612.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                508.3399963378906,
+                                0.0
+                            ],
+                            [
+                                -492.6000061035156,
+                                196.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "Logo"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "f3cd9f1e-ef2e-42e9-b56a-b4791afd16da",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "generation": 0,
+            "name": "Unknown",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "MainMenuAudioPlayer"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "2ba96f2b-ee9a-49e1-9cd4-6273fcc5b002"
+                    }
+                }
+            ]
+        }
+    ]
+}

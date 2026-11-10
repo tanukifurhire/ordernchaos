@@ -1,0 +1,19 @@
+ORDER N CHAOS - LANGUAGE SUPPORT
+
+The game supports one language.
+
+    LANGUAGE    INTERFACE (UI/HUD)    AUDIO (VOICE ACTING)    SUBTITLES
+    English            Yes                    Yes                No
+
+Notes:
+
+    Interface   All menus, HUD, tutorial text, ability names, ability
+                tooltips and the opening story sequence are in English.
+
+    Audio       The game contains English announcer voice-over lines for
+                deployment, planning, resolution, low health and victory.
+
+    Subtitles   No. The announcer voice-over lines are not subtitled, so
+                the game does not meet the requirement that EVERY spoken
+                line has a subtitle. The opening story sequence is
+                delivered as on-screen text and has no voice-over.

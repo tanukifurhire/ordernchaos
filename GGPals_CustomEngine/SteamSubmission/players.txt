@@ -1,0 +1,28 @@
+ORDER N CHAOS - PLAYERS
+
+Play modes supported:
+
+    Multi-Player        Yes  (always 1 vs 1)
+
+MULTI-PLAYER MODES
+
+    PVP - Local         Yes
+                        "Pass and Play" mode. Two players share one machine
+                        and one screen, handing the mouse over between turns.
+
+    PVP - LAN           No
+
+    PVP - Online        Yes
+                        Two players on separate machines, matched through a
+                        Steam lobby browser and connected peer-to-peer over
+                        Steam Networking Sockets. One player hosts, the other
+                        joins from the in-game server browser.
+
+    Co-op - Local       No
+    Co-op - LAN         No
+    Co-op - Online      No
+
+Player counts:
+
+    Online   2 players (1v1, exactly two per lobby)
+    Local    2 players sharing one device (1v1)

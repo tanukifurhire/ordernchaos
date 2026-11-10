@@ -1,0 +1,72 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "FloatingTextManager",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "FloatingTextManager"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "FloatingTextManager"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "ea3ea9bd-0bf8-478d-82d5-15b2f0a3c107",
+                        "floatSpeed": 1,
+                        "scaleY": 0.009999999776482582,
+                        "damageFontID": 1,
+                        "scaleX": 0.004999999888241291,
+                        "fontSize": 80,
+                        "lifetime": 1.5
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,506 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "AbilityIcon2",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 80.0,
+                            "y": 80.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 5
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                72.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                72.0,
+                                0.0
+                            ],
+                            [
+                                0.000008999999408842996,
+                                50.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityIcon2"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "16762053-8a5e-4d04-8eb9-3f563be8e977",
+                        "abilityType": 7
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "aef44d5c-f6c9-4608-8481-ae2f87afc0fe",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityIcon2"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityIcon2_Child_1",
+            "prefabParentName": "AbilityIcon2",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.3400000035762787,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                -24.479990005493165,
+                                7.520000457763672,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityIcon2_Child_1"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045",
+                        "playerId": 1,
+                        "abilityType": 7,
+                        "segmentIndex": 1,
+                        "redHighlight": "bd55b669-2945-4af0-9a9a-5ced50f057c3",
+                        "redUnhighlight": "a4320c94-ff67-4886-9af3-13c03a1e2445",
+                        "blueHighlight": "58af41d6-6cb9-48d4-b852-d57b315a39c4",
+                        "blueUnhighlight": "22a97e7b-98ae-491c-b2c2-479ff2c7e4de"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "a4320c94-ff67-4886-9af3-13c03a1e2445",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityIcon2_Child_1"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityIcon2_Child_2",
+            "prefabParentName": "AbilityIcon2",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": -0.6499999761581421
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                0.000008999999408842996,
+                                3.200000762939453,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityIcon2_Child_2"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045",
+                        "playerId": 1,
+                        "abilityType": 7,
+                        "segmentIndex": 2,
+                        "redHighlight": "92eb7e64-4f6a-4d5f-9240-bde8d26c8662",
+                        "redUnhighlight": "62673cb5-1829-472d-9885-80836b0fb867",
+                        "blueHighlight": "987bb9db-afcd-45fb-99a4-0f5fca6f5b12",
+                        "blueUnhighlight": "d37333e1-f80d-4a1b-8c13-90c2d6713e99"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "d37333e1-f80d-4a1b-8c13-90c2d6713e99",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityIcon2_Child_2"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityIcon2_Child_3",
+            "prefabParentName": "AbilityIcon2",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.30000001192092898,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                21.60000991821289,
+                                7.520000457763672,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityIcon2_Child_3"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045",
+                        "playerId": 1,
+                        "abilityType": 7,
+                        "segmentIndex": 3,
+                        "redHighlight": "05dba81f-19e2-4f4d-9ee0-9a69d720b216",
+                        "redUnhighlight": "073f27f8-a570-4dc7-9388-5115b4b69bb4",
+                        "blueHighlight": "89e55403-8103-4a0b-9a54-e8239a71ad6b",
+                        "blueUnhighlight": "503f52cc-4b58-4517-a5cd-a009e777c33a"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityIcon2_Child_3"
+                    }
+                }
+            ]
+        }
+    ]
+}

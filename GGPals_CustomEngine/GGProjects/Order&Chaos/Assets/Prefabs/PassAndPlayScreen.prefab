@@ -1,0 +1,257 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "PassAndPlayScreen",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -9999.0,
+                            "y": -9999.0
+                        },
+                        "scale": {
+                            "x": 1300.0,
+                            "y": 675.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1300.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                675.0,
+                                0.0
+                            ],
+                            [
+                                -9999.0,
+                                -9999.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "PassAndPlayScreen"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "PassAndPlayScreen"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "00d82cdc-cc74-47b6-bd83-d42b904c45ae",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "10352044-6e8d-4ca3-8ec0-aa83af16df9e",
+                        "lerpSpeed": 12,
+                        "hidePosX": 0,
+                        "hidePosY": -9999,
+                        "chaosToOrderScreen": "b312ba16-486e-4313-a6ec-ccbb3b20dc09",
+                        "orderToChaosScreen": "00d82cdc-cc74-47b6-bd83-d42b904c45ae"
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 6,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "ContinueButton",
+            "prefabParentName": "PassAndPlayScreen",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": -0.20000000298023225
+                        },
+                        "scale": {
+                            "x": 0.4000000059604645,
+                            "y": 0.14000000059604646
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                520.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                94.5,
+                                0.0
+                            ],
+                            [
+                                -9999.0,
+                                -10134.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "ContinueButton"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "ContinueButton"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "647a8ff4-ee81-4a4e-a9b0-8629bda18d4a",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "583348ff-2e2c-4a93-a6ed-dee54b2ea46f",
+                        "hoverSizeY": 0.15000000596046449,
+                        "normalSizeX": 0.4000000059604645,
+                        "normalSizeY": 0.14000000059604646,
+                        "hoverSizeX": 0.44999998807907107
+                    }
+                },
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.6355114579200745,
+                            "g": 0.8846557140350342,
+                            "b": 0.3961006700992584,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 7,
+                        "pixelPerfectPicking": true,
+                        "pickableObject": true
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+================================================================================
+                         GGPALS - PROJECT GUIDE
+================================================================================
+
+1. PROJECT DETAILS
+
+GGEngine is split into a 4-tier separation of concerns system. This means our Engine
+is split into 4 different projects of different configurations. 
+
+- GGMath (Headers Only): Header-only Math Library with Zero Dependencies
+- GGEngine (Static Library): Core Engine Systems, ECS, Subsystem Orchestration
+- GGEditor (Executable): Editor interface and application entry Point
+- GGNetworking (Static Library): Networking module handling client-server 
+  communication, packet serialisation, and data synchronisation
+
+================================================================================
+
+2. PROJECT SETUP
+
+GGEngine.sln is not accessible by default through the GGPals folder. Instead, 
+anyone interfacing with the Engine must access it through run_or_cleanup.bat, which
+handles cleanup of all build artifacts, building CMake and then searching for and
+launching the GGEngine.sln automatically. 
+
+This is to aid future iterations of the project to make it easier to launch, and
+to ensure that regular cleanup of build artifacts, as well as making it easier
+to inject dependencies like external libraries at any point in time. 
+
+To accomplish this, GGEngine implements its own CMakeLists.txt, found in the same
+directory as this document. 
+
+Before running the run_or_cleanup.bat, you'll have to download CMake here:
+https://cmake.org/download/
+
+Run the downloaded installer. It is important that you add CMake to the system PATH. 
+Use default settings for all other installation instructions and re-run run_or_cleanup.bat.
+
+================================================================================
+
+3. BUILD CONFIGURATIONS
+
+GGEngine.sln is split into 3 distinct build configurations. These are
+
+EDITOR BUILDS
+  - **DebugEditor**: Editor with debug symbols and console window (slow, for debugging)
+  - **ReleaseEditor**: Optimized editor without console (fast, for content creation)
+
+GAME BUILDS
+  - **ReleaseGame**: Final game build without editor (for distribution)
+
+This is to make it easier to build the Engine for a specific use case. Editor Builds 
+compile the full editor environment, while Game Builds produce a standalone runtime 
+without editor tools. Preprocessor macros are used internally to differentiate 
+between Editor and Game code paths.
+
+Launch run_or_cleanup.bat, select option 2 (type in "2"). This will clean up build 
+artifacts and launch Visual Studio for you. To build the executable, choose one of 
+the following build configurations. Press "Build" to compile.
+
+To run the executable, use Local Windows Debugger or navigate to:
+  - GGEngine/bin/Debug for DebugEditor builds
+  - GGEngine/bin/Release for ReleaseEditor and ReleaseGame builds
+
+================================================================================
+
+4. SPECIFIC ENGINE CONFIGURATIONS
+
+Specific configurations for the behaviour of the Engine can be found in GGEngine/config
+under config.json. This config provides a way of changing the Engine's behaviour like
+Engine Name, Window Name, Window Size, etc. 

@@ -1,0 +1,114 @@
+# ============================
+# Visual Studio
+# ============================
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.cmake
+CMakeCache.txt
+
+# ============================
+# CMake
+# ============================
+.tmp/
+bin/
+CMakeFiles/
+**/*.dir/
+**/x64/
+cmake_install.cmake
+install_manifest.txt
+
+# ============================
+# Build outputs
+# ============================
+*.obj
+*.pdb
+*.lib
+*.ilk
+*.idb
+*.exp
+*.dll
+*.exe
+!GGPals_InstallerData/REDIST/*.exe
+*.log
+
+# ============================
+# ImGui
+# ============================
+*.ini
+
+# ============================
+# Obsidian
+# ============================
+.obsidian/
+
+# ============================
+# Some Batch File Stuff
+# ============================
+dumped_source/
+
+# ============================
+# Lua Type metadata 
+# (for Intellisense)
+# ============================
+*.types
+
+# ============================
+# Extern overrides (allow libs)
+# ============================
+!GGPals_CustomEngine/GGEngine/Extern/
+!GGPals_CustomEngine/GGEngine/Extern/**/
+!GGPals_CustomEngine/GGEngine/Extern/**/lib/**/**/*.pdb
+!GGPals_CustomEngine/GGEngine/Extern/**/lib/**/**/*.lib
+!GGPals_CustomEngine/GGEngine/Extern/**/*.dll
+
+# ============================
+# Explicit ignore for generated libs
+# ============================/
+GGPals_CustomEngine/GGEngine/lib/**
+
+# ============================
+# Explicit ignore for build configs
+# ============================
+GGPals_CustomEngine/GGEngine/build/**
+
+# ============================
+# Common output dirs
+# ============================
+out/
+
+# ============================
+# VS database
+# ============================
+*.opendb
+*.VC.db
+
+# ============================
+# OS junk
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Installer build artifacts
+# ============================
+GGPals_InstallerData/GAMEDIRECTORY/
+GGPals_InstallerData/INSTALLER/
+.claude/worktrees/amazing-volhard/
+
+# ============================
+# Steamworks
+# ============================
+# The SDK is not redistributable, so it is not vendored. Drop the extracted
+# SDK at GGPals_CustomEngine/GGEngine/Extern/steamworks_sdk and CMake picks it
+# up automatically.
+GGPals_CustomEngine/GGEngine/Extern/steamworks_sdk/
+
+# Never commit and NEVER SHIP steam_appid.txt. It exists so the game can run
+# from the build folder or the debugger without launching through the Steam
+# client; shipping it lets any player spoof the App ID. The packaging step must
+# exclude it as well - .gitignore alone does not stop a build artifact from
+# being copied into a release.
+steam_appid.txt

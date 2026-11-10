@@ -1,0 +1,21 @@
+ORDER N CHAOS - CONTROLLER SUPPORT
+
+NO CONTROLLER SUPPORT
+
+Order N Chaos requires a mouse and keyboard. The game does not read gamepad,
+joystick or Steam Input at any point, and no element of the game can be
+operated with a controller.
+
+Input used by the game:
+
+    Left Mouse Button   Select units, select tiles, select and confirm
+                        abilities, all menu and UI interaction
+    Right Mouse Button  Cancel the current ability selection
+    Mouse Movement      Hover highlighting on tiles, units and UI
+    Mouse Wheel         Scroll lists (server browser, ability palette)
+    E                   Swap between the two grids / advance phase
+    Escape              Pause menu, cancel text entry
+    Number Keys         Ability hotkeys during the planning phase
+    Enter               Confirm text entry
+    Ctrl                Skip the opening cutscene
+    Alphanumeric Keys   Typing a room name and player name in the lobby

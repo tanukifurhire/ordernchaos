@@ -1,0 +1,470 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "AnimPreview",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 0,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 400.0,
+                            "y": 400.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                400.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                400.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AnimPreview"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AnimPreview"
+                    }
+                },
+                {
+                    "componentID": 10,
+                    "SpriteAnimator": {
+                        "animationAssetUUID": "a6a97571-2502-4b44-a0d2-97e15847d3e8"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "f77432cc-34eb-4518-91d8-f09aaf046847",
+                        "displayDuration": 2,
+                        "startPosX": -800,
+                        "lerpDuration": 0.15000000596046449,
+                        "endPosX": -400,
+                        "posY": 0,
+                        "displayPosX": -600
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "9237ad68-812b-487d-b58c-45c67e508a3f",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.3333333432674408,
+                            "z": 0.0833333358168602,
+                            "w": 0.4444444477558136
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AnimPreview_Child_1",
+            "prefabParentName": "AnimPreview",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.3883257508277893,
+                            "g": 0.3883257508277893,
+                            "b": 0.3883257508277893,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.9803921580314636
+                        },
+                        "ySort": false,
+                        "layer": -1,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.019999999552965165,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 0.8500000238418579,
+                            "y": 0.8999999761581421
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                340.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                360.0,
+                                0.0
+                            ],
+                            [
+                                -8.0,
+                                0.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AnimPreview_Child_1"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AnimPreview_Child_1"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "86696f3f-1e79-47fe-976b-30c8f438ddf3",
+                        "chaosAsset": "0cda24df-6fdc-4230-9175-0c460a75046e",
+                        "orderAsset": "3ea89dfa-5936-4620-9ca4-401d69fe6eea"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "3ea89dfa-5936-4620-9ca4-401d69fe6eea",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AnimPreview_Child_2",
+            "prefabParentName": "AnimPreview",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.17161834239959718,
+                            "g": 0.17161834239959718,
+                            "b": 0.17161834239959718,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 3,
+                        "pixelPerfectPicking": false,
+                        "pickableObject": true
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.0,
+                            "y": -0.1599999964237213
+                        },
+                        "scale": {
+                            "x": 0.8500000238418579,
+                            "y": 0.5
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                340.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                200.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                -64.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AnimPreview_Child_2"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AnimPreview_Child_2"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "86696f3f-1e79-47fe-976b-30c8f438ddf3",
+                        "chaosAsset": "3f09c627-dcff-4ec6-92af-c96b874119ce",
+                        "orderAsset": "27573c2b-5723-4af1-b9ce-7ec19c93cac6"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "27573c2b-5723-4af1-b9ce-7ec19c93cac6",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AnimPreview_Child_2_Child_3",
+            "prefabParentName": "AnimPreview_Child_2",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.36000001430511477,
+                            "y": -0.2199999988079071
+                        },
+                        "scale": {
+                            "x": 0.0003699999942909926,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                0.1257999986410141,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                200.0,
+                                0.0
+                            ],
+                            [
+                                -122.4000015258789,
+                                -108.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AnimPreview_Child_2_Child_3"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AnimPreview_Child_2_Child_3"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "c5a621b7-a91c-4a6e-9ef0-d85c90f8fc59"
+                    }
+                },
+                {
+                    "componentID": 22,
+                    "TextComponent": {
+                        "text": "Umbral Cleave",
+                        "fontAssetUUID": "7c889e82-ae11-4ccf-875d-4f8012fb125e",
+                        "shaderAssetUUID": "",
+                        "fontSize": 200,
+                        "color": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "layer": 4,
+                        "ySort": false,
+                        "visible": true,
+                        "alignment": 0,
+                        "verticalAlignment": 3,
+                        "maxWidth": 160.0,
+                        "lineSpacing": 0.8999999761581421
+                    }
+                }
+            ]
+        }
+    ]
+}

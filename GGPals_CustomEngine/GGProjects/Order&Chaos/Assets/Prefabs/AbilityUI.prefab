@@ -1,0 +1,4333 @@
+{
+    "prefabs": [
+        {
+            "prefabName": "AbilityUI",
+            "prefabParentName": "",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 500.0
+                        },
+                        "scale": {
+                            "x": 0.8999999761581421,
+                            "y": 0.8999999761581421
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 1
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                0.8999999761581421,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.8999999761581421,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                500.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1",
+            "prefabParentName": "AbilityUI",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": -500.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                0.8999999761581421,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.8999999761581421,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                50.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "2085dcdc-d9f5-4305-a386-23b366d45705"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_2",
+            "prefabParentName": "AbilityUI_Child_1",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 66.5,
+                            "y": -305.1000061035156
+                        },
+                        "scale": {
+                            "x": 80.0,
+                            "y": 80.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                72.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                72.0,
+                                0.0
+                            ],
+                            [
+                                59.849998474121097,
+                                -224.58999633789066,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_2"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "aef44d5c-f6c9-4608-8481-ae2f87afc0fe",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "16762053-8a5e-4d04-8eb9-3f563be8e977"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_2"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_2_Child_3",
+            "prefabParentName": "AbilityUI_Child_1_Child_2",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.30000001192092898,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                81.44999694824219,
+                                -267.07000732421877,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_2_Child_3"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "05dba81f-19e2-4f4d-9ee0-9a69d720b216",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_2_Child_3"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_2_Child_4",
+            "prefabParentName": "AbilityUI_Child_1_Child_2",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": -0.6499999761581421
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                59.849998474121097,
+                                -271.3899841308594,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_2_Child_4"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "92eb7e64-4f6a-4d5f-9240-bde8d26c8662",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_2_Child_4"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_2_Child_5",
+            "prefabParentName": "AbilityUI_Child_1_Child_2",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.3400000035762787,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                35.369998931884769,
+                                -267.07000732421877,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_2_Child_5"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "bd55b669-2945-4af0-9a9a-5ced50f057c3",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_2_Child_5"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_6",
+            "prefabParentName": "AbilityUI_Child_1",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -50.40000152587891,
+                            "y": -305.1000061035156
+                        },
+                        "scale": {
+                            "x": 80.0,
+                            "y": 80.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                72.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                72.0,
+                                0.0
+                            ],
+                            [
+                                -45.36000061035156,
+                                -224.58999633789066,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_6"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "aef44d5c-f6c9-4608-8481-ae2f87afc0fe",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "16762053-8a5e-4d04-8eb9-3f563be8e977"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_6"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_6_Child_7",
+            "prefabParentName": "AbilityUI_Child_1_Child_6",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.30000001192092898,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                -23.760000228881837,
+                                -267.07000732421877,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_6_Child_7"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "05dba81f-19e2-4f4d-9ee0-9a69d720b216",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_6_Child_7"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_6_Child_8",
+            "prefabParentName": "AbilityUI_Child_1_Child_6",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": -0.6499999761581421
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                -45.36000061035156,
+                                -271.3899841308594,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_6_Child_8"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "92eb7e64-4f6a-4d5f-9240-bde8d26c8662",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_6_Child_8"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_6_Child_9",
+            "prefabParentName": "AbilityUI_Child_1_Child_6",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.3400000035762787,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                -69.83999633789063,
+                                -267.07000732421877,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_6_Child_9"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "bd55b669-2945-4af0-9a9a-5ced50f057c3",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_6_Child_9"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_10",
+            "prefabParentName": "AbilityUI_Child_1",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 5
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -284.29998779296877,
+                            "y": -305.1000061035156
+                        },
+                        "scale": {
+                            "x": 80.0,
+                            "y": 80.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                72.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                72.0,
+                                0.0
+                            ],
+                            [
+                                -255.86997985839845,
+                                -224.58999633789066,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_10"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "aef44d5c-f6c9-4608-8481-ae2f87afc0fe",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "16762053-8a5e-4d04-8eb9-3f563be8e977"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_10"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_10_Child_11",
+            "prefabParentName": "AbilityUI_Child_1_Child_10",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.30000001192092898,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                -234.2699737548828,
+                                -267.07000732421877,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_10_Child_11"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "05dba81f-19e2-4f4d-9ee0-9a69d720b216",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_10_Child_11"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_10_Child_12",
+            "prefabParentName": "AbilityUI_Child_1_Child_10",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": -0.6499999761581421
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.2800000011920929
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                20.15999984741211,
+                                0.0
+                            ],
+                            [
+                                -255.86997985839845,
+                                -271.3899841308594,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_10_Child_12"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "92eb7e64-4f6a-4d5f-9240-bde8d26c8662",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_10_Child_12"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_10_Child_13",
+            "prefabParentName": "AbilityUI_Child_1_Child_10",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.3400000035762787,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                -280.3499755859375,
+                                -267.07000732421877,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_10_Child_13"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "bd55b669-2945-4af0-9a9a-5ced50f057c3",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_10_Child_13"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_14",
+            "prefabParentName": "AbilityUI_Child_1",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 5
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -164.2400054931641,
+                            "y": -305.1000061035156
+                        },
+                        "scale": {
+                            "x": 80.0,
+                            "y": 80.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                72.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                72.0,
+                                0.0
+                            ],
+                            [
+                                -147.8159942626953,
+                                -224.58999633789066,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_14"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "aef44d5c-f6c9-4608-8481-ae2f87afc0fe",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "16762053-8a5e-4d04-8eb9-3f563be8e977"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_14"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_14_Child_15",
+            "prefabParentName": "AbilityUI_Child_1_Child_14",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.3400000035762787,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                -172.29598999023438,
+                                -267.07000732421877,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_14_Child_15"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "bd55b669-2945-4af0-9a9a-5ced50f057c3",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_14_Child_15"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_14_Child_16",
+            "prefabParentName": "AbilityUI_Child_1_Child_14",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": -0.6499999761581421
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.2800000011920929
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                20.15999984741211,
+                                0.0
+                            ],
+                            [
+                                -147.8159942626953,
+                                -271.3899841308594,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_14_Child_16"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "92eb7e64-4f6a-4d5f-9240-bde8d26c8662",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_14_Child_16"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_14_Child_17",
+            "prefabParentName": "AbilityUI_Child_1_Child_14",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.30000001192092898,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                -126.21599578857422,
+                                -267.07000732421877,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_14_Child_17"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "05dba81f-19e2-4f4d-9ee0-9a69d720b216",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_14_Child_17"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_1_Child_18",
+            "prefabParentName": "AbilityUI_Child_1",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 0
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": -300.0
+                        },
+                        "scale": {
+                            "x": 800.0,
+                            "y": 200.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                720.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                180.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                -220.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_1_Child_18"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "bbcf3a18-2be6-448c-bc12-0d5417a7fbdc",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_1_Child_18"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7",
+            "prefabParentName": "AbilityUI",
+            "components": [
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 1.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 2
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                0.8999999761581421,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.8999999761581421,
+                                0.0
+                            ],
+                            [
+                                0.8999999761581421,
+                                500.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "2085dcdc-d9f5-4305-a386-23b366d45705",
+                        "isOrderBar": true,
+                        "hiddenY": -500.0,
+                        "visibleY": 0.000009999999747378752,
+                        "xPosition": 0.000009999999747378752,
+                        "lerpSpeed": 8.000009536743164
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_24",
+            "prefabParentName": "AbilityUI_Child_7",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 0
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": -300.0
+                        },
+                        "scale": {
+                            "x": 800.0,
+                            "y": 200.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                720.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                180.0,
+                                0.0
+                            ],
+                            [
+                                0.8999999761581421,
+                                230.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_24"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "c3dd5d9c-7a86-4308-97d1-ed23dcd6b4b1",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_24"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_16",
+            "prefabParentName": "AbilityUI_Child_7",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 5
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -164.2400054931641,
+                            "y": -305.1000061035156
+                        },
+                        "scale": {
+                            "x": 80.0,
+                            "y": 80.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                72.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                72.0,
+                                0.0
+                            ],
+                            [
+                                -146.91600036621098,
+                                225.41000366210936,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_16"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "aef44d5c-f6c9-4608-8481-ae2f87afc0fe",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "16762053-8a5e-4d04-8eb9-3f563be8e977",
+                        "abilityType": 2
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_16"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_16_Child_19",
+            "prefabParentName": "AbilityUI_Child_7_Child_16",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.30000001192092898,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                -125.31600189208985,
+                                182.9300079345703,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_16_Child_19"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "05dba81f-19e2-4f4d-9ee0-9a69d720b216",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045",
+                        "abilityType": 2,
+                        "segmentIndex": 3,
+                        "redUnhighlight": "073f27f8-a570-4dc7-9388-5115b4b69bb4",
+                        "blueHighlight": "89e55403-8103-4a0b-9a54-e8239a71ad6b",
+                        "blueUnhighlight": "503f52cc-4b58-4517-a5cd-a009e777c33a",
+                        "redHighlight": "05dba81f-19e2-4f4d-9ee0-9a69d720b216"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_16_Child_19"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_16_Child_18",
+            "prefabParentName": "AbilityUI_Child_7_Child_16",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": -0.6499999761581421
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.2800000011920929
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                20.15999984741211,
+                                0.0
+                            ],
+                            [
+                                -146.91600036621098,
+                                178.61000061035157,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_16_Child_18"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "92eb7e64-4f6a-4d5f-9240-bde8d26c8662",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045",
+                        "abilityType": 2,
+                        "segmentIndex": 2,
+                        "redUnhighlight": "62673cb5-1829-472d-9885-80836b0fb867",
+                        "blueHighlight": "987bb9db-afcd-45fb-99a4-0f5fca6f5b12",
+                        "blueUnhighlight": "d37333e1-f80d-4a1b-8c13-90c2d6713e99",
+                        "redHighlight": "92eb7e64-4f6a-4d5f-9240-bde8d26c8662"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_16_Child_18"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_16_Child_17",
+            "prefabParentName": "AbilityUI_Child_7_Child_16",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.3400000035762787,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                -171.39599609375,
+                                182.9300079345703,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_16_Child_17"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "bd55b669-2945-4af0-9a9a-5ced50f057c3",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045",
+                        "abilityType": 2,
+                        "segmentIndex": 1,
+                        "redUnhighlight": "a4320c94-ff67-4886-9af3-13c03a1e2445",
+                        "blueHighlight": "58af41d6-6cb9-48d4-b852-d57b315a39c4",
+                        "blueUnhighlight": "22a97e7b-98ae-491c-b2c2-479ff2c7e4de",
+                        "redHighlight": "bd55b669-2945-4af0-9a9a-5ced50f057c3"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_16_Child_17"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_20",
+            "prefabParentName": "AbilityUI_Child_7",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 5
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -284.29998779296877,
+                            "y": -305.1000061035156
+                        },
+                        "scale": {
+                            "x": 80.0,
+                            "y": 80.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                72.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                72.0,
+                                0.0
+                            ],
+                            [
+                                -254.9699859619141,
+                                225.41000366210936,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_20"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "aef44d5c-f6c9-4608-8481-ae2f87afc0fe",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "16762053-8a5e-4d04-8eb9-3f563be8e977",
+                        "abilityType": 1
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_20"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_20_Child_23",
+            "prefabParentName": "AbilityUI_Child_7_Child_20",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.3400000035762787,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                -279.4499816894531,
+                                182.9300079345703,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_20_Child_23"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "bd55b669-2945-4af0-9a9a-5ced50f057c3",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045",
+                        "abilityType": 1,
+                        "segmentIndex": 1,
+                        "redUnhighlight": "a4320c94-ff67-4886-9af3-13c03a1e2445",
+                        "blueHighlight": "58af41d6-6cb9-48d4-b852-d57b315a39c4",
+                        "blueUnhighlight": "22a97e7b-98ae-491c-b2c2-479ff2c7e4de",
+                        "redHighlight": "bd55b669-2945-4af0-9a9a-5ced50f057c3"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_20_Child_23"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_20_Child_22",
+            "prefabParentName": "AbilityUI_Child_7_Child_20",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": -0.6499999761581421
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.2800000011920929
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                20.15999984741211,
+                                0.0
+                            ],
+                            [
+                                -254.9699859619141,
+                                178.61000061035157,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_20_Child_22"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "92eb7e64-4f6a-4d5f-9240-bde8d26c8662",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045",
+                        "abilityType": 1,
+                        "segmentIndex": 2,
+                        "redUnhighlight": "62673cb5-1829-472d-9885-80836b0fb867",
+                        "blueHighlight": "987bb9db-afcd-45fb-99a4-0f5fca6f5b12",
+                        "blueUnhighlight": "d37333e1-f80d-4a1b-8c13-90c2d6713e99",
+                        "redHighlight": "92eb7e64-4f6a-4d5f-9240-bde8d26c8662"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_20_Child_22"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_20_Child_21",
+            "prefabParentName": "AbilityUI_Child_7_Child_20",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.30000001192092898,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                -233.36997985839845,
+                                182.9300079345703,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_20_Child_21"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "05dba81f-19e2-4f4d-9ee0-9a69d720b216",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045",
+                        "abilityType": 1,
+                        "segmentIndex": 3,
+                        "redUnhighlight": "073f27f8-a570-4dc7-9388-5115b4b69bb4",
+                        "blueHighlight": "89e55403-8103-4a0b-9a54-e8239a71ad6b",
+                        "blueUnhighlight": "503f52cc-4b58-4517-a5cd-a009e777c33a",
+                        "redHighlight": "05dba81f-19e2-4f4d-9ee0-9a69d720b216"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_20_Child_21"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_12",
+            "prefabParentName": "AbilityUI_Child_7",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -50.40000152587891,
+                            "y": -305.1000061035156
+                        },
+                        "scale": {
+                            "x": 80.0,
+                            "y": 80.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                72.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                72.0,
+                                0.0
+                            ],
+                            [
+                                -44.459999084472659,
+                                225.41000366210936,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_12"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "aef44d5c-f6c9-4608-8481-ae2f87afc0fe",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "16762053-8a5e-4d04-8eb9-3f563be8e977",
+                        "abilityType": 3
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_12"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_12_Child_15",
+            "prefabParentName": "AbilityUI_Child_7_Child_12",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.3400000035762787,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                -68.94000244140625,
+                                182.9300079345703,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_12_Child_15"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "bd55b669-2945-4af0-9a9a-5ced50f057c3",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045",
+                        "abilityType": 3,
+                        "segmentIndex": 1,
+                        "redUnhighlight": "a4320c94-ff67-4886-9af3-13c03a1e2445",
+                        "blueHighlight": "58af41d6-6cb9-48d4-b852-d57b315a39c4",
+                        "blueUnhighlight": "22a97e7b-98ae-491c-b2c2-479ff2c7e4de",
+                        "redHighlight": "bd55b669-2945-4af0-9a9a-5ced50f057c3"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_12_Child_15"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_12_Child_14",
+            "prefabParentName": "AbilityUI_Child_7_Child_12",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": -0.6499999761581421
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                -44.459999084472659,
+                                178.61000061035157,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_12_Child_14"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "92eb7e64-4f6a-4d5f-9240-bde8d26c8662",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045",
+                        "abilityType": 3,
+                        "segmentIndex": 2,
+                        "redUnhighlight": "62673cb5-1829-472d-9885-80836b0fb867",
+                        "blueHighlight": "987bb9db-afcd-45fb-99a4-0f5fca6f5b12",
+                        "blueUnhighlight": "d37333e1-f80d-4a1b-8c13-90c2d6713e99",
+                        "redHighlight": "92eb7e64-4f6a-4d5f-9240-bde8d26c8662"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_12_Child_14"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_12_Child_13",
+            "prefabParentName": "AbilityUI_Child_7_Child_12",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.30000001192092898,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                -22.85999870300293,
+                                182.9300079345703,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_12_Child_13"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "05dba81f-19e2-4f4d-9ee0-9a69d720b216",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045",
+                        "abilityType": 3,
+                        "segmentIndex": 3,
+                        "redUnhighlight": "073f27f8-a570-4dc7-9388-5115b4b69bb4",
+                        "blueHighlight": "89e55403-8103-4a0b-9a54-e8239a71ad6b",
+                        "blueUnhighlight": "503f52cc-4b58-4517-a5cd-a009e777c33a",
+                        "redHighlight": "05dba81f-19e2-4f4d-9ee0-9a69d720b216"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_12_Child_13"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_8",
+            "prefabParentName": "AbilityUI_Child_7",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 0.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 66.5,
+                            "y": -305.1000061035156
+                        },
+                        "scale": {
+                            "x": 80.0,
+                            "y": 80.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 3
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                72.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                72.0,
+                                0.0
+                            ],
+                            [
+                                60.75,
+                                225.41000366210936,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_8"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "aef44d5c-f6c9-4608-8481-ae2f87afc0fe",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "16762053-8a5e-4d04-8eb9-3f563be8e977",
+                        "abilityType": 4
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_8"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_8_Child_9",
+            "prefabParentName": "AbilityUI_Child_7_Child_8",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": -0.3400000035762787,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                36.27000045776367,
+                                182.9300079345703,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_8_Child_9"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "bd55b669-2945-4af0-9a9a-5ced50f057c3",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045",
+                        "abilityType": 4,
+                        "segmentIndex": 1,
+                        "redUnhighlight": "a4320c94-ff67-4886-9af3-13c03a1e2445",
+                        "blueHighlight": "58af41d6-6cb9-48d4-b852-d57b315a39c4",
+                        "blueUnhighlight": "22a97e7b-98ae-491c-b2c2-479ff2c7e4de",
+                        "redHighlight": "bd55b669-2945-4af0-9a9a-5ced50f057c3"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_8_Child_9"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_8_Child_10",
+            "prefabParentName": "AbilityUI_Child_7_Child_8",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": -0.6499999761581421
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                60.75,
+                                178.61000061035157,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_8_Child_10"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "92eb7e64-4f6a-4d5f-9240-bde8d26c8662",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045",
+                        "abilityType": 4,
+                        "segmentIndex": 2,
+                        "redUnhighlight": "62673cb5-1829-472d-9885-80836b0fb867",
+                        "blueHighlight": "987bb9db-afcd-45fb-99a4-0f5fca6f5b12",
+                        "blueUnhighlight": "d37333e1-f80d-4a1b-8c13-90c2d6713e99",
+                        "redHighlight": "92eb7e64-4f6a-4d5f-9240-bde8d26c8662"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_8_Child_10"
+                    }
+                }
+            ]
+        },
+        {
+            "prefabName": "AbilityUI_Child_7_Child_8_Child_11",
+            "prefabParentName": "AbilityUI_Child_7_Child_8",
+            "components": [
+                {
+                    "componentID": 21,
+                    "UIComponent": {
+                        "shaderAssetUUID": "",
+                        "colorAdd": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "colorMultiply": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "ySort": false,
+                        "layer": 1
+                    }
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.30000001192092898,
+                            "y": -0.5899999737739563
+                        },
+                        "scale": {
+                            "x": 0.4699999988079071,
+                            "y": 0.30000001192092898
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 4
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                33.84000015258789,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                21.600000381469728,
+                                0.0
+                            ],
+                            [
+                                82.3499984741211,
+                                182.9300079345703,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "AbilityUI_Child_7_Child_8_Child_11"
+                    }
+                },
+                {
+                    "componentID": 9,
+                    "Sprite": {
+                        "textureAssetUUID": "05dba81f-19e2-4f4d-9ee0-9a69d720b216",
+                        "textureUVBounds": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "textureUVTransform": [
+                            [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "837aee3d-4472-4f1f-b1da-041338aca045",
+                        "abilityType": 4,
+                        "segmentIndex": 3,
+                        "redUnhighlight": "073f27f8-a570-4dc7-9388-5115b4b69bb4",
+                        "blueHighlight": "89e55403-8103-4a0b-9a54-e8239a71ad6b",
+                        "blueUnhighlight": "503f52cc-4b58-4517-a5cd-a009e777c33a",
+                        "redHighlight": "05dba81f-19e2-4f4d-9ee0-9a69d720b216"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "AbilityUI_Child_7_Child_8_Child_11"
+                    }
+                }
+            ]
+        }
+    ]
+}

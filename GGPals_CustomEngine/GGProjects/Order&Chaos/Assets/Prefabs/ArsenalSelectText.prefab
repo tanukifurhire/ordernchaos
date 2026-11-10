@@ -1,0 +1,104 @@
+{
+    "entities": [
+        {
+            "id": 10,
+            "generation": 0,
+            "name": "ArsenalSelectText",
+            "components": [
+                {
+                    "componentID": 21
+                },
+                {
+                    "componentID": 13,
+                    "LocalTransform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 305.0
+                        },
+                        "scale": {
+                            "x": 1.200000047683716,
+                            "y": 1.0
+                        },
+                        "rotation": 0.0,
+                        "hierarchyDepth": 0
+                    }
+                },
+                {
+                    "componentID": 14,
+                    "WorldTransform": {
+                        "matrix": [
+                            [
+                                1.200000047683716,
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                305.0,
+                                1.0
+                            ]
+                        ],
+                        "isValid": true
+                    }
+                },
+                {
+                    "componentID": 16,
+                    "NameComponent": {
+                        "name": "ArsenalSelectText"
+                    }
+                },
+                {
+                    "componentID": 8,
+                    "PrefabInstance": {
+                        "prefabInstanceName": "ArsenalSelectText"
+                    }
+                },
+                {
+                    "componentID": 17,
+                    "ScriptComponent": {
+                        "scriptAssetUUID": "c71d846e-e227-4806-b6ca-3df3f7e768ad"
+                    }
+                },
+                {
+                    "componentID": 19
+                },
+                {
+                    "componentID": 15
+                },
+                {
+                    "componentID": 9
+                },
+                {
+                    "componentID": 22,
+                    "TextComponent": {
+                        "text": "Gear Up For War!",
+                        "fontAssetUUID": "7c889e82-ae11-4ccf-875d-4f8012fb125e",
+                        "shaderAssetUUID": "",
+                        "fontSize": 48,
+                        "color": {
+                            "r": 0.19607843458652497,
+                            "g": 0.19607843458652497,
+                            "b": 0.19607843458652497,
+                            "a": 1.0
+                        },
+                        "layer": 10,
+                        "ySort": false,
+                        "visible": true,
+                        "alignment": 1,
+                        "verticalAlignment": 1,
+                        "maxWidth": 0.0,
+                        "lineSpacing": 1.200000047683716
+                    }
+                },
+                {
+                    "componentID": 10
+                }
+            ]
+        }
+    ]
+}
